@@ -1,0 +1,1 @@
+gfortran -Wl,--dependency-file=CMakeFiles/color_wf.dir/link.d -O2 -ffpe-summary=none CMakeFiles/color_wf.dir/color_wf.f90.o -o /home/linzy/Code/ColorFactor/color_wf  -llapack -lblas -larpack

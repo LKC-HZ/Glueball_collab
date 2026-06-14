@@ -1,0 +1,413 @@
+\documentclass[12pt]{article}
+\usepackage[margin=1in]{geometry}      % 四边各1英寸边距
+\usepackage{setspace}
+\doublespacing                         % 两倍行距
+\usepackage{indentfirst}               % 每个段落（包括节后首段）首行缩进
+\usepackage{times}
+%\usepackage{txfonts}
+%\usepackage{newtxtext, newtxmath}      
+%\usepackage{newtxtext}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{physics}
+%\usepackage{tikz-feynman}
+\usepackage{natbib}
+\usepackage{hyperref}
+\usepackage{amsfonts}
+
+
+
+\title{Notes}
+\author{LKC-HZ}
+%\date{April 2026}
+\date{}
+
+\begin{document}
+	
+	\citestyle{super}
+	\maketitle
+	
+	\tableofcontents
+	
+	
+	\section{What is $SU(3)$ Group?}
+	\subsection{Group Theory \label{group theory basics section}}
+	A group is a set of elements $\{g_i\}$ together with a multiplication rule $g_i \times g_j = g_k$ that tells how each pair of elements is combined to give a third.
+	
+	A representation of a group $G$ is its realization in a linear space, where each of the group elements $g$ corresponds to a $d \times d$ matrix $D(g)$ and the composition of the group elements is represented by matrix multiplication: 
+	\begin{align}
+		D(g_1)D(g_2) = D(g_1g_2).    
+	\end{align}
+	For example, the three‑dimensional rotation matrices are representations of the SO(3) group elements. 
+	
+	Two representations $D$ and $D'$ are equivalent if they can be related by a similarity transformation:
+	\begin{equation}
+		D' = S^{-1}DS.
+	\end{equation}
+	The two equivalent matrices represent the very same thing, but they are of different basis. If we take the trace of $D'$:
+	\begin{align}
+		\tr(D') = \tr(S^{-1}DS) \rightarrow \tr(AB) = \tr(BA) \rightarrow \tr(D') = \tr(DS^{-1}S ) = \tr(D).
+	\end{align}
+	In group theory, the trace of a representation matrix is called character $\chi(g)$:
+	\begin{equation}
+		\chi(g) = \tr(D(g)).
+	\end{equation}
+	The character is basis-independent. 
+	
+	
+	Given two equivalent representations $D^{(r)}$ and $D^{(s)}$ of a finite group $G$, which is $r$-dimensional and $s$-dimensional representation respectively, we have (\cite{azee2016group}, p. 103)
+	\begin{equation}
+		\sum_g D^{(r)\dagger}(g)^i_{\ j}D^{(s)}(g)^k_{\ l} = \frac{N(G)}{r}\delta^{rs}\delta ^i_{\ l}\delta^k_{\ j}. \label{GOT}
+	\end{equation}
+	Here, the Kronecker delta is meaningful only if $r = s$. It is also important to note that here we are summing over all $g \in G$; no contractions are made between $r, s, i, j, k$ or $l$. $\delta^i_{\ l}$ and $\delta^k_{\ j}$ imply that the summatiom has a non-zero result only if the two matrix elements taken from $D^{(r)}$ and $D^{(s)}$ stays in the same position; since $D^{(r)}$ is taken adjoint, $i=l$ and $j=k$ instead of $i=k$ and $j = l$. If $G$ in Eq. (\ref{GOT}), say, is a 2-dimensional rotational group ($SO(2)$ group, which is not finite but compact), its representation is rotational matrices. Taken a specific $g$, the product $D(g)^i_{\ j}D(g)^k_{\ l}$ depends on parameters of $g$, namely, the rotation angle. However, when we take the sum of $D(g)$'s of all possible $g$'s, angles are averaged so that the result is orientation-blind. Eq. (\ref{GOT}) can also be written in terms of character by taking $i = j$ and $k = l$ (\cite{azee2016group}, p. 104):
+	\begin{align}
+		\sum_cn_c(\chi^{(r)}(c))^*\chi^{(s)}(c) = N(G)\delta^{rs}, \label{GOT character version}
+	\end{align}
+	where $n_c$ is the number of elements belonging to class $c$. $n_c$ comes from the fact that the character of every individual representation in a class is the same as others. And since now we are summing over classes, the character each class should be multiplied by $n_c$ so that the result matches Eq. (\ref{GOT}) in which we summed over all group elements.
+	
+	A representation $D$ is reducible (irreducible otherwise) if it can be block-diagonalized by a similariy transformation:
+	\begin{align}
+		S^{-1}DS = \begin{pmatrix}
+			D_1 &  & \\
+			& D_2 & \\
+			&&\dots
+		\end{pmatrix} = D_1 \oplus D_2 \oplus \dots 
+	\end{align}
+	The other way round, we can also use the direct sum to create a larger equivalent representation matrix from smaller matrices. If $D(g)$ is an irreducible representation of a finite group $G$ and if there is some matrix $A$ such that $AD(g) = D(g)A$ for all $g$, then $A = \lambda I$ for some constant $\lambda$ (Schur's Lemma). Suppose now we have a class $c$ of reducible representations, the character of the class $\chi(c)$ can be written in terms of a summation of the character of irreducible representations $\chi^{(r)}(c)$ (this is reasonable since the trace of a block-diagonalized matrix equals that of every individual block adding together):
+	\begin{equation}
+		\chi(c) = \sum_r n_r\chi^{(r)}(c).
+	\end{equation}
+	Substitute into Eq. (\ref{GOT character version}) gives
+	\begin{align}
+		\sum_cn_c\chi^*(c)\chi(c) = N(G)\sum_r(n_r)^2 \\
+		\Rightarrow \sum_r(n_r)^2 = \frac{1}{N(G)}\sum_c n_c\chi^*(c)\chi(c). \label{irreducible = 1 equation}
+	\end{align}
+	Since $n_r$ is the number of irreducible representations $\chi^{(r)}(c)$ that compose the reducible $\chi(c)$, the LHS of Eq. (\ref{irreducible = 1 equation}) is greater than 1. Hence, to test whether an arbitrary representation is reducible, calculate the RHS of Eq. (\ref{irreducible = 1 equation}) and see whether it is greater than or equal to 1; the former situation suggests that the representation is reducible, whereas the latter irreducible. 
+	
+	
+	\subsection{Special Unitary Group $SU(N)$}
+	Lie groups are groups that have infinitely many group elements that are also differentiable manifolds, which allows us to do differential analysis (e.g., infinitesimal transformation). A Lie group is special unitary if it satisfies the following:
+	\begin{align}
+		U^\dagger U = 1 \label{unitary of su n}; \\
+		\det(U) = 1 \label{det 1 of su n}.
+	\end{align}
+	
+	In the fundamental representation of $SU(N)$ group, each of the indices $a$, $b$ and $c$ in tensor $\psi^{ab}_{c}$ runs from $1$ to $N$. For example, a rank-$1$ tensor $\psi^a$ can be expressed by a column vector:
+	\begin{equation}
+		\psi^a = \begin{pmatrix}
+			\psi^1 \\
+			\psi^2 \\
+			\vdots\\
+			\psi^N
+		\end{pmatrix}.
+	\end{equation}
+	Different from that of $SO(N)$ groups that feature real orthogonal matrices, the quadratic invariant in $SU(N)$ reads
+	\begin{equation}
+		\zeta^\dagger\psi = \sum_{j=1}^N\zeta^{j*}\psi^j \equiv \zeta_j\psi^j,
+	\end{equation}
+	where $\zeta_j$ with lower indices is called covariant tensor and equal to complex conjugate of contravariant tensor $\zeta^j$. A covariant tensor transforms as
+	\begin{equation}
+		\zeta_i \rightarrow \zeta_j(U^\dagger)^{j}_{\  i}.
+	\end{equation}
+	Thus, in $SU(N)$, all other operations also need to abide the convention of upper lower indices. For example, taking trace:
+	\begin{equation}
+		\psi^{ij}_j \rightarrow U^i_{\ l}U^{j}_{\ m}(U^\dagger)^n_{\ j}\psi^{lm}_n = U^i_{\ l}\psi^{lm}_m.
+	\end{equation}
+	
+	
+	
+	
+	
+	Any Lie group element that is continuously connected to the identity can be written in terms of the identity multiplied by the exponential of generator $T^a$, which expresses the infinitesimal transformation under the given representation:
+	\begin{equation}
+		U = \exp(i\theta^aT^a) \cdot I.
+	\end{equation}
+	The algebra of these generators is called a Lie algebra. Lie algebra is defined by commutation relations of the generators:
+	\begin{equation}
+		\left[ T^a , T^b \right] = if^{abc}T^c,
+	\end{equation}
+	where $[A,B] \equiv AB-BA$, which measures the commutativity of the given transformation. $f^{abc}$ is called the structure constant. Since $[T^a, T^b] \propto f^{abc} = -[T^b, T^a] \propto f^{bac}$ in $SU(N)$, $f^{abc}$ is anti-symmetric:
+	\begin{equation}
+		f^{abc} = -f^{bac}.
+	\end{equation}
+	The Jacobi identity:
+	\begin{equation}
+		[A, [B, C]] + [B, [C, A]] + [C, [A, B]] = 0 \Rightarrow f^{abd}f^{dce} + f^{bcd}f^{dae} + f^{cad}f^{dbe} = 0.
+	\end{equation}
+	
+	
+	
+	Substitute $U = \exp(i\theta^aT^a)$ into Eq. (\ref{unitary of su n}), we get 
+	\begin{equation}
+		T^\dagger = T.
+	\end{equation}
+	In other words, unitary condition enforces hermiticity of the generator. Moreover, by utilizing the fact that $T$ can be diagonalized and that $\det(U) = 1$, we can derive (\cite{azee2016group}, p. 236)
+	\begin{equation}
+		\tr(H) = 0.
+	\end{equation}
+	Therefore, we know that a generator of $SU(N)$ needs to be \textbf{hermitian} and \textbf{traceless}. 
+	
+	To calculate free elements in a $SU(N)$ generator:
+	\begin{enumerate}
+		\item there are $N-1$ free real indices on the diagonal because of the traceless and hermitian conditions;
+		\item for the $N(N-1)$ matrix elements lefted, hermiticity enforces the number of free (complex) indices to be $\frac{1}{2}N(N-1)$, which means that $N(N-1)$ real numbers are needed to define the matrix. 
+	\end{enumerate}
+	In total, $2 \cdot \frac{1}{2}N(N-1)+N-1 = N^2-1$ real numbers are required to define an $N\times N$ traceless hermitian matrix. And, since we need $N^2-1$ free parameters to specify such a matrix, all matrices in the space spanned by traceless hermitian matrices can be written as a linear combination of $N^2 - 1$ linearly independent basis matrices. The dimensionality of the space is thus also $N^2 - 1$. 
+	
+	Define the adjoint representation of group $SU(N)$ as the representation of  $SU(N)$ group elements that act on the Lie algebra of the $SU(N)$. That is, we want to see how $SU(N)$ group elements (the complex "rotation") would act on the generators (for example, $T^a$). In $SU(N)$, each of the $N^2 - 1$ generators is a rank-2 traceless hermitian tensor (i.e., a tracless hermitian matrix). Therefore, let $\psi^i_j$ be a tensor in the space spanned by the $N^2 - 1$ generators  (i.e., $\psi^i_j$ need not to be any of the generators themselves, but could be their linear combinations).According to the rule by which a tensor transforms,
+	\begin{equation}
+		\psi'^k_{\ l} = U^k_{\ i}\psi^i_{\ j} (U^\dagger)^j_{\ l} = U\psi U^\dagger,
+	\end{equation}
+	in which $U$ is the fundamental representation of $SU(N)$, and the transformation corresponds to the adjoint action $\text{Ad}_U(\psi) = U\psi U^\dagger$. To be able to act on $N^2 - 1$ dimensional tensor $\psi$, the dimensionality of the adjoint representation of $SU (N)$ is also $N^2 -1$. 
+	
+	Choose a basis $\{T_a\}_{a=1}^{N^2-1}$ of $\psi$ with
+	\begin{align}
+		\tr(T_aT_b)=\frac12\delta_{ab}, \\ [T_a,T_b]=i f_{abc}T_c,
+	\end{align}
+	where $f_{abc}$ are the real, totally antisymmetric structure constants, and $\frac{1}{2}$ being normalization factor. Then the matrix elements of $\text{Ad}_U$ in this basis are
+	\begin{equation}
+		(\text{Ad}_U)_{ab}=2\,\tr(T_a U T_b U^\dagger),
+	\end{equation}
+	so that $\text{Ad}_U(T_b)=\sum_a (\text{Ad}_U)_{ab}T_a$. 
+	
+	For an infinitesimal transformation $U=e^{i\theta_c T_c}\approx 1+i\theta_c T_c$, we obtain
+	\[
+	\text{Ad}_U(T_b)\approx T_b + i\theta_c[T_c,T_b]=T_b-\theta_c f_{cbd}T_d,
+	\]
+	hence the Lie algebra generators in the adjoint representation are given by
+	\[
+	(\text{Ad}_{T^a})_{bc}=-i f_{abc},
+	\]
+	satisfying $[\text{Ad}_{T^a},\text{Ad}_{T^b}]=i f_{abc}\text{Ad}_{T^c}$. Therefore the adjoint representation is a faithful representation of $\mathfrak{su}(N)$ on itself.
+	
+	Some identities in $SU(N)$ (\cite{schwartz1}, p. 487, 488):
+	\begin{align}
+		&\tr(T^aT^b) = T^a_{ji}T^b_{ij} = T_F\delta^{ab}; \nonumber\\
+		&\sum_a(T^aT^a)_{ij} = C_F\delta_{ij};\nonumber\\
+		&f^{acd}f^{bcd} = C_A\delta^{ab};\nonumber\\
+		&f^{abc} = -\frac{i}{T_F}\tr([T^a, T^b]T^c);\nonumber \\
+		&\sum_aT^a_{ij}T^a_{kl} = \frac{1}{2}\left( \delta_{il}\delta_{kj}-\frac{1}{N}\delta_{ij}\delta_{kl}\right) \text{ (Fierz Identity)},\label{fabc formula & Fierz Identity}
+	\end{align}
+	where $T_F = \frac{1}{2}$ is called the index of the representation, $C_F = \frac{N^2-1}{2N}$ is the quadratic Casimir for the fundamental representation of $SU(N)$, and $C_A = N$ is the quadratic Casimir for the adjoint representation of $SU(N)$. 
+	
+	
+	
+	%===============
+	
+	\subsection{$SU(3)$ Symmetry of Color}
+	The color plays the role of charge in quantum chromodynamics. A quark can be red, green, or blue. An anti-quark can be anti-red, anti-green, or anti-blue. In QCD, the strong interaction follows the color $SU(3)$ symmetry--the strong interaction is invariant under rotations in color space. This $SU(3)$ symmetry is exact.
+	
+	The fundamental representation of $SU(3)$ is three-dimensional. It corresponds to the quark with three colors: red, blue, and green. The generators of the fundamental representation are the eight $3\times 3$ traceless Hermitian matrices $T^a = \frac{1}{2}\lambda^a$, with normalization $\tr(T^aT^b) = \frac12 \delta^{ab}$ (\cite{schwartz1}, p. 485):
+	\begin{align}
+		\lambda^1 &= \begin{pmatrix} 0 & 1 & 0 \\ 1 & 0 & 0 \\ 0 & 0 & 0 \end{pmatrix}, \quad
+		\lambda^2 = \begin{pmatrix} 0 & -i & 0 \\ i & 0 & 0 \\ 0 & 0 & 0 \end{pmatrix}, \quad
+		\lambda^3 = \begin{pmatrix} 1 & 0 & 0 \\ 0 & -1 & 0 \\ 0 & 0 & 0 \end{pmatrix}, \nonumber\\
+		\lambda^4 &= \begin{pmatrix} 0 & 0 & 1 \\ 0 & 0 & 0 \\ 1 & 0 & 0 \end{pmatrix}, \quad
+		\lambda^5 = \begin{pmatrix} 0 & 0 & -i \\ 0 & 0 & 0 \\ i & 0 & 0 \end{pmatrix}, \nonumber\\
+		\lambda^6 &= \begin{pmatrix} 0 & 0 & 0 \\ 0 & 0 & 1 \\ 0 & 1 & 0 \end{pmatrix}, \quad
+		\lambda^7 = \begin{pmatrix} 0 & 0 & 0 \\ 0 & 0 & -i \\ 0 & i & 0 \end{pmatrix}, \quad
+		\lambda^8 = \frac{1}{\sqrt{3}}\begin{pmatrix} 1 & 0 & 0 \\ 0 & 1 & 0 \\ 0 & 0 & -2 \end{pmatrix}. \label{Gellmann mtx}
+	\end{align}
+	Any group element of $SU(3)$ in the fundamental representation can be written as
+	\begin{equation}
+		U = \exp(i\theta^aT^a) = \exp(i\theta^a\lambda^a/2).
+	\end{equation}
+	For example, $U = e^{i\theta T^3} = \begin{pmatrix}
+		e^{-i\theta/2} &  & \\
+		& e^{i\theta/2} & \\
+		& & 1
+	\end{pmatrix}.$
+	The quadratic Casimir of the fundamental representation is
+	\begin{equation}
+		C_F = \frac{3 \times 3 - 1}{2 \times 3} = \frac{4}{3}.
+	\end{equation}
+	
+	A gluon takes a combination of color and anti-color, for example $r\bar{r}$. That is, a gluon is described by the direct product of the 3-dimensional fundamental representation $\mathbf{3}$ and its conjugate $\bar{\mathbf{3}}$, i.e.\ $\mathbf{3} \otimes \bar{\mathbf{3}}$. Each index transforms independently, hence a gluon field is mathematically a rank-2 tensor $(G_\mu)^i_j$, with the upper index (contravariant) representing the color and the lower index (covariant) representing the anti-color. The 9-dimensional product space decomposes into two irreducible representations:
+	\begin{equation}
+		\mathbf{3} \otimes \bar{\mathbf{3}} = \mathbf{8} \oplus \mathbf{1},
+	\end{equation}
+	physically corresponding to the traceless part (the octet, containing the eight gluons) and the trace part (a color singlet that does not mediate strong interactions).
+	
+	The octet forms the adjoint representation of $SU(3)$, whose dimension is $3^2-1 = 8$. The matrix elements of the generators in the adjoint representation are
+	\begin{equation}
+		(T^a_{\text{adj}})_{bc} = -if^{abc},
+	\end{equation}
+	and the quadratic Casimir is $C_A = 3$. The adjoint representation acts on the Lie algebra itself, which means the gluon fields transform as an octet under $SU(3)$. This property describes the self-interaction of gluons, a unique feature of non-Abelian gauge theories like QCD.
+	
+	\subsection{Structure Constant}
+	The structure constants $f^{abc}$ are defined by the commutation relations $[T^a, T^b] = i f^{abc} T^c$. They can be computed from the trace formula that is already introduced in Eq. (\ref{fabc formula}),
+	\begin{equation}
+		f^{abc} = -\frac{i}{T_F}\,\tr\!\big([T^a, T^b] T^c\big),
+	\end{equation}
+	with $T_F = \frac12$ in the fundamental representation. For example, to find $f^{123}$ we evaluate the commutator of $T^1$ and $T^2$:
+	\[
+	[T^1, T^2] = \frac{1}{4}[\lambda^1, \lambda^2] = \frac{1}{4}(2i\lambda^3) = i T^3.
+	\]
+	Inserting this into the trace formula gives
+	\[
+	f^{123} = -\frac{i}{1/2}\,\tr\!\big(i T^3 T^3\big) = 2\,\tr(T^3 T^3) = 2\cdot\frac12 = 1.
+	\]
+	Proceeding similarly one obtains all non-zero structure constants (up to permutations), for example
+	\[
+	f^{147} = f^{246} = f^{257} = f^{345} = \frac12,\qquad
+	f^{156} = f^{367} = -\frac12,\qquad
+	f^{458} = f^{678} = \frac{\sqrt{3}}{2}.
+	\]
+	The normalization condition for the structure constants in the adjoint representation reads
+	\begin{equation}
+		f^{abc}f^{dbc} = C_A \delta^{ad} = 3\delta^{ad}.
+	\end{equation}
+	
+	\subsection{Color Wave Function}
+	The wave function in quantum mechanics represents a quantum state. For a hadron, its wave function can be decomposed into the direct product of spatial, flavor, spin, and color wave function: 
+	\begin{equation}
+		\Psi_{\text{total}} = \Psi_{\text{color}} \otimes \Psi_{\text{spin}}\otimes \Psi_{\text{flavor}} \otimes \Psi_{\text{space}}.
+	\end{equation}
+	A quark carries a color, whether $\ket{r}$, $\ket{g}$, $\ket{b}$, or their linear combinations. An anti-quark carries an anti-color, whether $\ket{\bar r}$, $\ket{\bar g}$, $\ket{\bar b}$, or their linear combinations. A gluon carries a combination of color and anticolor, such as the state
+	\begin{equation}
+		\ket{1} = \frac{1}{\sqrt{2}}(\ket{r\bar b} + \ket{b \bar r}).
+	\end{equation}
+	As mentioned earlier, the $3 \times 3 = 9$ dimensional space for gluons can be decomposed into an $8$ dimensional space (traceless), with basis vector $\ket{1}, \ket{2},...,\ket{8}$ and a scalar (with trace) (\cite{griffiths1987IEP}, p. 280)
+	\begin{equation}
+		\ket{9} = \frac{1}{\sqrt{3}}\left( \ket{r\bar r} + \ket{g \bar g} + \ket{b \bar b}\right). \label{singlet config}
+	\end{equation} Color confinement requires all non-singlet state unseparable; together with the experimental fact that strong interaction is short-range interaction and that we never detected a single gluon, one may conclude that a singlet gluon does not exist. Since a singlet state can only emit or absorb singlet states, interactions between baryons or mesons (which are all singlets to be observable) would be long-range forces if a singlet gluon existed. Hence, as a bound state of multiple gluons, a glueball (which we are currently investigating) is a color singlet (\cite{griffiths1987IEP}, p. 280, 281; \cite{glueballhunting}, p.2).
+	
+	
+	Define the Casimir operator to be:
+	\begin{equation}
+		\hat{C}_R = T^a_R T^a_R.
+	\end{equation}
+	It can be proved that the Casimir operator commutes to all generators (\cite{schwartz1}, p. 486):
+	\begin{equation}
+		[\hat{C}_R, T^b_R] = 0.
+	\end{equation}
+	Therefore, by Schur's lemma (see section \ref{group theory basics section}), the Casimir is proportional to the identity:
+	\begin{equation}
+		\hat{C}_R = C_2(R)\cdot\mathbb{I},
+	\end{equation}
+	where $C_2(R)$ is a constant named quadratic Casimir. 
+	
+	Note that the quadratic Casimir is of the representation. In the $SU(3)$ fundamental representation $\mathbf{3}$ and $\mathbf{\bar 3}$, the quadratic Casimir
+	\begin{equation}
+		C_F = \frac{N^2-1}{2N} = \frac{4}{3};
+	\end{equation}
+	in the $SU(3)$ adjoint representation, the quadratic Casimir
+	\begin{equation}
+		C_A = N = 3. 
+	\end{equation}
+	
+	
+	
+	Especially, the quadratic Casimir $C_\mathbf{1} = 0$ for singlet representation. This is because the color singlet corresponds to the traceless $\mathbf{1}$ representation of $SU(3)$, 
+	and, by definition, it is invariant under any $SU(3)$ group transformation:
+	\begin{equation}
+		T^a |\mathbf{1}\rangle = 0, \text{ with } a = 1,2,...,8.
+	\end{equation}
+	Because each individual generator gives zero when acting on the singlet, the Casimir also gives zero:
+	\begin{equation}
+		\hat{C}|\mathbf{1}\rangle 
+		= T^a \left(T^a |\mathbf{1}\rangle\right)  
+		= 0.
+	\end{equation}
+	In contrast, for any non-singlet representation $\mathbf{R}$, the Casimir acts as a positive constant $C_2(\mathbf{R}) > 0$ times the state. Therefore, we use Casimir to test whether a state is a color singlet (\cite{Lijun1}, p. 29).
+	
+	\subsubsection{Gluon Singlet}
+	A gluon carries a color and an anti-color, for example $\ket{r\bar b}$; the gluon states live in a $3 \times 3 = 9$ dimensional space (we do not separate the singlet state yet because it is what we're looking for):
+	\begin{align}
+		\ket{g_1} &= \ket{r\bar r}, &
+		\ket{g_2} &= \ket{r\bar g}, &
+		\ket{g_3} &= \ket{r\bar b}, \\
+		\ket{g_4} &= \ket{g\bar r}, &
+		\ket{g_5} &= \ket{g\bar g}, &
+		\ket{g_6} &= \ket{g\bar b}, \\
+		\ket{g_7} &= \ket{b\bar r}, &
+		\ket{g_8} &= \ket{b\bar g}, &
+		\ket{g_9} &= \ket{b\bar b}.
+	\end{align}
+	To describe how gluon states transform, we need to work in the adjoint representation of $SU(3)$, the nine-dimensional generators $T^a_{\mathbf{3} \otimes \bar{\mathbf{3}}}$ of which can be constructed by generators in the fundamental representation $T^a$ as
+	\begin{align}
+		T^a_{\mathbf{3} \otimes \bar{\mathbf{3}}} = T^a \otimes \mathbb{I}_3 + \mathbb{I}_3 \otimes \tilde{T}^a \\= T^a \otimes \mathbb{I}_3 + \mathbb{I}_3 \otimes (-T^a)^T.
+	\end{align}
+	Since the operator on the left of $\otimes$ acting only on $\ket{i}$ in $\ket{i, \bar j} = \ket{i}\otimes\ket{j}$ and the operator on the right acting only on $\ket{\bar j}$, we have
+	\begin{align}
+		(T^a_{\mathbf{3} \otimes \bar{\mathbf{3}}})_{(i, j), (k, l)} = (T^a)_{ik} \otimes (\mathbb{I}_3)_{j l} + (\mathbb{I}_3)_{ik} \otimes (-T^a)_{l j} = (T^a)_{ik} \delta_{j l} - \delta_{ik}(T^a)_{lj}
+	\end{align}
+	Therefore, with the help of Fierz identity in Eq. (\ref{fabc formula & Fierz Identity}), the Casimir 
+	\begin{align*}
+		(\hat{C})_{(i, j), (m, n)} &= (T^a_{\mathbf{3} \otimes \bar{\mathbf{3}}})_{(i, j), (k, l)}(T^a_{\mathbf{3} \otimes \bar{\mathbf{3}}})_{(k, l), (m, n)}\\\
+		&= \bigl[(T^a)_{ik} \delta_{jl} - \delta_{ik}(T^a)_{lj}\bigr]
+		\bigl[(T^a)_{km} \delta_{ln} - \delta_{km}(T^a)_{nl}\bigr] \\
+		&= (T^a)_{ik}(T^a)_{km} \delta_{jl}\delta_{ln}
+		- (T^a)_{ik}(T^a)_{nl} \delta_{jl}\delta_{km} \\
+		&\quad - (T^a)_{lj}(T^a)_{km} \delta_{ik}\delta_{ln}
+		+ (T^a)_{lj}(T^a)_{nl} \delta_{ik}\delta_{km} \\
+		&= (T^a T^a)_{im} \delta_{jn} - (T^a)_{im}(T^a)_{nj}
+		- (T^a)_{im}(T^a)_{nj} + \delta_{im}(T^a T^a)_{nj} \\
+		&= C_F \delta_{im}\delta_{jn} - 2(T^a)_{im}(T^a)_{nj} + C_F \delta_{im}\delta_{jn} \\
+		&= 2C_F \delta_{im}\delta_{jn} - 2(T^a)_{im}(T^a)_{nj} \\
+		&= 2\cdot\frac{4}{3}\,\delta_{im}\delta_{jn}
+		- 2\cdot\frac12\Bigl( \delta_{ij}\delta_{mn} - \frac13\delta_{im}\delta_{jn} \Bigr) \\
+		&= \frac{8}{3}\delta_{im}\delta_{jn} - \delta_{ij}\delta_{mn} + \frac13\delta_{im}\delta_{jn} \\
+		&= 3\delta_{im}\delta_{jn} - \delta_{ij}\delta_{mn},
+	\end{align*}
+	or equivalently,
+	\begin{align}
+		(\hat{C})_{(i, j), (m, n)} = \begin{pmatrix}
+			2&0&0&0&-1&0&0&0&-1\\
+			0&3&0&0&0&0&0&0&0\\
+			0&0&3&0&0&0&0&0&0\\
+			0&0&0&3&0&0&0&0&0\\
+			-1&0&0&0&2&0&0&0&-1\\
+			0&0&0&0&0&3&0&0&0\\
+			0&0&0&0&0&0&3&0&0\\
+			0&0&0&0&0&0&0&3&0\\
+			-1&0&0&0&-1&0&0&0&2
+		\end{pmatrix}.
+	\end{align}
+	From previous conclusions, we know that a Casimir acting on a color singlet would result in zero. Therefore, to find the expression of the singlet gluon, we need to diagonalize $\hat{C}$ and select the eigenstates (which are $9 \times 1$ column matrices) corresponding to the eigenvalue $0$. The result shows that there is only one eigenvalue $\text{(eigen value)}_9 = 0$, with the eigenvector
+	\begin{equation}
+		\text{(eigen vector)}_9 = \begin{pmatrix}
+			1 \\ 0\\ 0\\ 0 \\ 1 \\ 0 \\ 0 \\ 0 \\ 1
+		\end{pmatrix} = \frac{1}{\sqrt{3}}\left( \ket{r\bar r} + \ket{g \bar g} + \ket{b \bar b}\right),
+	\end{equation}
+	where $\frac{1}{\sqrt{3}}$ is the normalization factor. This result perfectly matches Eq. (\ref{singlet config}).
+	
+	
+	
+	\subsection{Cartan Sub-Algebra and Cartan-Weyl Basis}
+	
+	The eight Gell-mann matrices, as listed in Eq. (\ref{Gellmann mtx}), were the generators of $SU(3)$ fundamental representation with appropriate factors. Among the eight Gell-mann matrices, there are two diagonal matrices: $\lambda^3$ and $\lambda^8$. Obviously, they commute with each other:
+	\begin{equation}
+		[\lambda^3, \lambda^8] = 0 \Rightarrow [T^3, T^8] = 0. 
+	\end{equation}
+	
+	The Cartan sub-algebra of $SU(3)$ is defined as the algebra spanned by $T^3$ and $T^8$. From quantum mechanics we know that there exists a complete set of simultaneous eigenfunctions for two compatible operators. Therefore, it is legitimate to introduce quantum numbers $i_3$ and $Y$ as eigenvalues of $T^3$ and $T^8$, respectively:
+	\begin{equation}
+		\psi = |i_3, Y\rangle. 
+	\end{equation}
+	It is illuminating to compare the two quantum numbers to the $z$-component of angular momentum in quantum mechancis $j_z = m$. The only difference is that the visuallization of $m$ is a ladder, whereas $(i_3, Y)$, being two-dimensional, lies on a plane.
+	
+	A smart way to deal with these generators requires us to replace the Gell-mann matrices by operators under the Cartan-Weyl basis. For a general case of $n$ generators $X^n$, we first pick up \textbf{as much as possible} mutually compatible generators (suppose there are $l$ such generators):
+	\begin{equation}
+		\left[H^i, H^j\right] = 0,
+	\end{equation}
+	where we call $l$ the rank of this representation. The lefted $n - l$ generators will be rearranged so that
+	\begin{equation}
+		\left[H^i, E_{\vec\alpha} \right] = \alpha^i E_{\vec\alpha},
+	\end{equation}
+	which means that the $E_{\vec{\alpha}}$ acts as a ladder operator; if $H\ket{\mu} = \mu \ket{\mu}$, then $HE\ket{\mu} = [H, E]\ket{\mu} + EH\ket{\mu} = (\alpha^i + \mu) E\ket{\mu} \propto H\ket{\mu + \alpha}$. $\vec{\alpha} = (\alpha^1, ..., \alpha^i$,...) is called the root vector, which characterizes how the ``ladder'' operators move the states. 
+	
+	In $SU(3)$ fundamental representation, the $H$'s are $T^3$ and $T^8$, and the $E$'s are (\cite{azee2016group}, p. 328)
+	\begin{align}
+		&I_{\pm} = \frac{1}{2}\left( \lambda^1 \pm i\lambda^2 \right) \rightarrow \text{root vector: }(\pm 1, 0); \\
+		&U_{\pm} = \frac{1}{2}\left( \lambda^6 \pm i\lambda^7 \right) \rightarrow \text{root vector: }\left(\mp \frac{1}{2},\ \pm \frac{\sqrt{3}}{2}\right); \\
+		&V_{\pm} = \frac{1}{2}\left( \lambda^4 \pm i\lambda^5 \right) \rightarrow \text{root vector: }\left(\pm \frac{1}{2},\ \pm \frac{\sqrt{3}}{2}\right).
+	\end{align}
+	
+	
+	
+	
+	\bibliographystyle{unsrt}
+	\bibliography{main}
+\end{document}

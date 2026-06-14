@@ -1,0 +1,3 @@
+/home/linzy/Code/ColorFactor/build/CMakeFiles/color_wf.dir
+/home/linzy/Code/ColorFactor/build/CMakeFiles/edit_cache.dir
+/home/linzy/Code/ColorFactor/build/CMakeFiles/rebuild_cache.dir
