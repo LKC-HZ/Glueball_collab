@@ -1,11 +1,15 @@
 # main
 
 import numpy as np
-import allvertices
-import gluon_to_gluon_color_factor
+import allvertices as allvertices
+import gluon_to_gluon_color_factor as gluon_to_gluon_color_factor
 from colorwf_runner import run_color_wf
-import colorwf_runner
+import colorwf_runner as colorwf_runner
 from pathlib import Path
+
+import sys
+import os
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 script_dir = Path(__file__).parent
 
@@ -69,7 +73,7 @@ print(f"==================== \n")
 
 
 
-filename = script_dir / f'{inc_gl_n}_gluon_to_{out_gl_n}_gluon_Color_Factor.txt'
+filename = script_dir / 'output' / f'{inc_gl_n}_gluon_to_{out_gl_n}_gluon_Color_Factor.txt'
 # CALCULATING COLOR FACTOR 
 with open(filename, 'w', encoding='utf-8') as f:
     for s_in in range(1, inc_num_singlets + 1):

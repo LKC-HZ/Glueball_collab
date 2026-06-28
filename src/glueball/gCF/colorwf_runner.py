@@ -25,14 +25,23 @@ import numpy as np
 # Configuration
 # ---------------------------------------------------------------------------
 
+
+
+
 # Default path to the Fortran executable.
 # Accepts both Windows paths (D:\...) and WSL paths (/mnt/d/... or /d/...).
 # The script will auto-detect and convert as needed.
-DEFAULT_EXECUTABLE = Path(
-    "PATH")
+# DEFAULT_EXECUTABLE = Path(
+ #   "PATH")
 
 # The input file the Fortran program needs in its CWD
-REQUIRED_INPUT_FILE = "fabc.dat"
+# REQUIRED_INPUT_FILE = "fabc.dat"
+
+
+# Using relative path. 
+script_dir = Path(__file__).parent
+DEFAULT_EXECUTABLE = Path(script_dir/'colorwf'/'color_wf')
+REQUIRED_INPUT_FILE = script_dir/'colorwf'/'fabc.dat'
 
 
 
