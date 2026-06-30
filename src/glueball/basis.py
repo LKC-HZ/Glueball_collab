@@ -1,5 +1,6 @@
 from dataclasses import dataclass
 import itertools
+from pathlib import Path
 
 # ===================================================================
 # Light-front single-particle state for a gluon.
@@ -195,7 +196,15 @@ def dump_basis_to_dat(basis, filename):
 
     print(f"Basis dumped to {filename}: {len(basis)} states")
 
+file_dir = Path(__file__).parent
+
+
 if __name__ == "__main__":
-    basis = build_sector_basis(n=2, K=3, Nmax=3, Mj=3, color_singlet_number=1)
-    print(basis)
-    dump_basis_to_dat(basis, filename="D:/Star's Personal File Repository (INSP 16)/Work/Research/3_Physics Research/2026 Glueball/Program/allspaces/gball-4-626/test_basis.dat")
+    n = int(input('basis.py test: n = '))
+    K = int(input('basis.py test: K = '))
+    Nmax = int(input('basis.py test: Nmax = '))
+    Mj = int(input('basis.py test: Mj = '))
+    color_singlet_number = int(input('basis.py test: color_singlet_number = '))
+    basis = build_sector_basis(n, K, Nmax, Mj, color_singlet_number)
+    #print(basis)
+    dump_basis_to_dat(basis, filename = file_dir/'output'/'basis.py_test'/f'basis_for_n_{n}_K_{K}_Nmax_{Nmax}_Mj_{Mj}_color_singlet_number_{color_singlet_number}')
