@@ -1,0 +1,48 @@
+
+ -------------------- 
+ COLOR FACTOR: 0j; FEYNMAN DIAGRAM CONFIGURATION: {'id': 1, 'vertices': [{'incoming': [1, 3], 'outgoing': [1], 'type': '3-gluon vertex'}, {'incoming': [2], 'outgoing': [2], 'type': 'spectator'}]}; INCOMING SINGLET ID: 1(GM; d-type); OUTGOING SINGLET ID: 1(GM; d-type)
+
+
+ -------------------- 
+ COLOR FACTOR: 0j; FEYNMAN DIAGRAM CONFIGURATION: {'id': 2, 'vertices': [{'incoming': [1, 3], 'outgoing': [2], 'type': '3-gluon vertex'}, {'incoming': [2], 'outgoing': [1], 'type': 'spectator'}]}; INCOMING SINGLET ID: 1(GM; d-type); OUTGOING SINGLET ID: 1(GM; d-type)
+
+
+ -------------------- 
+ COLOR FACTOR: 0j; FEYNMAN DIAGRAM CONFIGURATION: {'id': 3, 'vertices': [{'incoming': [1], 'outgoing': [1], 'type': 'spectator'}, {'incoming': [2, 3], 'outgoing': [2], 'type': '3-gluon vertex'}]}; INCOMING SINGLET ID: 1(GM; d-type); OUTGOING SINGLET ID: 1(GM; d-type)
+
+
+ -------------------- 
+ COLOR FACTOR: 0j; FEYNMAN DIAGRAM CONFIGURATION: {'id': 4, 'vertices': [{'incoming': [1], 'outgoing': [2], 'type': 'spectator'}, {'incoming': [2, 3], 'outgoing': [1], 'type': '3-gluon vertex'}]}; INCOMING SINGLET ID: 1(GM; d-type); OUTGOING SINGLET ID: 1(GM; d-type)
+
+
+ -------------------- 
+ COLOR FACTOR: 0j; FEYNMAN DIAGRAM CONFIGURATION: {'id': 5, 'vertices': [{'incoming': [1, 2], 'outgoing': [1], 'type': '3-gluon vertex'}, {'incoming': [3], 'outgoing': [2], 'type': 'spectator'}]}; INCOMING SINGLET ID: 1(GM; d-type); OUTGOING SINGLET ID: 1(GM; d-type)
+
+
+ -------------------- 
+ COLOR FACTOR: 0j; FEYNMAN DIAGRAM CONFIGURATION: {'id': 6, 'vertices': [{'incoming': [1, 2], 'outgoing': [2], 'type': '3-gluon vertex'}, {'incoming': [3], 'outgoing': [1], 'type': 'spectator'}]}; INCOMING SINGLET ID: 1(GM; d-type); OUTGOING SINGLET ID: 1(GM; d-type)
+
+
+ -------------------- 
+ COLOR FACTOR: (1.732050815410398+0j); FEYNMAN DIAGRAM CONFIGURATION: {'id': 1, 'vertices': [{'incoming': [1, 3], 'outgoing': [1], 'type': '3-gluon vertex'}, {'incoming': [2], 'outgoing': [2], 'type': 'spectator'}]}; INCOMING SINGLET ID: 2(GM; f-type); OUTGOING SINGLET ID: 1(GM; d-type)
+
+
+ -------------------- 
+ COLOR FACTOR: (1.732050815410398+0j); FEYNMAN DIAGRAM CONFIGURATION: {'id': 2, 'vertices': [{'incoming': [1, 3], 'outgoing': [2], 'type': '3-gluon vertex'}, {'incoming': [2], 'outgoing': [1], 'type': 'spectator'}]}; INCOMING SINGLET ID: 2(GM; f-type); OUTGOING SINGLET ID: 1(GM; d-type)
+
+
+ -------------------- 
+ COLOR FACTOR: (-1.732050815410398+0j); FEYNMAN DIAGRAM CONFIGURATION: {'id': 3, 'vertices': [{'incoming': [1], 'outgoing': [1], 'type': 'spectator'}, {'incoming': [2, 3], 'outgoing': [2], 'type': '3-gluon vertex'}]}; INCOMING SINGLET ID: 2(GM; f-type); OUTGOING SINGLET ID: 1(GM; d-type)
+
+
+ -------------------- 
+ COLOR FACTOR: (-1.732050815410398+0j); FEYNMAN DIAGRAM CONFIGURATION: {'id': 4, 'vertices': [{'incoming': [1], 'outgoing': [2], 'type': 'spectator'}, {'incoming': [2, 3], 'outgoing': [1], 'type': '3-gluon vertex'}]}; INCOMING SINGLET ID: 2(GM; f-type); OUTGOING SINGLET ID: 1(GM; d-type)
+
+
+ -------------------- 
+ COLOR FACTOR: (-1.732050815410398+0j); FEYNMAN DIAGRAM CONFIGURATION: {'id': 5, 'vertices': [{'incoming': [1, 2], 'outgoing': [1], 'type': '3-gluon vertex'}, {'incoming': [3], 'outgoing': [2], 'type': 'spectator'}]}; INCOMING SINGLET ID: 2(GM; f-type); OUTGOING SINGLET ID: 1(GM; d-type)
+
+
+ -------------------- 
+ COLOR FACTOR: (-1.732050815410398+0j); FEYNMAN DIAGRAM CONFIGURATION: {'id': 6, 'vertices': [{'incoming': [1, 2], 'outgoing': [2], 'type': '3-gluon vertex'}, {'incoming': [3], 'outgoing': [1], 'type': 'spectator'}]}; INCOMING SINGLET ID: 2(GM; f-type); OUTGOING SINGLET ID: 1(GM; d-type)
+
