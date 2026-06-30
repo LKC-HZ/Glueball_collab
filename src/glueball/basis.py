@@ -9,8 +9,6 @@ from pathlib import Path
 #   s : helicity / spin projection (±1 for massless gluon)
 #   n : transverse 2D harmonic oscillator radial quantum number
 #   m : transverse 2D HO angular momentum projection (magnetic)
-
-# CHECKED. 
 # ===================================================================
 
 @dataclass(frozen=True)
@@ -19,7 +17,6 @@ class SingleParticleState:
     s: int
     n: int
     m: int
-
 
 # ===================================================================
 # Multi-particle state for n gluons.
@@ -83,7 +80,7 @@ def spin_list(n):
 # n-fold Cartesian product and filter by the total Nmax constraint.
 # ===================================================================
 
-def _ho_single_candidates(Nmax):
+def hmosc_single_candidates(Nmax):
     candidates = []
     max_n = Nmax // 2
     for n in range(max_n + 1):
@@ -101,7 +98,7 @@ def hmosc_basis(n, Nmax):
     All valid transverse HO combinations for n gluons.
     Returns a list of tuples: ((n1,m1), (n2,m2), ..., (nn,mn))
     """
-    single = _ho_single_candidates(Nmax)
+    single = hmosc_single_candidates(Nmax)
     valid = []
     for combo in itertools.product(single, repeat=n):
         total_N = sum(2 * ni + abs(mi) + 1 for ni, mi in combo)
@@ -130,7 +127,7 @@ def build_sector_basis(n, K, Nmax, Mj, color_singlet_number):
     spins    = spin_list(n)
     ho_combos = hmosc_basis(n, Nmax)
 
-    basis = []
+    sector_basis = []
 
     for k_tuple in k_tuples:
         for color_id in colors:
@@ -154,13 +151,24 @@ def build_sector_basis(n, K, Nmax, Mj, color_singlet_number):
                             m=ho_tuple[i][1]
                         ))
 
-                    basis.append(NParticleState(
+                    sector_basis.append(NParticleState(
                         particles=tuple(particles),
                         color_singlet=color_id
                     ))
 
-    return basis
+    return sector_basis
 
+def build_global_basis(sector_basis):
+    global_basis = []
+    index_map = {}
+    idx = 0
+    for sector, basis in sector_basis.items():
+        for state in basis:
+            global_basis.append((sector, state))
+            index_map[(sector, state)] = idx
+            idx += 1
+
+    return global_basis, index_map
 
 # ===================================================================
 # 6. Dump basis to .dat file
