@@ -90,4 +90,24 @@ with open(filename, 'w', encoding='utf-8') as f:
                   f"FEYNMAN DIAGRAM CONFIGURATION: {cf['plan']}; "
                   f"INCOMING SINGLET ID: {cf['singlet_in_index']}({cf['singlet_in_type']}); "
                   f"OUTGOING SINGLET ID: {cf['singlet_out_index']}({cf['singlet_out_type']})\n", file=f)
+
+# FOR HAMILTONIAN CALCULATION: SAVE TO .dat
+dat_filename = script_dir / 'output' / f'{inc_gl_n}_gluon_to_{out_gl_n}_gluon_Color_Factor.dat'
+CF_TOL = 1e-14
+
+with open(dat_filename, 'w', encoding='utf-8') as f_dat:
+    for s_in in range(1, inc_num_singlets + 1):
+        for s_out in range(1, out_num_singlets + 1):
+            for i in range(len(vtx_plans)):
+                cf = gluon_to_gluon_color_factor.gluon_contraction_by_plan(
+                    inc_gl_n, out_gl_n, vtx_plans[i], s_in, s_out
+                )
+                cf_val = cf['contraction_result']
+                if abs(cf_val) > CF_TOL:
+                    f_dat.write(
+                        f"{cf_val.real:.12f} {cf_val.imag:.12f} "
+                        f"{s_in:d} {s_out:d} {vtx_plans[i]['id']:d}\n"
+                    )
+
+print(f".dat saved to: {dat_filename}")
                 
