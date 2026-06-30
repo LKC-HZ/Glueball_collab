@@ -109,5 +109,5 @@ with open(dat_filename, 'w', encoding='utf-8') as f_dat:
                         f"{s_in:d} {s_out:d} {vtx_plans[i]['id']:d}\n"
                     )
 
-print(f".dat saved to: {dat_filename}")
+print(f"non-zero CF's saved to: {dat_filename}")
                 
