@@ -1,0 +1,101 @@
+# Basis dump: 24 states
+# Number of gluons per state: 2
+# Columns per particle: k, s, n, m
+# color_singlet: singlet index from color_wf
+#============================================================
+state      0  color_singlet=1
+    g1 : k=  1  s= -1  n=  0  m=   0
+    g2 : k=  2  s=  1  n=  0  m=   1
+
+state      1  color_singlet=1
+    g1 : k=  1  s= -1  n=  0  m=   1
+    g2 : k=  2  s=  1  n=  0  m=   0
+
+state      2  color_singlet=1
+    g1 : k=  1  s=  1  n=  0  m=   0
+    g2 : k=  2  s= -1  n=  0  m=   1
+
+state      3  color_singlet=1
+    g1 : k=  1  s=  1  n=  0  m=   1
+    g2 : k=  2  s= -1  n=  0  m=   0
+
+state      4  color_singlet=1
+    g1 : k=  1  s=  1  n=  0  m=  -1
+    g2 : k=  2  s=  1  n=  0  m=   0
+
+state      5  color_singlet=1
+    g1 : k=  1  s=  1  n=  0  m=   0
+    g2 : k=  2  s=  1  n=  0  m=  -1
+
+state      6  color_singlet=2
+    g1 : k=  1  s= -1  n=  0  m=   0
+    g2 : k=  2  s=  1  n=  0  m=   1
+
+state      7  color_singlet=2
+    g1 : k=  1  s= -1  n=  0  m=   1
+    g2 : k=  2  s=  1  n=  0  m=   0
+
+state      8  color_singlet=2
+    g1 : k=  1  s=  1  n=  0  m=   0
+    g2 : k=  2  s= -1  n=  0  m=   1
+
+state      9  color_singlet=2
+    g1 : k=  1  s=  1  n=  0  m=   1
+    g2 : k=  2  s= -1  n=  0  m=   0
+
+state     10  color_singlet=2
+    g1 : k=  1  s=  1  n=  0  m=  -1
+    g2 : k=  2  s=  1  n=  0  m=   0
+
+state     11  color_singlet=2
+    g1 : k=  1  s=  1  n=  0  m=   0
+    g2 : k=  2  s=  1  n=  0  m=  -1
+
+state     12  color_singlet=1
+    g1 : k=  2  s= -1  n=  0  m=   0
+    g2 : k=  1  s=  1  n=  0  m=   1
+
+state     13  color_singlet=1
+    g1 : k=  2  s= -1  n=  0  m=   1
+    g2 : k=  1  s=  1  n=  0  m=   0
+
+state     14  color_singlet=1
+    g1 : k=  2  s=  1  n=  0  m=   0
+    g2 : k=  1  s= -1  n=  0  m=   1
+
+state     15  color_singlet=1
+    g1 : k=  2  s=  1  n=  0  m=   1
+    g2 : k=  1  s= -1  n=  0  m=   0
+
+state     16  color_singlet=1
+    g1 : k=  2  s=  1  n=  0  m=  -1
+    g2 : k=  1  s=  1  n=  0  m=   0
+
+state     17  color_singlet=1
+    g1 : k=  2  s=  1  n=  0  m=   0
+    g2 : k=  1  s=  1  n=  0  m=  -1
+
+state     18  color_singlet=2
+    g1 : k=  2  s= -1  n=  0  m=   0
+    g2 : k=  1  s=  1  n=  0  m=   1
+
+state     19  color_singlet=2
+    g1 : k=  2  s= -1  n=  0  m=   1
+    g2 : k=  1  s=  1  n=  0  m=   0
+
+state     20  color_singlet=2
+    g1 : k=  2  s=  1  n=  0  m=   0
+    g2 : k=  1  s= -1  n=  0  m=   1
+
+state     21  color_singlet=2
+    g1 : k=  2  s=  1  n=  0  m=   1
+    g2 : k=  1  s= -1  n=  0  m=   0
+
+state     22  color_singlet=2
+    g1 : k=  2  s=  1  n=  0  m=  -1
+    g2 : k=  1  s=  1  n=  0  m=   0
+
+state     23  color_singlet=2
+    g1 : k=  2  s=  1  n=  0  m=   0
+    g2 : k=  1  s=  1  n=  0  m=  -1
+
