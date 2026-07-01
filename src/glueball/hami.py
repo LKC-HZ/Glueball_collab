@@ -59,7 +59,7 @@ def matrix_element(sector_i, sector_j, bra, ket, params):
     
     if sector_i == "ggg" and sector_j == "gg":
         return H_gg_ggg(bra, ket, params)
-    
+    '''
     if sector_i == "gg" and sector_j == "gggg":
         return H_gg_gggg(bra, ket, params)
     
@@ -71,7 +71,7 @@ def matrix_element(sector_i, sector_j, bra, ket, params):
     
     if sector_i == "gggg" and sector_j == "ggg":
         return H_ggg_gggg(bra, ket, params)
-    
+    '''
 
     return 0.0
 
