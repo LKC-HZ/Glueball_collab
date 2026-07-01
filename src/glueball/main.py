@@ -6,6 +6,7 @@ from gCF.colorwf_runner import run_color_wf
 from basis import *
 from hami import *
 from Ctool import *
+from pathlib import Path
 
 # =========================================================
 # 1. Physics parameters 
@@ -84,7 +85,9 @@ if __name__ == "__main__":
     p_plus = float(Kmax)
     b = 1.0
     coupling = 1.0
-    output_file = "D:/Star's Personal File Repository (INSP 16)/Work/Research/3_Physics Research/2026 Glueball/Program/allspaces/newblfq orig/newblfq/Output/renom.dat"
+
+    fd = Path(__file__).parent
+    output_file = fd / 'output' / 'Eigens'
 
     with open(output_file, "w") as f:
 
