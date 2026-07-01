@@ -18,6 +18,8 @@ class PhysicsParams:
     b: float
     mass_g: float
     mass_gg: float
+    mass_ggg: float
+    mass_gggg: float
     # 与纵向截断 Kmax 对齐的总动量 P+（hami 中 bee 等用）；与 __main__ 里 Kmax 同一数值即可
     p_plus: float
 
@@ -68,12 +70,15 @@ def eig(Nmax, kt, b, coupling, p_plus):
             b=b,
             mass_g=0.0,
             mass_gg=0.0,
-            p_plus=p_plus,
+            mass_ggg=0.0,
+            mass_gggg=0.0,
+            p_plus=p_plus
         )
 
     H = build_hamiltonian(Nmax=Nmax, K=kt, params=params)
+    #print("I'm here")
 
-    vals, vecs = eigsh(H, k=3, which='SA')
+    vals, vecs = eigsh(H, k=2, which='SA')
 
     return vals[0] * kt
 
@@ -93,6 +98,7 @@ if __name__ == "__main__":
 
         for k in range(2, Kmax + 1):
             for n in range(3, Nmax + 1):
+                print(f"k = {k} in {Kmax + 1} and n = {n} in {Nmax + 1}")
 
                 mass = eig(
                     Nmax=n,

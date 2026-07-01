@@ -20,43 +20,27 @@ def build_sparse_hamiltonian(global_basis, params):
 # Matrix element dispatcher
 # =========================================================
 def matrix_element(sector_i, sector_j, bra, ket, params):
-
-    # -------------------------
-    # g sector
-    # -------------------------
     if sector_i == "g" and sector_j == "g":
         return H_g_g(bra, ket, params)
 
-    # -------------------------
-    # gg sector
-    # -------------------------
     if sector_i == "gg" and sector_j == "gg":
         return H_gg_gg(bra, ket, params)
 
-    # -------------------------
-    # ggg sector
-    # -------------------------
     if sector_i == "ggg" and sector_j == "ggg":
         return H_ggg_ggg(bra, ket, params)
-    
-        # -------------------------
-    # gggg sector
-    # -------------------------
+
     if sector_i == "gggg" and sector_j == "gggg":
         return H_gggg_gggg(bra, ket, params)
-    
-    # -------------------------
-    # interaction (Hermitian)
-    # -------------------------
+
     if sector_i == "g" and sector_j == "gg":
         return H_g_gg(bra, ket, params)
 
     if sector_i == "gg" and sector_j == "g":
-        return H_g_gg(bra, ket, params)
+        return H_g_gg(ket, bra, params)
 
     if sector_i == "gg" and sector_j == "ggg":
         return H_gg_ggg(ket, bra, params)
-    
+
     if sector_i == "ggg" and sector_j == "gg":
         return H_gg_ggg(bra, ket, params)
     '''
@@ -80,8 +64,8 @@ def matrix_element(sector_i, sector_j, bra, ket, params):
 # Physics kernels
 # =========================================================
 def H_g_g(bra, ket, params):
-    bra_p, = bra.particles
-    ket_p, = ket.particles
+    bra_p = bra.particles[0]
+    ket_p = ket.particles[0]
 
     kp1 = bra_p.k
     sp1 = bra_p.s
@@ -765,20 +749,9 @@ def H_gggg_gggg(bra, ket, params):
 
 
 def H_g_gg(bra, ket, params):
-
-
-    # =====================================================
-    # enforce interpretation:
-    # bra = g (single-gluon NParticleState)
-    # ket = gg
-    # =====================================================
-
-    g_state, = bra.particles   # unpack NParticleState -> SingleParticleState
+    g_state = bra.particles[0]
     g1, g2 = ket.particles
 
-    # -------------------------
-    # unpack
-    # -------------------------
     kp1 = g_state.k
     sp1 = g_state.s
     np1 = g_state.n
