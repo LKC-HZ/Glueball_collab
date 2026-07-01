@@ -1009,52 +1009,47 @@ def H_gg_ggg(bra, ket, params):
             if n < 0:
                 return 0.0
             
-            kp1h = float(kp1)
-            kp2h = float(kp2)
-            kp3h = float(kp3)
-            kk1h = float(kk1)
-            kk2h = float(kk2)
-
+      
             constant = sqrt(2.0) * bee**2 * coupling_eff / (np.pi * Pplus)
 
-            tandelta = sqrt(kk2h / kk1h)
+            tandelta = sqrt(float(three_out2.k) / float(three_out1.k))
 
             spinor = sqrt(n + 1.0) * ((-1.0) ** n)
 
             # -------------------------
-            # TMC
+            # (for three-gluon vertex) TMC (N, M, n, m, n1, m1, n2, m2)
             # -------------------------
             T = TMC(
-                np1, mp1,
+                three_in.n, three_in.m, # (by orthogonal condition)
                 n, m,
-                nk1, mk1,
-                nk2, mk2,
+                three_out1.n, three_out1.m,
+                three_out2.n, three_out2.m,
                 tandelta
             )
+
 
             # -------------------------
             # terms
             # -------------------------
             c1 = c2 = c3 = 0.0
 
-            if sp1 == sk2:
-                longipart1 = sqrt(kk2h / (kk1h * kp1h))
+            if three_in.s == three_out2.s:
+                longipart1 = sqrt(float(three_out2.k) / (float(three_out1.k) * float(three_in.k)))
                 c1 = -longipart1 * T * spinor
 
-            if sk1 == -sk2:
-                longipart2 = sqrt(kk2h * kk1h / kp1h) / kp1h
+            if three_out1.s == -three_out2.s:
+                longipart2 = sqrt(float(three_out2.k) * (float(three_out1.k) / float(three_in.k)) / float(three_in.k))
                 c2 = longipart2 * T * spinor
 
-            if sp1 == sk1:
-                longipart3 = sqrt(kk1h / (kk2h * kp1h))
+            if three_in.s == three_out2.s:
+                longipart3 = sqrt(float(three_out1.k) / (float(three_out2.k) * float(three_in.k)))
                 c3 = -longipart3 * T * spinor
 
             # -------------------------
             # final vertex
             # -------------------------
             interaction = constant * (c1 + c2 + c3)
-            dyn = 1.0
-            total += cf * dyn
+            total += cf * interaction
 
     return total
 
