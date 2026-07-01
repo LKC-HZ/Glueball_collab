@@ -1052,9 +1052,10 @@ def H_gg_ggg(bra, ket, params):
             total += cf * interaction
 
     return total
-
+'''
 def H_gg_gggg(bra, ket, params):
     pass
 
 def H_ggg_gggg(bra, ket, params):
     pass
+'''
