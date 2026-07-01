@@ -41,14 +41,13 @@ def build_hamiltonian(Nmax, K, params: PhysicsParams):
 
     ggg_basis = build_sector_basis(3, K, Nmax, Mj_s, ggg_color_num)
 
-    gggg_basis = build_sector_basis(4, K, Nmax, Mj_s, gggg_color_num)
+    #gggg_basis = build_sector_basis(4, K, Nmax, Mj_s, gggg_color_num)
 
 
     sector_basis = {
         "g": g_basis,
         "gg": gg_basis,
-        "ggg": ggg_basis,
-        "gggg": gggg_basis
+        "ggg": ggg_basis
     }
     # -------------------------
     # global basis
