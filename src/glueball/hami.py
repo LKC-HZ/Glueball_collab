@@ -80,17 +80,19 @@ def matrix_element(sector_i, sector_j, bra, ket, params):
 # Physics kernels
 # =========================================================
 def H_g_g(bra, ket, params):
+    bra_p, = bra.particles
+    ket_p, = ket.particles
 
-    kp1 = bra.k
-    sp1 = bra.s
-    np1 = bra.n
-    mp1 = bra.m
-    
-    
-    kk1 = ket.k
-    sk1 = ket.s
-    nk1 = ket.n
-    mk1 = ket.m
+    kp1 = bra_p.k
+    sp1 = bra_p.s
+    np1 = bra_p.n
+    mp1 = bra_p.m
+
+
+    kk1 = ket_p.k
+    sk1 = ket_p.s
+    nk1 = ket_p.n
+    mk1 = ket_p.m
 
     # --------- selection rule (diagonal structure) ----------
     if not (kp1 == kk1 and sp1 == sk1 and np1 == nk1 and mp1 == mk1):
@@ -171,8 +173,8 @@ def H_gg_gg(bra, ket, params):
     mk2 = g2.m
     
     
-    initialcolor = bra.color_state
-    finalcolor   = ket.color_state
+    initialcolor = bra.color_singlet
+    finalcolor   = ket.color_singlet
 
     if not (
         kp1 == kk1 and kp2 == kk2 and
@@ -331,8 +333,8 @@ def H_ggg_ggg(bra, ket, params):
     nk3 = g3.n
     mk3 = g3.m
     
-    initialcolor = bra.color_state
-    finalcolor   = ket.color_state
+    initialcolor = bra.color_singlet
+    finalcolor   = ket.color_singlet
 
     if not (
         kp1 == kk1 and kp2 == kk2 and kp3 == kk3 and
@@ -549,8 +551,8 @@ def H_gggg_gggg(bra, ket, params):
     nk4 = g4.n
     mk4 = g4.m
     
-    initialcolor = bra.color_state
-    finalcolor   = ket.color_state
+    initialcolor = bra.color_singlet
+    finalcolor   = ket.color_singlet
 
     if not (
         kp1 == kk1 and kp2 == kk2 and kp3 == kk3 and kp4 == kk4 and
@@ -767,11 +769,11 @@ def H_g_gg(bra, ket, params):
 
     # =====================================================
     # enforce interpretation:
-    # bra = g
+    # bra = g (single-gluon NParticleState)
     # ket = gg
     # =====================================================
 
-    g_state = bra
+    g_state, = bra.particles   # unpack NParticleState -> SingleParticleState
     g1, g2 = ket.particles
 
     # -------------------------
@@ -793,7 +795,7 @@ def H_g_gg(bra, ket, params):
     mk2 = g2.m
 
 
-    finalcolor   = ket.color_state
+    finalcolor   = ket.color_singlet
 
     if finalcolor == 0:
         CF = -np.sqrt(3.0)
