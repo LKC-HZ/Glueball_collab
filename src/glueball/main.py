@@ -1,5 +1,4 @@
 from dataclasses import dataclass
-from math import sqrt, isnan
 import matplotlib.pyplot as plt
 from scipy.sparse.linalg import eigsh
 import os
