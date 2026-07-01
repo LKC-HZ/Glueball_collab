@@ -92,8 +92,11 @@ with open(filename, 'w', encoding='utf-8') as f:
                   f"OUTGOING SINGLET ID: {cf['singlet_out_index']}({cf['singlet_out_type']})\n", file=f)
 
 # FOR HAMILTONIAN CALCULATION: SAVE TO .dat
+# Vertex type encoding: 0=spectator, 3=3-gluon vertex, 4=4-gluon vertex
+# Format: cf_re cf_im s_in s_out plan_id num_vertices [vtype num_in in1... num_out out1...]...
 dat_filename = script_dir / 'output' / f'{inc_gl_n}_gluon_to_{out_gl_n}_gluon_Color_Factor.dat'
 CF_TOL = 1e-14
+VTYPE_CODE = {'spectator': 0, '3-gluon vertex': 3, '4-gluon vertex': 4}
 
 with open(dat_filename, 'w', encoding='utf-8') as f_dat:
     for s_in in range(1, inc_num_singlets + 1):
@@ -104,10 +107,21 @@ with open(dat_filename, 'w', encoding='utf-8') as f_dat:
                 )
                 cf_val = cf['contraction_result']
                 if abs(cf_val) > CF_TOL:
-                    f_dat.write(
-                        f"{cf_val.real:.12f} {cf_val.imag:.12f} "
-                        f"{s_in:d} {s_out:d} {vtx_plans[i]['id']:d}\n"
-                    )
+                    plan = vtx_plans[i]
+                    parts = []
+                    parts.append(f"{cf_val.real:.12f}")
+                    parts.append(f"{cf_val.imag:.12f}")
+                    parts.append(str(s_in))
+                    parts.append(str(s_out))
+                    parts.append(str(plan['id']))
+                    parts.append(str(len(plan['vertices'])))
+                    for v in plan['vertices']:
+                        parts.append(str(VTYPE_CODE[v['type']]))
+                        parts.append(str(len(v['incoming'])))
+                        parts.extend(str(x) for x in v['incoming'])
+                        parts.append(str(len(v['outgoing'])))
+                        parts.extend(str(x) for x in v['outgoing'])
+                    f_dat.write(' '.join(parts) + '\n')
 
 print(f"non-zero CF's saved to: {dat_filename}")
                 
