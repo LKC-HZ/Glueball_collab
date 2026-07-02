@@ -28,10 +28,10 @@ def matrix_element(sector_i, sector_j, bra, ket, params):
 
     if sector_i == "ggg" and sector_j == "ggg":
         return H_ggg_ggg(bra, ket, params)
-
+    '''
     if sector_i == "gggg" and sector_j == "gggg":
         return H_gggg_gggg(bra, ket, params)
-
+    '''
     if sector_i == "g" and sector_j == "gg":
         return H_g_gg(bra, ket, params)
 
@@ -326,8 +326,8 @@ def H_ggg_ggg(bra, ket, params):
     ):
         return 0.0
 
-    #if initialcolor != finalcolor:
-    #    return 0.0
+    if initialcolor != finalcolor:
+        return 0.0
     # -----------------------------
     # parameters
     # -----------------------------
@@ -428,7 +428,7 @@ def H_ggg_ggg(bra, ket, params):
         2  * Ep2p3 * np.sqrt(kp2half * kp3half / Pplus ** 2)
     ) / Pplus
 
-    fourierphasen = -np1-np2 - np3 +nk1+nk2 # (-1)^n e^{i m phi} of Transverse basis 
+    fourierphasen = -np1-np2 - np3 +nk1+nk2 + nk3 # (-1)^n e^{i m phi} of Transverse basis 
     fourierphasem = -abs(mp1)-abs(mp2) - abs(mp3) +abs(mk1)+abs(mk2) + abs(mk3)
 
     fourierphase = ((-1) ** fourierphasen) * (1j ** fourierphasem)
@@ -440,7 +440,7 @@ def H_ggg_ggg(bra, ket, params):
         Ep3p3 * kp3half / Pplus +
         2 * Ep1p2 * np.sqrt(kp1half * kp2half / Pplus ** 2) +
         2 * Ep1p3 * np.sqrt(kp1half * kp3half / Pplus ** 2) + 
-        2  * Ep2p3 * np.sqrt(kp2half * kp3half / Pplus ** 2)) / Pplus) 
+        2  * Ep2p3 * np.sqrt(kp2half * kp3half / Pplus ** 2))) 
         + (Ep1p1 * kp1half / Pplus +
         Ep2p2 * kp2half / Pplus+
         Ep3p3 * kp3half / Pplus +
@@ -489,7 +489,7 @@ def H_ggg_ggg(bra, ket, params):
 
 
 
-
+'''
 def H_gggg_gggg(bra, ket, params):
     g5, g6, g7, g8 = bra.particles #out
 
@@ -745,7 +745,7 @@ def H_gggg_gggg(bra, ket, params):
     #     print("hamiltonian =", hamiltonian ,"EnergySingle = ", EnergySingle, "EnergyCM = ", EnergyCM, "lagrangeterm = ", lagrangeterm)
 
     return hamiltonian
-
+'''
 
 
 def H_g_gg(bra, ket, params):
@@ -770,10 +770,10 @@ def H_g_gg(bra, ket, params):
 
     finalcolor   = ket.color_singlet
 
-    if finalcolor == 0:
+    if finalcolor == 1:
         CF = -np.sqrt(3.0)
 
-    elif finalcolor == 1:
+    elif finalcolor == 2:
         # CF = -np.sqrt(3.0)
         return 0.0
 
@@ -935,96 +935,85 @@ def H_gg_ggg(bra, ket, params):
                 elif vtype == 4:
                     four_gluon = (vertex_incoming, vertex_outgoing)
 
-            if spectator is None or three_gluon is None or four_gluon is None: # rule out cases without a vertex
-                continue
+            #if spectator is None or three_gluon is None or four_gluon is None: # rule out cases without a vertex
+                #continue
             # ========== SPECTATOR
             # NOTE: NO NEED TO LOOP FOR ALL SPECTATORS HERE BECAUSE WE HAVE for line in f WHICH LOOPS ALL POSSIBLE CONFIGs. WE ARE JUST DEALING WITH ONE CONFIG HERE. ONLY ONE GOES IN TO THE SPEC., AND ONLY ONE COMES OUT FROM THE SPEC., so [0][0] and [1][0]
-            incoming_spectator = incoming[spectator[0][0] - 1] # direct to the correct basis in incoming = [g1, g2] by using the id of spectator extracted from .dat. 
-            outgoing_spectator = outgoing[spectator[1][0] - 1]
+            if spectator is not None:    
+                incoming_spectator = incoming[spectator[0][0] - 1] # direct to the correct basis in incoming = [g1, g2] by using the id of spectator extracted from .dat. 
+                outgoing_spectator = outgoing[spectator[1][0] - 1]
             # conservation check
-            if not (incoming_spectator.k == outgoing_spectator.k and
-                    incoming_spectator.s == outgoing_spectator.s and
-                    incoming_spectator.n == outgoing_spectator.n and
-                    incoming_spectator.m == outgoing_spectator.m):
-                continue
+                if not (incoming_spectator.k == outgoing_spectator.k and
+                        incoming_spectator.s == outgoing_spectator.s and
+                        incoming_spectator.n == outgoing_spectator.n and
+                        incoming_spectator.m == outgoing_spectator.m):
+                    continue
 
             # ========== THREE-GLUON VERTEX
-            three_in = incoming[three_gluon[0][0] - 1]
-            three_out1 = outgoing[three_gluon[1][0] - 1]
-            three_out2 = outgoing[three_gluon[1][1] - 1]
-            #conservation check
-            if three_in.k != three_out1.k + three_out2.k:
-                continue
+            if three_gluon is not None:
+                three_in = incoming[three_gluon[0][0] - 1]
+                three_out1 = outgoing[three_gluon[1][0] - 1]
+                three_out2 = outgoing[three_gluon[1][1] - 1]
+                #conservation check
+                if three_in.k != three_out1.k + three_out2.k:
+                    continue
 
-            # ========== FOUR-GLUON VERTEX
-            four_in1 = incoming[four_gluon[0][0] - 1]
-            four_in2 = incoming[four_gluon[0][1] - 1]
-            four_out1 = outgoing[four_gluon[1][0] - 1]
-            four_out2 = outgoing[four_gluon[1][1] - 1]
-            #conservation check
-            if four_in1.k + four_in2.k != four_out1.k + four_out2.k:
-                continue
-            # ================================================================================
-            # -------------------------
-            # parameters
-            # --------------------------
-            couplings = params.couplings
-            b = params.b
-            Pplus = params.p_plus
-            mj = 2
-            bee = b  
-            coupling_eff = couplings / sqrt(2.0) # CF will be multiplied later.
-            # -------------------------
-            # quantum number structure
-            # -------------------------
-            m = (sp1 + sp2 + sp3) - (sk1 + sk2)
+                couplings = params.couplings
+                b = params.b
+                Pplus = params.p_plus
+                mj = 2
+                bee = b  
+                coupling_eff = couplings / sqrt(2.0) # CF will be multiplied later.
+                # -------------------------
+                # quantum number structure
+                # -------------------------
+                m = three_in.s - (three_out1.s + three_out2.s)
+                n = three_out1.n + three_out2.n - three_in.n + (abs(three_out1.m) + abs(three_out2.m) - abs(three_in.m) - abs(m)) // 2
+                
+                if n < 0:
+                    continue
+                
+        
+                constant = sqrt(2.0) * bee**2 * coupling_eff / (np.pi * Pplus)
 
-            n = nk1 + nk2 - (np1 + np2 + np3) + (abs(mk1) + abs(mk2) - (abs(mp1) + abs(mp2) + abs(mp3)) - abs(m)) // 2
-            
-            if n < 0:
-                return 0.0
-            
-      
-            constant = sqrt(2.0) * bee**2 * coupling_eff / (np.pi * Pplus)
+                tandelta = sqrt(float(three_out2.k) / float(three_out1.k))
 
-            tandelta = sqrt(float(three_out2.k) / float(three_out1.k))
+                spinor = sqrt(n + 1.0) * ((-1.0) ** n)
 
-            spinor = sqrt(n + 1.0) * ((-1.0) ** n)
-
-            # -------------------------
-            # (for three-gluon vertex) TMC (N, M, n, m, n1, m1, n2, m2)
-            # -------------------------
-            T = TMC(
-                three_in.n, three_in.m, # (by orthogonal condition)
-                n, m,
-                three_out1.n, three_out1.m,
-                three_out2.n, three_out2.m,
-                tandelta
-            )
+                # -------------------------
+                # (for three-gluon vertex) TMC (N, M, n, m, n1, m1, n2, m2)
+                # -------------------------
+                T = TMC(
+                    three_in.n, three_in.m, # (by orthogonal condition)
+                    n, m,
+                    three_out1.n, three_out1.m,
+                    three_out2.n, three_out2.m,
+                    tandelta
+                )
 
 
-            # -------------------------
-            # terms
-            # -------------------------
-            c1 = c2 = c3 = 0.0
+                # -------------------------
+                # terms
+                # -------------------------
+                c1 = c2 = c3 = 0.0
 
-            if three_in.s == three_out2.s:
-                longipart1 = sqrt(float(three_out2.k) / (float(three_out1.k) * float(three_in.k)))
-                c1 = -longipart1 * T * spinor
+                if three_in.s == three_out2.s:
+                    longipart1 = sqrt(float(three_out2.k) / (float(three_out1.k) * float(three_in.k)))
+                    c1 = -longipart1 * T * spinor
 
-            if three_out1.s == -three_out2.s:
-                longipart2 = sqrt(float(three_out2.k) * (float(three_out1.k) / float(three_in.k)) / float(three_in.k))
-                c2 = longipart2 * T * spinor
+                if three_out1.s == -three_out2.s:
+                    longipart2 = sqrt(float(three_out2.k) * (float(three_out1.k)) / float(three_in.k)) / float(three_in.k)
+                    c2 = longipart2 * T * spinor
 
-            if three_in.s == three_out2.s:
-                longipart3 = sqrt(float(three_out1.k) / (float(three_out2.k) * float(three_in.k)))
-                c3 = -longipart3 * T * spinor
+                if three_in.s == three_out1.s:
+                    longipart3 = sqrt(float(three_out1.k) / (float(three_out2.k) * float(three_in.k)))
+                    c3 = -longipart3 * T * spinor
 
-            # -------------------------
-            # final vertex
-            # -------------------------
-            interaction = constant * (c1 + c2 + c3)
-            total += cf * interaction
+                # -------------------------
+                # final vertex
+                # -------------------------
+                interaction = constant * (c1 + c2 + c3)
+                total += cf * interaction
 
     return total
 '''
