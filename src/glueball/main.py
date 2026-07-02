@@ -49,7 +49,7 @@ def build_hamiltonian(Nmax, K, params: PhysicsParams):
     sector_basis = {
         "g": g_basis,
         "gg": gg_basis,
-        "ggg": ggg_basis
+        "ggg": ggg_basis 
     }
     # -------------------------
     # global basis
@@ -92,13 +92,13 @@ if __name__ == "__main__":
     coupling = 1.0
 
     fd = Path(__file__).parent
-    output_file = fd / 'output' / 'Eigens'
+    output_file = fd / 'output' / f'EIGENS Nmax = {Nmax} Kmax = {Kmax} b = {b} coupling = {coupling}.dat'
 
     with open(output_file, "w") as f:
 
         for k in range(2, Kmax + 1):
             for n in range(3, Nmax + 1):
-                print(f"k = {k} in {Kmax + 1} and n = {n} in {Nmax + 1}")
+                print(f"k = {k} in {Kmax + 1 - 1} and n = {n} in {Nmax + 1 - 1}")
 
                 mass = eig(
                     Nmax=n,
