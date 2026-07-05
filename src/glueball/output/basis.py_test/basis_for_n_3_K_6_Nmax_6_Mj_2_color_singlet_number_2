@@ -1,0 +1,5405 @@
+# Basis dump: 1080 states
+# Number of gluons per state: 3
+# Columns per particle: k, s, n, m
+# color_singlet: singlet index from color_wf
+#============================================================
+state      0  color_singlet=1
+    g1 : k=  1  s= -1  n=  0  m=   0
+    g2 : k=  1  s= -1  n=  0  m=   0
+    g3 : k=  4  s=  1  n=  0  m=   2
+
+state      1  color_singlet=1
+    g1 : k=  1  s= -1  n=  0  m=   0
+    g2 : k=  1  s= -1  n=  0  m=   1
+    g3 : k=  4  s=  1  n=  0  m=   1
+
+state      2  color_singlet=1
+    g1 : k=  1  s= -1  n=  0  m=   0
+    g2 : k=  1  s= -1  n=  0  m=   2
+    g3 : k=  4  s=  1  n=  0  m=   0
+
+state      3  color_singlet=1
+    g1 : k=  1  s= -1  n=  0  m=   1
+    g2 : k=  1  s= -1  n=  0  m=   0
+    g3 : k=  4  s=  1  n=  0  m=   1
+
+state      4  color_singlet=1
+    g1 : k=  1  s= -1  n=  0  m=   1
+    g2 : k=  1  s= -1  n=  0  m=   1
+    g3 : k=  4  s=  1  n=  0  m=   0
+
+state      5  color_singlet=1
+    g1 : k=  1  s= -1  n=  0  m=   2
+    g2 : k=  1  s= -1  n=  0  m=   0
+    g3 : k=  4  s=  1  n=  0  m=   0
+
+state      6  color_singlet=1
+    g1 : k=  1  s= -1  n=  0  m=   0
+    g2 : k=  1  s=  1  n=  0  m=   0
+    g3 : k=  4  s= -1  n=  0  m=   2
+
+state      7  color_singlet=1
+    g1 : k=  1  s= -1  n=  0  m=   0
+    g2 : k=  1  s=  1  n=  0  m=   1
+    g3 : k=  4  s= -1  n=  0  m=   1
+
+state      8  color_singlet=1
+    g1 : k=  1  s= -1  n=  0  m=   0
+    g2 : k=  1  s=  1  n=  0  m=   2
+    g3 : k=  4  s= -1  n=  0  m=   0
+
+state      9  color_singlet=1
+    g1 : k=  1  s= -1  n=  0  m=   1
+    g2 : k=  1  s=  1  n=  0  m=   0
+    g3 : k=  4  s= -1  n=  0  m=   1
+
+state     10  color_singlet=1
+    g1 : k=  1  s= -1  n=  0  m=   1
+    g2 : k=  1  s=  1  n=  0  m=   1
+    g3 : k=  4  s= -1  n=  0  m=   0
+
+state     11  color_singlet=1
+    g1 : k=  1  s= -1  n=  0  m=   2
+    g2 : k=  1  s=  1  n=  0  m=   0
+    g3 : k=  4  s= -1  n=  0  m=   0
+
+state     12  color_singlet=1
+    g1 : k=  1  s= -1  n=  0  m=  -1
+    g2 : k=  1  s=  1  n=  0  m=   0
+    g3 : k=  4  s=  1  n=  0  m=   1
+
+state     13  color_singlet=1
+    g1 : k=  1  s= -1  n=  0  m=  -1
+    g2 : k=  1  s=  1  n=  0  m=   1
+    g3 : k=  4  s=  1  n=  0  m=   0
+
+state     14  color_singlet=1
+    g1 : k=  1  s= -1  n=  0  m=   0
+    g2 : k=  1  s=  1  n=  0  m=  -1
+    g3 : k=  4  s=  1  n=  0  m=   1
+
+state     15  color_singlet=1
+    g1 : k=  1  s= -1  n=  0  m=   0
+    g2 : k=  1  s=  1  n=  0  m=   0
+    g3 : k=  4  s=  1  n=  0  m=   0
+
+state     16  color_singlet=1
+    g1 : k=  1  s= -1  n=  0  m=   0
+    g2 : k=  1  s=  1  n=  0  m=   0
+    g3 : k=  4  s=  1  n=  1  m=   0
+
+state     17  color_singlet=1
+    g1 : k=  1  s= -1  n=  0  m=   0
+    g2 : k=  1  s=  1  n=  0  m=   1
+    g3 : k=  4  s=  1  n=  0  m=  -1
+
+state     18  color_singlet=1
+    g1 : k=  1  s= -1  n=  0  m=   0
+    g2 : k=  1  s=  1  n=  1  m=   0
+    g3 : k=  4  s=  1  n=  0  m=   0
+
+state     19  color_singlet=1
+    g1 : k=  1  s= -1  n=  0  m=   1
+    g2 : k=  1  s=  1  n=  0  m=  -1
+    g3 : k=  4  s=  1  n=  0  m=   0
+
+state     20  color_singlet=1
+    g1 : k=  1  s= -1  n=  0  m=   1
+    g2 : k=  1  s=  1  n=  0  m=   0
+    g3 : k=  4  s=  1  n=  0  m=  -1
+
+state     21  color_singlet=1
+    g1 : k=  1  s= -1  n=  1  m=   0
+    g2 : k=  1  s=  1  n=  0  m=   0
+    g3 : k=  4  s=  1  n=  0  m=   0
+
+state     22  color_singlet=1
+    g1 : k=  1  s=  1  n=  0  m=   0
+    g2 : k=  1  s= -1  n=  0  m=   0
+    g3 : k=  4  s= -1  n=  0  m=   2
+
+state     23  color_singlet=1
+    g1 : k=  1  s=  1  n=  0  m=   0
+    g2 : k=  1  s= -1  n=  0  m=   1
+    g3 : k=  4  s= -1  n=  0  m=   1
+
+state     24  color_singlet=1
+    g1 : k=  1  s=  1  n=  0  m=   0
+    g2 : k=  1  s= -1  n=  0  m=   2
+    g3 : k=  4  s= -1  n=  0  m=   0
+
+state     25  color_singlet=1
+    g1 : k=  1  s=  1  n=  0  m=   1
+    g2 : k=  1  s= -1  n=  0  m=   0
+    g3 : k=  4  s= -1  n=  0  m=   1
+
+state     26  color_singlet=1
+    g1 : k=  1  s=  1  n=  0  m=   1
+    g2 : k=  1  s= -1  n=  0  m=   1
+    g3 : k=  4  s= -1  n=  0  m=   0
+
+state     27  color_singlet=1
+    g1 : k=  1  s=  1  n=  0  m=   2
+    g2 : k=  1  s= -1  n=  0  m=   0
+    g3 : k=  4  s= -1  n=  0  m=   0
+
+state     28  color_singlet=1
+    g1 : k=  1  s=  1  n=  0  m=  -1
+    g2 : k=  1  s= -1  n=  0  m=   0
+    g3 : k=  4  s=  1  n=  0  m=   1
+
+state     29  color_singlet=1
+    g1 : k=  1  s=  1  n=  0  m=  -1
+    g2 : k=  1  s= -1  n=  0  m=   1
+    g3 : k=  4  s=  1  n=  0  m=   0
+
+state     30  color_singlet=1
+    g1 : k=  1  s=  1  n=  0  m=   0
+    g2 : k=  1  s= -1  n=  0  m=  -1
+    g3 : k=  4  s=  1  n=  0  m=   1
+
+state     31  color_singlet=1
+    g1 : k=  1  s=  1  n=  0  m=   0
+    g2 : k=  1  s= -1  n=  0  m=   0
+    g3 : k=  4  s=  1  n=  0  m=   0
+
+state     32  color_singlet=1
+    g1 : k=  1  s=  1  n=  0  m=   0
+    g2 : k=  1  s= -1  n=  0  m=   0
+    g3 : k=  4  s=  1  n=  1  m=   0
+
+state     33  color_singlet=1
+    g1 : k=  1  s=  1  n=  0  m=   0
+    g2 : k=  1  s= -1  n=  0  m=   1
+    g3 : k=  4  s=  1  n=  0  m=  -1
+
+state     34  color_singlet=1
+    g1 : k=  1  s=  1  n=  0  m=   0
+    g2 : k=  1  s= -1  n=  1  m=   0
+    g3 : k=  4  s=  1  n=  0  m=   0
+
+state     35  color_singlet=1
+    g1 : k=  1  s=  1  n=  0  m=   1
+    g2 : k=  1  s= -1  n=  0  m=  -1
+    g3 : k=  4  s=  1  n=  0  m=   0
+
+state     36  color_singlet=1
+    g1 : k=  1  s=  1  n=  0  m=   1
+    g2 : k=  1  s= -1  n=  0  m=   0
+    g3 : k=  4  s=  1  n=  0  m=  -1
+
+state     37  color_singlet=1
+    g1 : k=  1  s=  1  n=  1  m=   0
+    g2 : k=  1  s= -1  n=  0  m=   0
+    g3 : k=  4  s=  1  n=  0  m=   0
+
+state     38  color_singlet=1
+    g1 : k=  1  s=  1  n=  0  m=  -1
+    g2 : k=  1  s=  1  n=  0  m=   0
+    g3 : k=  4  s= -1  n=  0  m=   1
+
+state     39  color_singlet=1
+    g1 : k=  1  s=  1  n=  0  m=  -1
+    g2 : k=  1  s=  1  n=  0  m=   1
+    g3 : k=  4  s= -1  n=  0  m=   0
+
+state     40  color_singlet=1
+    g1 : k=  1  s=  1  n=  0  m=   0
+    g2 : k=  1  s=  1  n=  0  m=  -1
+    g3 : k=  4  s= -1  n=  0  m=   1
+
+state     41  color_singlet=1
+    g1 : k=  1  s=  1  n=  0  m=   0
+    g2 : k=  1  s=  1  n=  0  m=   0
+    g3 : k=  4  s= -1  n=  0  m=   0
+
+state     42  color_singlet=1
+    g1 : k=  1  s=  1  n=  0  m=   0
+    g2 : k=  1  s=  1  n=  0  m=   0
+    g3 : k=  4  s= -1  n=  1  m=   0
+
+state     43  color_singlet=1
+    g1 : k=  1  s=  1  n=  0  m=   0
+    g2 : k=  1  s=  1  n=  0  m=   1
+    g3 : k=  4  s= -1  n=  0  m=  -1
+
+state     44  color_singlet=1
+    g1 : k=  1  s=  1  n=  0  m=   0
+    g2 : k=  1  s=  1  n=  1  m=   0
+    g3 : k=  4  s= -1  n=  0  m=   0
+
+state     45  color_singlet=1
+    g1 : k=  1  s=  1  n=  0  m=   1
+    g2 : k=  1  s=  1  n=  0  m=  -1
+    g3 : k=  4  s= -1  n=  0  m=   0
+
+state     46  color_singlet=1
+    g1 : k=  1  s=  1  n=  0  m=   1
+    g2 : k=  1  s=  1  n=  0  m=   0
+    g3 : k=  4  s= -1  n=  0  m=  -1
+
+state     47  color_singlet=1
+    g1 : k=  1  s=  1  n=  1  m=   0
+    g2 : k=  1  s=  1  n=  0  m=   0
+    g3 : k=  4  s= -1  n=  0  m=   0
+
+state     48  color_singlet=1
+    g1 : k=  1  s=  1  n=  0  m=  -2
+    g2 : k=  1  s=  1  n=  0  m=   0
+    g3 : k=  4  s=  1  n=  0  m=   0
+
+state     49  color_singlet=1
+    g1 : k=  1  s=  1  n=  0  m=  -1
+    g2 : k=  1  s=  1  n=  0  m=  -1
+    g3 : k=  4  s=  1  n=  0  m=   0
+
+state     50  color_singlet=1
+    g1 : k=  1  s=  1  n=  0  m=  -1
+    g2 : k=  1  s=  1  n=  0  m=   0
+    g3 : k=  4  s=  1  n=  0  m=  -1
+
+state     51  color_singlet=1
+    g1 : k=  1  s=  1  n=  0  m=   0
+    g2 : k=  1  s=  1  n=  0  m=  -2
+    g3 : k=  4  s=  1  n=  0  m=   0
+
+state     52  color_singlet=1
+    g1 : k=  1  s=  1  n=  0  m=   0
+    g2 : k=  1  s=  1  n=  0  m=  -1
+    g3 : k=  4  s=  1  n=  0  m=  -1
+
+state     53  color_singlet=1
+    g1 : k=  1  s=  1  n=  0  m=   0
+    g2 : k=  1  s=  1  n=  0  m=   0
+    g3 : k=  4  s=  1  n=  0  m=  -2
+
+state     54  color_singlet=2
+    g1 : k=  1  s= -1  n=  0  m=   0
+    g2 : k=  1  s= -1  n=  0  m=   0
+    g3 : k=  4  s=  1  n=  0  m=   2
+
+state     55  color_singlet=2
+    g1 : k=  1  s= -1  n=  0  m=   0
+    g2 : k=  1  s= -1  n=  0  m=   1
+    g3 : k=  4  s=  1  n=  0  m=   1
+
+state     56  color_singlet=2
+    g1 : k=  1  s= -1  n=  0  m=   0
+    g2 : k=  1  s= -1  n=  0  m=   2
+    g3 : k=  4  s=  1  n=  0  m=   0
+
+state     57  color_singlet=2
+    g1 : k=  1  s= -1  n=  0  m=   1
+    g2 : k=  1  s= -1  n=  0  m=   0
+    g3 : k=  4  s=  1  n=  0  m=   1
+
+state     58  color_singlet=2
+    g1 : k=  1  s= -1  n=  0  m=   1
+    g2 : k=  1  s= -1  n=  0  m=   1
+    g3 : k=  4  s=  1  n=  0  m=   0
+
+state     59  color_singlet=2
+    g1 : k=  1  s= -1  n=  0  m=   2
+    g2 : k=  1  s= -1  n=  0  m=   0
+    g3 : k=  4  s=  1  n=  0  m=   0
+
+state     60  color_singlet=2
+    g1 : k=  1  s= -1  n=  0  m=   0
+    g2 : k=  1  s=  1  n=  0  m=   0
+    g3 : k=  4  s= -1  n=  0  m=   2
+
+state     61  color_singlet=2
+    g1 : k=  1  s= -1  n=  0  m=   0
+    g2 : k=  1  s=  1  n=  0  m=   1
+    g3 : k=  4  s= -1  n=  0  m=   1
+
+state     62  color_singlet=2
+    g1 : k=  1  s= -1  n=  0  m=   0
+    g2 : k=  1  s=  1  n=  0  m=   2
+    g3 : k=  4  s= -1  n=  0  m=   0
+
+state     63  color_singlet=2
+    g1 : k=  1  s= -1  n=  0  m=   1
+    g2 : k=  1  s=  1  n=  0  m=   0
+    g3 : k=  4  s= -1  n=  0  m=   1
+
+state     64  color_singlet=2
+    g1 : k=  1  s= -1  n=  0  m=   1
+    g2 : k=  1  s=  1  n=  0  m=   1
+    g3 : k=  4  s= -1  n=  0  m=   0
+
+state     65  color_singlet=2
+    g1 : k=  1  s= -1  n=  0  m=   2
+    g2 : k=  1  s=  1  n=  0  m=   0
+    g3 : k=  4  s= -1  n=  0  m=   0
+
+state     66  color_singlet=2
+    g1 : k=  1  s= -1  n=  0  m=  -1
+    g2 : k=  1  s=  1  n=  0  m=   0
+    g3 : k=  4  s=  1  n=  0  m=   1
+
+state     67  color_singlet=2
+    g1 : k=  1  s= -1  n=  0  m=  -1
+    g2 : k=  1  s=  1  n=  0  m=   1
+    g3 : k=  4  s=  1  n=  0  m=   0
+
+state     68  color_singlet=2
+    g1 : k=  1  s= -1  n=  0  m=   0
+    g2 : k=  1  s=  1  n=  0  m=  -1
+    g3 : k=  4  s=  1  n=  0  m=   1
+
+state     69  color_singlet=2
+    g1 : k=  1  s= -1  n=  0  m=   0
+    g2 : k=  1  s=  1  n=  0  m=   0
+    g3 : k=  4  s=  1  n=  0  m=   0
+
+state     70  color_singlet=2
+    g1 : k=  1  s= -1  n=  0  m=   0
+    g2 : k=  1  s=  1  n=  0  m=   0
+    g3 : k=  4  s=  1  n=  1  m=   0
+
+state     71  color_singlet=2
+    g1 : k=  1  s= -1  n=  0  m=   0
+    g2 : k=  1  s=  1  n=  0  m=   1
+    g3 : k=  4  s=  1  n=  0  m=  -1
+
+state     72  color_singlet=2
+    g1 : k=  1  s= -1  n=  0  m=   0
+    g2 : k=  1  s=  1  n=  1  m=   0
+    g3 : k=  4  s=  1  n=  0  m=   0
+
+state     73  color_singlet=2
+    g1 : k=  1  s= -1  n=  0  m=   1
+    g2 : k=  1  s=  1  n=  0  m=  -1
+    g3 : k=  4  s=  1  n=  0  m=   0
+
+state     74  color_singlet=2
+    g1 : k=  1  s= -1  n=  0  m=   1
+    g2 : k=  1  s=  1  n=  0  m=   0
+    g3 : k=  4  s=  1  n=  0  m=  -1
+
+state     75  color_singlet=2
+    g1 : k=  1  s= -1  n=  1  m=   0
+    g2 : k=  1  s=  1  n=  0  m=   0
+    g3 : k=  4  s=  1  n=  0  m=   0
+
+state     76  color_singlet=2
+    g1 : k=  1  s=  1  n=  0  m=   0
+    g2 : k=  1  s= -1  n=  0  m=   0
+    g3 : k=  4  s= -1  n=  0  m=   2
+
+state     77  color_singlet=2
+    g1 : k=  1  s=  1  n=  0  m=   0
+    g2 : k=  1  s= -1  n=  0  m=   1
+    g3 : k=  4  s= -1  n=  0  m=   1
+
+state     78  color_singlet=2
+    g1 : k=  1  s=  1  n=  0  m=   0
+    g2 : k=  1  s= -1  n=  0  m=   2
+    g3 : k=  4  s= -1  n=  0  m=   0
+
+state     79  color_singlet=2
+    g1 : k=  1  s=  1  n=  0  m=   1
+    g2 : k=  1  s= -1  n=  0  m=   0
+    g3 : k=  4  s= -1  n=  0  m=   1
+
+state     80  color_singlet=2
+    g1 : k=  1  s=  1  n=  0  m=   1
+    g2 : k=  1  s= -1  n=  0  m=   1
+    g3 : k=  4  s= -1  n=  0  m=   0
+
+state     81  color_singlet=2
+    g1 : k=  1  s=  1  n=  0  m=   2
+    g2 : k=  1  s= -1  n=  0  m=   0
+    g3 : k=  4  s= -1  n=  0  m=   0
+
+state     82  color_singlet=2
+    g1 : k=  1  s=  1  n=  0  m=  -1
+    g2 : k=  1  s= -1  n=  0  m=   0
+    g3 : k=  4  s=  1  n=  0  m=   1
+
+state     83  color_singlet=2
+    g1 : k=  1  s=  1  n=  0  m=  -1
+    g2 : k=  1  s= -1  n=  0  m=   1
+    g3 : k=  4  s=  1  n=  0  m=   0
+
+state     84  color_singlet=2
+    g1 : k=  1  s=  1  n=  0  m=   0
+    g2 : k=  1  s= -1  n=  0  m=  -1
+    g3 : k=  4  s=  1  n=  0  m=   1
+
+state     85  color_singlet=2
+    g1 : k=  1  s=  1  n=  0  m=   0
+    g2 : k=  1  s= -1  n=  0  m=   0
+    g3 : k=  4  s=  1  n=  0  m=   0
+
+state     86  color_singlet=2
+    g1 : k=  1  s=  1  n=  0  m=   0
+    g2 : k=  1  s= -1  n=  0  m=   0
+    g3 : k=  4  s=  1  n=  1  m=   0
+
+state     87  color_singlet=2
+    g1 : k=  1  s=  1  n=  0  m=   0
+    g2 : k=  1  s= -1  n=  0  m=   1
+    g3 : k=  4  s=  1  n=  0  m=  -1
+
+state     88  color_singlet=2
+    g1 : k=  1  s=  1  n=  0  m=   0
+    g2 : k=  1  s= -1  n=  1  m=   0
+    g3 : k=  4  s=  1  n=  0  m=   0
+
+state     89  color_singlet=2
+    g1 : k=  1  s=  1  n=  0  m=   1
+    g2 : k=  1  s= -1  n=  0  m=  -1
+    g3 : k=  4  s=  1  n=  0  m=   0
+
+state     90  color_singlet=2
+    g1 : k=  1  s=  1  n=  0  m=   1
+    g2 : k=  1  s= -1  n=  0  m=   0
+    g3 : k=  4  s=  1  n=  0  m=  -1
+
+state     91  color_singlet=2
+    g1 : k=  1  s=  1  n=  1  m=   0
+    g2 : k=  1  s= -1  n=  0  m=   0
+    g3 : k=  4  s=  1  n=  0  m=   0
+
+state     92  color_singlet=2
+    g1 : k=  1  s=  1  n=  0  m=  -1
+    g2 : k=  1  s=  1  n=  0  m=   0
+    g3 : k=  4  s= -1  n=  0  m=   1
+
+state     93  color_singlet=2
+    g1 : k=  1  s=  1  n=  0  m=  -1
+    g2 : k=  1  s=  1  n=  0  m=   1
+    g3 : k=  4  s= -1  n=  0  m=   0
+
+state     94  color_singlet=2
+    g1 : k=  1  s=  1  n=  0  m=   0
+    g2 : k=  1  s=  1  n=  0  m=  -1
+    g3 : k=  4  s= -1  n=  0  m=   1
+
+state     95  color_singlet=2
+    g1 : k=  1  s=  1  n=  0  m=   0
+    g2 : k=  1  s=  1  n=  0  m=   0
+    g3 : k=  4  s= -1  n=  0  m=   0
+
+state     96  color_singlet=2
+    g1 : k=  1  s=  1  n=  0  m=   0
+    g2 : k=  1  s=  1  n=  0  m=   0
+    g3 : k=  4  s= -1  n=  1  m=   0
+
+state     97  color_singlet=2
+    g1 : k=  1  s=  1  n=  0  m=   0
+    g2 : k=  1  s=  1  n=  0  m=   1
+    g3 : k=  4  s= -1  n=  0  m=  -1
+
+state     98  color_singlet=2
+    g1 : k=  1  s=  1  n=  0  m=   0
+    g2 : k=  1  s=  1  n=  1  m=   0
+    g3 : k=  4  s= -1  n=  0  m=   0
+
+state     99  color_singlet=2
+    g1 : k=  1  s=  1  n=  0  m=   1
+    g2 : k=  1  s=  1  n=  0  m=  -1
+    g3 : k=  4  s= -1  n=  0  m=   0
+
+state    100  color_singlet=2
+    g1 : k=  1  s=  1  n=  0  m=   1
+    g2 : k=  1  s=  1  n=  0  m=   0
+    g3 : k=  4  s= -1  n=  0  m=  -1
+
+state    101  color_singlet=2
+    g1 : k=  1  s=  1  n=  1  m=   0
+    g2 : k=  1  s=  1  n=  0  m=   0
+    g3 : k=  4  s= -1  n=  0  m=   0
+
+state    102  color_singlet=2
+    g1 : k=  1  s=  1  n=  0  m=  -2
+    g2 : k=  1  s=  1  n=  0  m=   0
+    g3 : k=  4  s=  1  n=  0  m=   0
+
+state    103  color_singlet=2
+    g1 : k=  1  s=  1  n=  0  m=  -1
+    g2 : k=  1  s=  1  n=  0  m=  -1
+    g3 : k=  4  s=  1  n=  0  m=   0
+
+state    104  color_singlet=2
+    g1 : k=  1  s=  1  n=  0  m=  -1
+    g2 : k=  1  s=  1  n=  0  m=   0
+    g3 : k=  4  s=  1  n=  0  m=  -1
+
+state    105  color_singlet=2
+    g1 : k=  1  s=  1  n=  0  m=   0
+    g2 : k=  1  s=  1  n=  0  m=  -2
+    g3 : k=  4  s=  1  n=  0  m=   0
+
+state    106  color_singlet=2
+    g1 : k=  1  s=  1  n=  0  m=   0
+    g2 : k=  1  s=  1  n=  0  m=  -1
+    g3 : k=  4  s=  1  n=  0  m=  -1
+
+state    107  color_singlet=2
+    g1 : k=  1  s=  1  n=  0  m=   0
+    g2 : k=  1  s=  1  n=  0  m=   0
+    g3 : k=  4  s=  1  n=  0  m=  -2
+
+state    108  color_singlet=1
+    g1 : k=  1  s= -1  n=  0  m=   0
+    g2 : k=  2  s= -1  n=  0  m=   0
+    g3 : k=  3  s=  1  n=  0  m=   2
+
+state    109  color_singlet=1
+    g1 : k=  1  s= -1  n=  0  m=   0
+    g2 : k=  2  s= -1  n=  0  m=   1
+    g3 : k=  3  s=  1  n=  0  m=   1
+
+state    110  color_singlet=1
+    g1 : k=  1  s= -1  n=  0  m=   0
+    g2 : k=  2  s= -1  n=  0  m=   2
+    g3 : k=  3  s=  1  n=  0  m=   0
+
+state    111  color_singlet=1
+    g1 : k=  1  s= -1  n=  0  m=   1
+    g2 : k=  2  s= -1  n=  0  m=   0
+    g3 : k=  3  s=  1  n=  0  m=   1
+
+state    112  color_singlet=1
+    g1 : k=  1  s= -1  n=  0  m=   1
+    g2 : k=  2  s= -1  n=  0  m=   1
+    g3 : k=  3  s=  1  n=  0  m=   0
+
+state    113  color_singlet=1
+    g1 : k=  1  s= -1  n=  0  m=   2
+    g2 : k=  2  s= -1  n=  0  m=   0
+    g3 : k=  3  s=  1  n=  0  m=   0
+
+state    114  color_singlet=1
+    g1 : k=  1  s= -1  n=  0  m=   0
+    g2 : k=  2  s=  1  n=  0  m=   0
+    g3 : k=  3  s= -1  n=  0  m=   2
+
+state    115  color_singlet=1
+    g1 : k=  1  s= -1  n=  0  m=   0
+    g2 : k=  2  s=  1  n=  0  m=   1
+    g3 : k=  3  s= -1  n=  0  m=   1
+
+state    116  color_singlet=1
+    g1 : k=  1  s= -1  n=  0  m=   0
+    g2 : k=  2  s=  1  n=  0  m=   2
+    g3 : k=  3  s= -1  n=  0  m=   0
+
+state    117  color_singlet=1
+    g1 : k=  1  s= -1  n=  0  m=   1
+    g2 : k=  2  s=  1  n=  0  m=   0
+    g3 : k=  3  s= -1  n=  0  m=   1
+
+state    118  color_singlet=1
+    g1 : k=  1  s= -1  n=  0  m=   1
+    g2 : k=  2  s=  1  n=  0  m=   1
+    g3 : k=  3  s= -1  n=  0  m=   0
+
+state    119  color_singlet=1
+    g1 : k=  1  s= -1  n=  0  m=   2
+    g2 : k=  2  s=  1  n=  0  m=   0
+    g3 : k=  3  s= -1  n=  0  m=   0
+
+state    120  color_singlet=1
+    g1 : k=  1  s= -1  n=  0  m=  -1
+    g2 : k=  2  s=  1  n=  0  m=   0
+    g3 : k=  3  s=  1  n=  0  m=   1
+
+state    121  color_singlet=1
+    g1 : k=  1  s= -1  n=  0  m=  -1
+    g2 : k=  2  s=  1  n=  0  m=   1
+    g3 : k=  3  s=  1  n=  0  m=   0
+
+state    122  color_singlet=1
+    g1 : k=  1  s= -1  n=  0  m=   0
+    g2 : k=  2  s=  1  n=  0  m=  -1
+    g3 : k=  3  s=  1  n=  0  m=   1
+
+state    123  color_singlet=1
+    g1 : k=  1  s= -1  n=  0  m=   0
+    g2 : k=  2  s=  1  n=  0  m=   0
+    g3 : k=  3  s=  1  n=  0  m=   0
+
+state    124  color_singlet=1
+    g1 : k=  1  s= -1  n=  0  m=   0
+    g2 : k=  2  s=  1  n=  0  m=   0
+    g3 : k=  3  s=  1  n=  1  m=   0
+
+state    125  color_singlet=1
+    g1 : k=  1  s= -1  n=  0  m=   0
+    g2 : k=  2  s=  1  n=  0  m=   1
+    g3 : k=  3  s=  1  n=  0  m=  -1
+
+state    126  color_singlet=1
+    g1 : k=  1  s= -1  n=  0  m=   0
+    g2 : k=  2  s=  1  n=  1  m=   0
+    g3 : k=  3  s=  1  n=  0  m=   0
+
+state    127  color_singlet=1
+    g1 : k=  1  s= -1  n=  0  m=   1
+    g2 : k=  2  s=  1  n=  0  m=  -1
+    g3 : k=  3  s=  1  n=  0  m=   0
+
+state    128  color_singlet=1
+    g1 : k=  1  s= -1  n=  0  m=   1
+    g2 : k=  2  s=  1  n=  0  m=   0
+    g3 : k=  3  s=  1  n=  0  m=  -1
+
+state    129  color_singlet=1
+    g1 : k=  1  s= -1  n=  1  m=   0
+    g2 : k=  2  s=  1  n=  0  m=   0
+    g3 : k=  3  s=  1  n=  0  m=   0
+
+state    130  color_singlet=1
+    g1 : k=  1  s=  1  n=  0  m=   0
+    g2 : k=  2  s= -1  n=  0  m=   0
+    g3 : k=  3  s= -1  n=  0  m=   2
+
+state    131  color_singlet=1
+    g1 : k=  1  s=  1  n=  0  m=   0
+    g2 : k=  2  s= -1  n=  0  m=   1
+    g3 : k=  3  s= -1  n=  0  m=   1
+
+state    132  color_singlet=1
+    g1 : k=  1  s=  1  n=  0  m=   0
+    g2 : k=  2  s= -1  n=  0  m=   2
+    g3 : k=  3  s= -1  n=  0  m=   0
+
+state    133  color_singlet=1
+    g1 : k=  1  s=  1  n=  0  m=   1
+    g2 : k=  2  s= -1  n=  0  m=   0
+    g3 : k=  3  s= -1  n=  0  m=   1
+
+state    134  color_singlet=1
+    g1 : k=  1  s=  1  n=  0  m=   1
+    g2 : k=  2  s= -1  n=  0  m=   1
+    g3 : k=  3  s= -1  n=  0  m=   0
+
+state    135  color_singlet=1
+    g1 : k=  1  s=  1  n=  0  m=   2
+    g2 : k=  2  s= -1  n=  0  m=   0
+    g3 : k=  3  s= -1  n=  0  m=   0
+
+state    136  color_singlet=1
+    g1 : k=  1  s=  1  n=  0  m=  -1
+    g2 : k=  2  s= -1  n=  0  m=   0
+    g3 : k=  3  s=  1  n=  0  m=   1
+
+state    137  color_singlet=1
+    g1 : k=  1  s=  1  n=  0  m=  -1
+    g2 : k=  2  s= -1  n=  0  m=   1
+    g3 : k=  3  s=  1  n=  0  m=   0
+
+state    138  color_singlet=1
+    g1 : k=  1  s=  1  n=  0  m=   0
+    g2 : k=  2  s= -1  n=  0  m=  -1
+    g3 : k=  3  s=  1  n=  0  m=   1
+
+state    139  color_singlet=1
+    g1 : k=  1  s=  1  n=  0  m=   0
+    g2 : k=  2  s= -1  n=  0  m=   0
+    g3 : k=  3  s=  1  n=  0  m=   0
+
+state    140  color_singlet=1
+    g1 : k=  1  s=  1  n=  0  m=   0
+    g2 : k=  2  s= -1  n=  0  m=   0
+    g3 : k=  3  s=  1  n=  1  m=   0
+
+state    141  color_singlet=1
+    g1 : k=  1  s=  1  n=  0  m=   0
+    g2 : k=  2  s= -1  n=  0  m=   1
+    g3 : k=  3  s=  1  n=  0  m=  -1
+
+state    142  color_singlet=1
+    g1 : k=  1  s=  1  n=  0  m=   0
+    g2 : k=  2  s= -1  n=  1  m=   0
+    g3 : k=  3  s=  1  n=  0  m=   0
+
+state    143  color_singlet=1
+    g1 : k=  1  s=  1  n=  0  m=   1
+    g2 : k=  2  s= -1  n=  0  m=  -1
+    g3 : k=  3  s=  1  n=  0  m=   0
+
+state    144  color_singlet=1
+    g1 : k=  1  s=  1  n=  0  m=   1
+    g2 : k=  2  s= -1  n=  0  m=   0
+    g3 : k=  3  s=  1  n=  0  m=  -1
+
+state    145  color_singlet=1
+    g1 : k=  1  s=  1  n=  1  m=   0
+    g2 : k=  2  s= -1  n=  0  m=   0
+    g3 : k=  3  s=  1  n=  0  m=   0
+
+state    146  color_singlet=1
+    g1 : k=  1  s=  1  n=  0  m=  -1
+    g2 : k=  2  s=  1  n=  0  m=   0
+    g3 : k=  3  s= -1  n=  0  m=   1
+
+state    147  color_singlet=1
+    g1 : k=  1  s=  1  n=  0  m=  -1
+    g2 : k=  2  s=  1  n=  0  m=   1
+    g3 : k=  3  s= -1  n=  0  m=   0
+
+state    148  color_singlet=1
+    g1 : k=  1  s=  1  n=  0  m=   0
+    g2 : k=  2  s=  1  n=  0  m=  -1
+    g3 : k=  3  s= -1  n=  0  m=   1
+
+state    149  color_singlet=1
+    g1 : k=  1  s=  1  n=  0  m=   0
+    g2 : k=  2  s=  1  n=  0  m=   0
+    g3 : k=  3  s= -1  n=  0  m=   0
+
+state    150  color_singlet=1
+    g1 : k=  1  s=  1  n=  0  m=   0
+    g2 : k=  2  s=  1  n=  0  m=   0
+    g3 : k=  3  s= -1  n=  1  m=   0
+
+state    151  color_singlet=1
+    g1 : k=  1  s=  1  n=  0  m=   0
+    g2 : k=  2  s=  1  n=  0  m=   1
+    g3 : k=  3  s= -1  n=  0  m=  -1
+
+state    152  color_singlet=1
+    g1 : k=  1  s=  1  n=  0  m=   0
+    g2 : k=  2  s=  1  n=  1  m=   0
+    g3 : k=  3  s= -1  n=  0  m=   0
+
+state    153  color_singlet=1
+    g1 : k=  1  s=  1  n=  0  m=   1
+    g2 : k=  2  s=  1  n=  0  m=  -1
+    g3 : k=  3  s= -1  n=  0  m=   0
+
+state    154  color_singlet=1
+    g1 : k=  1  s=  1  n=  0  m=   1
+    g2 : k=  2  s=  1  n=  0  m=   0
+    g3 : k=  3  s= -1  n=  0  m=  -1
+
+state    155  color_singlet=1
+    g1 : k=  1  s=  1  n=  1  m=   0
+    g2 : k=  2  s=  1  n=  0  m=   0
+    g3 : k=  3  s= -1  n=  0  m=   0
+
+state    156  color_singlet=1
+    g1 : k=  1  s=  1  n=  0  m=  -2
+    g2 : k=  2  s=  1  n=  0  m=   0
+    g3 : k=  3  s=  1  n=  0  m=   0
+
+state    157  color_singlet=1
+    g1 : k=  1  s=  1  n=  0  m=  -1
+    g2 : k=  2  s=  1  n=  0  m=  -1
+    g3 : k=  3  s=  1  n=  0  m=   0
+
+state    158  color_singlet=1
+    g1 : k=  1  s=  1  n=  0  m=  -1
+    g2 : k=  2  s=  1  n=  0  m=   0
+    g3 : k=  3  s=  1  n=  0  m=  -1
+
+state    159  color_singlet=1
+    g1 : k=  1  s=  1  n=  0  m=   0
+    g2 : k=  2  s=  1  n=  0  m=  -2
+    g3 : k=  3  s=  1  n=  0  m=   0
+
+state    160  color_singlet=1
+    g1 : k=  1  s=  1  n=  0  m=   0
+    g2 : k=  2  s=  1  n=  0  m=  -1
+    g3 : k=  3  s=  1  n=  0  m=  -1
+
+state    161  color_singlet=1
+    g1 : k=  1  s=  1  n=  0  m=   0
+    g2 : k=  2  s=  1  n=  0  m=   0
+    g3 : k=  3  s=  1  n=  0  m=  -2
+
+state    162  color_singlet=2
+    g1 : k=  1  s= -1  n=  0  m=   0
+    g2 : k=  2  s= -1  n=  0  m=   0
+    g3 : k=  3  s=  1  n=  0  m=   2
+
+state    163  color_singlet=2
+    g1 : k=  1  s= -1  n=  0  m=   0
+    g2 : k=  2  s= -1  n=  0  m=   1
+    g3 : k=  3  s=  1  n=  0  m=   1
+
+state    164  color_singlet=2
+    g1 : k=  1  s= -1  n=  0  m=   0
+    g2 : k=  2  s= -1  n=  0  m=   2
+    g3 : k=  3  s=  1  n=  0  m=   0
+
+state    165  color_singlet=2
+    g1 : k=  1  s= -1  n=  0  m=   1
+    g2 : k=  2  s= -1  n=  0  m=   0
+    g3 : k=  3  s=  1  n=  0  m=   1
+
+state    166  color_singlet=2
+    g1 : k=  1  s= -1  n=  0  m=   1
+    g2 : k=  2  s= -1  n=  0  m=   1
+    g3 : k=  3  s=  1  n=  0  m=   0
+
+state    167  color_singlet=2
+    g1 : k=  1  s= -1  n=  0  m=   2
+    g2 : k=  2  s= -1  n=  0  m=   0
+    g3 : k=  3  s=  1  n=  0  m=   0
+
+state    168  color_singlet=2
+    g1 : k=  1  s= -1  n=  0  m=   0
+    g2 : k=  2  s=  1  n=  0  m=   0
+    g3 : k=  3  s= -1  n=  0  m=   2
+
+state    169  color_singlet=2
+    g1 : k=  1  s= -1  n=  0  m=   0
+    g2 : k=  2  s=  1  n=  0  m=   1
+    g3 : k=  3  s= -1  n=  0  m=   1
+
+state    170  color_singlet=2
+    g1 : k=  1  s= -1  n=  0  m=   0
+    g2 : k=  2  s=  1  n=  0  m=   2
+    g3 : k=  3  s= -1  n=  0  m=   0
+
+state    171  color_singlet=2
+    g1 : k=  1  s= -1  n=  0  m=   1
+    g2 : k=  2  s=  1  n=  0  m=   0
+    g3 : k=  3  s= -1  n=  0  m=   1
+
+state    172  color_singlet=2
+    g1 : k=  1  s= -1  n=  0  m=   1
+    g2 : k=  2  s=  1  n=  0  m=   1
+    g3 : k=  3  s= -1  n=  0  m=   0
+
+state    173  color_singlet=2
+    g1 : k=  1  s= -1  n=  0  m=   2
+    g2 : k=  2  s=  1  n=  0  m=   0
+    g3 : k=  3  s= -1  n=  0  m=   0
+
+state    174  color_singlet=2
+    g1 : k=  1  s= -1  n=  0  m=  -1
+    g2 : k=  2  s=  1  n=  0  m=   0
+    g3 : k=  3  s=  1  n=  0  m=   1
+
+state    175  color_singlet=2
+    g1 : k=  1  s= -1  n=  0  m=  -1
+    g2 : k=  2  s=  1  n=  0  m=   1
+    g3 : k=  3  s=  1  n=  0  m=   0
+
+state    176  color_singlet=2
+    g1 : k=  1  s= -1  n=  0  m=   0
+    g2 : k=  2  s=  1  n=  0  m=  -1
+    g3 : k=  3  s=  1  n=  0  m=   1
+
+state    177  color_singlet=2
+    g1 : k=  1  s= -1  n=  0  m=   0
+    g2 : k=  2  s=  1  n=  0  m=   0
+    g3 : k=  3  s=  1  n=  0  m=   0
+
+state    178  color_singlet=2
+    g1 : k=  1  s= -1  n=  0  m=   0
+    g2 : k=  2  s=  1  n=  0  m=   0
+    g3 : k=  3  s=  1  n=  1  m=   0
+
+state    179  color_singlet=2
+    g1 : k=  1  s= -1  n=  0  m=   0
+    g2 : k=  2  s=  1  n=  0  m=   1
+    g3 : k=  3  s=  1  n=  0  m=  -1
+
+state    180  color_singlet=2
+    g1 : k=  1  s= -1  n=  0  m=   0
+    g2 : k=  2  s=  1  n=  1  m=   0
+    g3 : k=  3  s=  1  n=  0  m=   0
+
+state    181  color_singlet=2
+    g1 : k=  1  s= -1  n=  0  m=   1
+    g2 : k=  2  s=  1  n=  0  m=  -1
+    g3 : k=  3  s=  1  n=  0  m=   0
+
+state    182  color_singlet=2
+    g1 : k=  1  s= -1  n=  0  m=   1
+    g2 : k=  2  s=  1  n=  0  m=   0
+    g3 : k=  3  s=  1  n=  0  m=  -1
+
+state    183  color_singlet=2
+    g1 : k=  1  s= -1  n=  1  m=   0
+    g2 : k=  2  s=  1  n=  0  m=   0
+    g3 : k=  3  s=  1  n=  0  m=   0
+
+state    184  color_singlet=2
+    g1 : k=  1  s=  1  n=  0  m=   0
+    g2 : k=  2  s= -1  n=  0  m=   0
+    g3 : k=  3  s= -1  n=  0  m=   2
+
+state    185  color_singlet=2
+    g1 : k=  1  s=  1  n=  0  m=   0
+    g2 : k=  2  s= -1  n=  0  m=   1
+    g3 : k=  3  s= -1  n=  0  m=   1
+
+state    186  color_singlet=2
+    g1 : k=  1  s=  1  n=  0  m=   0
+    g2 : k=  2  s= -1  n=  0  m=   2
+    g3 : k=  3  s= -1  n=  0  m=   0
+
+state    187  color_singlet=2
+    g1 : k=  1  s=  1  n=  0  m=   1
+    g2 : k=  2  s= -1  n=  0  m=   0
+    g3 : k=  3  s= -1  n=  0  m=   1
+
+state    188  color_singlet=2
+    g1 : k=  1  s=  1  n=  0  m=   1
+    g2 : k=  2  s= -1  n=  0  m=   1
+    g3 : k=  3  s= -1  n=  0  m=   0
+
+state    189  color_singlet=2
+    g1 : k=  1  s=  1  n=  0  m=   2
+    g2 : k=  2  s= -1  n=  0  m=   0
+    g3 : k=  3  s= -1  n=  0  m=   0
+
+state    190  color_singlet=2
+    g1 : k=  1  s=  1  n=  0  m=  -1
+    g2 : k=  2  s= -1  n=  0  m=   0
+    g3 : k=  3  s=  1  n=  0  m=   1
+
+state    191  color_singlet=2
+    g1 : k=  1  s=  1  n=  0  m=  -1
+    g2 : k=  2  s= -1  n=  0  m=   1
+    g3 : k=  3  s=  1  n=  0  m=   0
+
+state    192  color_singlet=2
+    g1 : k=  1  s=  1  n=  0  m=   0
+    g2 : k=  2  s= -1  n=  0  m=  -1
+    g3 : k=  3  s=  1  n=  0  m=   1
+
+state    193  color_singlet=2
+    g1 : k=  1  s=  1  n=  0  m=   0
+    g2 : k=  2  s= -1  n=  0  m=   0
+    g3 : k=  3  s=  1  n=  0  m=   0
+
+state    194  color_singlet=2
+    g1 : k=  1  s=  1  n=  0  m=   0
+    g2 : k=  2  s= -1  n=  0  m=   0
+    g3 : k=  3  s=  1  n=  1  m=   0
+
+state    195  color_singlet=2
+    g1 : k=  1  s=  1  n=  0  m=   0
+    g2 : k=  2  s= -1  n=  0  m=   1
+    g3 : k=  3  s=  1  n=  0  m=  -1
+
+state    196  color_singlet=2
+    g1 : k=  1  s=  1  n=  0  m=   0
+    g2 : k=  2  s= -1  n=  1  m=   0
+    g3 : k=  3  s=  1  n=  0  m=   0
+
+state    197  color_singlet=2
+    g1 : k=  1  s=  1  n=  0  m=   1
+    g2 : k=  2  s= -1  n=  0  m=  -1
+    g3 : k=  3  s=  1  n=  0  m=   0
+
+state    198  color_singlet=2
+    g1 : k=  1  s=  1  n=  0  m=   1
+    g2 : k=  2  s= -1  n=  0  m=   0
+    g3 : k=  3  s=  1  n=  0  m=  -1
+
+state    199  color_singlet=2
+    g1 : k=  1  s=  1  n=  1  m=   0
+    g2 : k=  2  s= -1  n=  0  m=   0
+    g3 : k=  3  s=  1  n=  0  m=   0
+
+state    200  color_singlet=2
+    g1 : k=  1  s=  1  n=  0  m=  -1
+    g2 : k=  2  s=  1  n=  0  m=   0
+    g3 : k=  3  s= -1  n=  0  m=   1
+
+state    201  color_singlet=2
+    g1 : k=  1  s=  1  n=  0  m=  -1
+    g2 : k=  2  s=  1  n=  0  m=   1
+    g3 : k=  3  s= -1  n=  0  m=   0
+
+state    202  color_singlet=2
+    g1 : k=  1  s=  1  n=  0  m=   0
+    g2 : k=  2  s=  1  n=  0  m=  -1
+    g3 : k=  3  s= -1  n=  0  m=   1
+
+state    203  color_singlet=2
+    g1 : k=  1  s=  1  n=  0  m=   0
+    g2 : k=  2  s=  1  n=  0  m=   0
+    g3 : k=  3  s= -1  n=  0  m=   0
+
+state    204  color_singlet=2
+    g1 : k=  1  s=  1  n=  0  m=   0
+    g2 : k=  2  s=  1  n=  0  m=   0
+    g3 : k=  3  s= -1  n=  1  m=   0
+
+state    205  color_singlet=2
+    g1 : k=  1  s=  1  n=  0  m=   0
+    g2 : k=  2  s=  1  n=  0  m=   1
+    g3 : k=  3  s= -1  n=  0  m=  -1
+
+state    206  color_singlet=2
+    g1 : k=  1  s=  1  n=  0  m=   0
+    g2 : k=  2  s=  1  n=  1  m=   0
+    g3 : k=  3  s= -1  n=  0  m=   0
+
+state    207  color_singlet=2
+    g1 : k=  1  s=  1  n=  0  m=   1
+    g2 : k=  2  s=  1  n=  0  m=  -1
+    g3 : k=  3  s= -1  n=  0  m=   0
+
+state    208  color_singlet=2
+    g1 : k=  1  s=  1  n=  0  m=   1
+    g2 : k=  2  s=  1  n=  0  m=   0
+    g3 : k=  3  s= -1  n=  0  m=  -1
+
+state    209  color_singlet=2
+    g1 : k=  1  s=  1  n=  1  m=   0
+    g2 : k=  2  s=  1  n=  0  m=   0
+    g3 : k=  3  s= -1  n=  0  m=   0
+
+state    210  color_singlet=2
+    g1 : k=  1  s=  1  n=  0  m=  -2
+    g2 : k=  2  s=  1  n=  0  m=   0
+    g3 : k=  3  s=  1  n=  0  m=   0
+
+state    211  color_singlet=2
+    g1 : k=  1  s=  1  n=  0  m=  -1
+    g2 : k=  2  s=  1  n=  0  m=  -1
+    g3 : k=  3  s=  1  n=  0  m=   0
+
+state    212  color_singlet=2
+    g1 : k=  1  s=  1  n=  0  m=  -1
+    g2 : k=  2  s=  1  n=  0  m=   0
+    g3 : k=  3  s=  1  n=  0  m=  -1
+
+state    213  color_singlet=2
+    g1 : k=  1  s=  1  n=  0  m=   0
+    g2 : k=  2  s=  1  n=  0  m=  -2
+    g3 : k=  3  s=  1  n=  0  m=   0
+
+state    214  color_singlet=2
+    g1 : k=  1  s=  1  n=  0  m=   0
+    g2 : k=  2  s=  1  n=  0  m=  -1
+    g3 : k=  3  s=  1  n=  0  m=  -1
+
+state    215  color_singlet=2
+    g1 : k=  1  s=  1  n=  0  m=   0
+    g2 : k=  2  s=  1  n=  0  m=   0
+    g3 : k=  3  s=  1  n=  0  m=  -2
+
+state    216  color_singlet=1
+    g1 : k=  1  s= -1  n=  0  m=   0
+    g2 : k=  3  s= -1  n=  0  m=   0
+    g3 : k=  2  s=  1  n=  0  m=   2
+
+state    217  color_singlet=1
+    g1 : k=  1  s= -1  n=  0  m=   0
+    g2 : k=  3  s= -1  n=  0  m=   1
+    g3 : k=  2  s=  1  n=  0  m=   1
+
+state    218  color_singlet=1
+    g1 : k=  1  s= -1  n=  0  m=   0
+    g2 : k=  3  s= -1  n=  0  m=   2
+    g3 : k=  2  s=  1  n=  0  m=   0
+
+state    219  color_singlet=1
+    g1 : k=  1  s= -1  n=  0  m=   1
+    g2 : k=  3  s= -1  n=  0  m=   0
+    g3 : k=  2  s=  1  n=  0  m=   1
+
+state    220  color_singlet=1
+    g1 : k=  1  s= -1  n=  0  m=   1
+    g2 : k=  3  s= -1  n=  0  m=   1
+    g3 : k=  2  s=  1  n=  0  m=   0
+
+state    221  color_singlet=1
+    g1 : k=  1  s= -1  n=  0  m=   2
+    g2 : k=  3  s= -1  n=  0  m=   0
+    g3 : k=  2  s=  1  n=  0  m=   0
+
+state    222  color_singlet=1
+    g1 : k=  1  s= -1  n=  0  m=   0
+    g2 : k=  3  s=  1  n=  0  m=   0
+    g3 : k=  2  s= -1  n=  0  m=   2
+
+state    223  color_singlet=1
+    g1 : k=  1  s= -1  n=  0  m=   0
+    g2 : k=  3  s=  1  n=  0  m=   1
+    g3 : k=  2  s= -1  n=  0  m=   1
+
+state    224  color_singlet=1
+    g1 : k=  1  s= -1  n=  0  m=   0
+    g2 : k=  3  s=  1  n=  0  m=   2
+    g3 : k=  2  s= -1  n=  0  m=   0
+
+state    225  color_singlet=1
+    g1 : k=  1  s= -1  n=  0  m=   1
+    g2 : k=  3  s=  1  n=  0  m=   0
+    g3 : k=  2  s= -1  n=  0  m=   1
+
+state    226  color_singlet=1
+    g1 : k=  1  s= -1  n=  0  m=   1
+    g2 : k=  3  s=  1  n=  0  m=   1
+    g3 : k=  2  s= -1  n=  0  m=   0
+
+state    227  color_singlet=1
+    g1 : k=  1  s= -1  n=  0  m=   2
+    g2 : k=  3  s=  1  n=  0  m=   0
+    g3 : k=  2  s= -1  n=  0  m=   0
+
+state    228  color_singlet=1
+    g1 : k=  1  s= -1  n=  0  m=  -1
+    g2 : k=  3  s=  1  n=  0  m=   0
+    g3 : k=  2  s=  1  n=  0  m=   1
+
+state    229  color_singlet=1
+    g1 : k=  1  s= -1  n=  0  m=  -1
+    g2 : k=  3  s=  1  n=  0  m=   1
+    g3 : k=  2  s=  1  n=  0  m=   0
+
+state    230  color_singlet=1
+    g1 : k=  1  s= -1  n=  0  m=   0
+    g2 : k=  3  s=  1  n=  0  m=  -1
+    g3 : k=  2  s=  1  n=  0  m=   1
+
+state    231  color_singlet=1
+    g1 : k=  1  s= -1  n=  0  m=   0
+    g2 : k=  3  s=  1  n=  0  m=   0
+    g3 : k=  2  s=  1  n=  0  m=   0
+
+state    232  color_singlet=1
+    g1 : k=  1  s= -1  n=  0  m=   0
+    g2 : k=  3  s=  1  n=  0  m=   0
+    g3 : k=  2  s=  1  n=  1  m=   0
+
+state    233  color_singlet=1
+    g1 : k=  1  s= -1  n=  0  m=   0
+    g2 : k=  3  s=  1  n=  0  m=   1
+    g3 : k=  2  s=  1  n=  0  m=  -1
+
+state    234  color_singlet=1
+    g1 : k=  1  s= -1  n=  0  m=   0
+    g2 : k=  3  s=  1  n=  1  m=   0
+    g3 : k=  2  s=  1  n=  0  m=   0
+
+state    235  color_singlet=1
+    g1 : k=  1  s= -1  n=  0  m=   1
+    g2 : k=  3  s=  1  n=  0  m=  -1
+    g3 : k=  2  s=  1  n=  0  m=   0
+
+state    236  color_singlet=1
+    g1 : k=  1  s= -1  n=  0  m=   1
+    g2 : k=  3  s=  1  n=  0  m=   0
+    g3 : k=  2  s=  1  n=  0  m=  -1
+
+state    237  color_singlet=1
+    g1 : k=  1  s= -1  n=  1  m=   0
+    g2 : k=  3  s=  1  n=  0  m=   0
+    g3 : k=  2  s=  1  n=  0  m=   0
+
+state    238  color_singlet=1
+    g1 : k=  1  s=  1  n=  0  m=   0
+    g2 : k=  3  s= -1  n=  0  m=   0
+    g3 : k=  2  s= -1  n=  0  m=   2
+
+state    239  color_singlet=1
+    g1 : k=  1  s=  1  n=  0  m=   0
+    g2 : k=  3  s= -1  n=  0  m=   1
+    g3 : k=  2  s= -1  n=  0  m=   1
+
+state    240  color_singlet=1
+    g1 : k=  1  s=  1  n=  0  m=   0
+    g2 : k=  3  s= -1  n=  0  m=   2
+    g3 : k=  2  s= -1  n=  0  m=   0
+
+state    241  color_singlet=1
+    g1 : k=  1  s=  1  n=  0  m=   1
+    g2 : k=  3  s= -1  n=  0  m=   0
+    g3 : k=  2  s= -1  n=  0  m=   1
+
+state    242  color_singlet=1
+    g1 : k=  1  s=  1  n=  0  m=   1
+    g2 : k=  3  s= -1  n=  0  m=   1
+    g3 : k=  2  s= -1  n=  0  m=   0
+
+state    243  color_singlet=1
+    g1 : k=  1  s=  1  n=  0  m=   2
+    g2 : k=  3  s= -1  n=  0  m=   0
+    g3 : k=  2  s= -1  n=  0  m=   0
+
+state    244  color_singlet=1
+    g1 : k=  1  s=  1  n=  0  m=  -1
+    g2 : k=  3  s= -1  n=  0  m=   0
+    g3 : k=  2  s=  1  n=  0  m=   1
+
+state    245  color_singlet=1
+    g1 : k=  1  s=  1  n=  0  m=  -1
+    g2 : k=  3  s= -1  n=  0  m=   1
+    g3 : k=  2  s=  1  n=  0  m=   0
+
+state    246  color_singlet=1
+    g1 : k=  1  s=  1  n=  0  m=   0
+    g2 : k=  3  s= -1  n=  0  m=  -1
+    g3 : k=  2  s=  1  n=  0  m=   1
+
+state    247  color_singlet=1
+    g1 : k=  1  s=  1  n=  0  m=   0
+    g2 : k=  3  s= -1  n=  0  m=   0
+    g3 : k=  2  s=  1  n=  0  m=   0
+
+state    248  color_singlet=1
+    g1 : k=  1  s=  1  n=  0  m=   0
+    g2 : k=  3  s= -1  n=  0  m=   0
+    g3 : k=  2  s=  1  n=  1  m=   0
+
+state    249  color_singlet=1
+    g1 : k=  1  s=  1  n=  0  m=   0
+    g2 : k=  3  s= -1  n=  0  m=   1
+    g3 : k=  2  s=  1  n=  0  m=  -1
+
+state    250  color_singlet=1
+    g1 : k=  1  s=  1  n=  0  m=   0
+    g2 : k=  3  s= -1  n=  1  m=   0
+    g3 : k=  2  s=  1  n=  0  m=   0
+
+state    251  color_singlet=1
+    g1 : k=  1  s=  1  n=  0  m=   1
+    g2 : k=  3  s= -1  n=  0  m=  -1
+    g3 : k=  2  s=  1  n=  0  m=   0
+
+state    252  color_singlet=1
+    g1 : k=  1  s=  1  n=  0  m=   1
+    g2 : k=  3  s= -1  n=  0  m=   0
+    g3 : k=  2  s=  1  n=  0  m=  -1
+
+state    253  color_singlet=1
+    g1 : k=  1  s=  1  n=  1  m=   0
+    g2 : k=  3  s= -1  n=  0  m=   0
+    g3 : k=  2  s=  1  n=  0  m=   0
+
+state    254  color_singlet=1
+    g1 : k=  1  s=  1  n=  0  m=  -1
+    g2 : k=  3  s=  1  n=  0  m=   0
+    g3 : k=  2  s= -1  n=  0  m=   1
+
+state    255  color_singlet=1
+    g1 : k=  1  s=  1  n=  0  m=  -1
+    g2 : k=  3  s=  1  n=  0  m=   1
+    g3 : k=  2  s= -1  n=  0  m=   0
+
+state    256  color_singlet=1
+    g1 : k=  1  s=  1  n=  0  m=   0
+    g2 : k=  3  s=  1  n=  0  m=  -1
+    g3 : k=  2  s= -1  n=  0  m=   1
+
+state    257  color_singlet=1
+    g1 : k=  1  s=  1  n=  0  m=   0
+    g2 : k=  3  s=  1  n=  0  m=   0
+    g3 : k=  2  s= -1  n=  0  m=   0
+
+state    258  color_singlet=1
+    g1 : k=  1  s=  1  n=  0  m=   0
+    g2 : k=  3  s=  1  n=  0  m=   0
+    g3 : k=  2  s= -1  n=  1  m=   0
+
+state    259  color_singlet=1
+    g1 : k=  1  s=  1  n=  0  m=   0
+    g2 : k=  3  s=  1  n=  0  m=   1
+    g3 : k=  2  s= -1  n=  0  m=  -1
+
+state    260  color_singlet=1
+    g1 : k=  1  s=  1  n=  0  m=   0
+    g2 : k=  3  s=  1  n=  1  m=   0
+    g3 : k=  2  s= -1  n=  0  m=   0
+
+state    261  color_singlet=1
+    g1 : k=  1  s=  1  n=  0  m=   1
+    g2 : k=  3  s=  1  n=  0  m=  -1
+    g3 : k=  2  s= -1  n=  0  m=   0
+
+state    262  color_singlet=1
+    g1 : k=  1  s=  1  n=  0  m=   1
+    g2 : k=  3  s=  1  n=  0  m=   0
+    g3 : k=  2  s= -1  n=  0  m=  -1
+
+state    263  color_singlet=1
+    g1 : k=  1  s=  1  n=  1  m=   0
+    g2 : k=  3  s=  1  n=  0  m=   0
+    g3 : k=  2  s= -1  n=  0  m=   0
+
+state    264  color_singlet=1
+    g1 : k=  1  s=  1  n=  0  m=  -2
+    g2 : k=  3  s=  1  n=  0  m=   0
+    g3 : k=  2  s=  1  n=  0  m=   0
+
+state    265  color_singlet=1
+    g1 : k=  1  s=  1  n=  0  m=  -1
+    g2 : k=  3  s=  1  n=  0  m=  -1
+    g3 : k=  2  s=  1  n=  0  m=   0
+
+state    266  color_singlet=1
+    g1 : k=  1  s=  1  n=  0  m=  -1
+    g2 : k=  3  s=  1  n=  0  m=   0
+    g3 : k=  2  s=  1  n=  0  m=  -1
+
+state    267  color_singlet=1
+    g1 : k=  1  s=  1  n=  0  m=   0
+    g2 : k=  3  s=  1  n=  0  m=  -2
+    g3 : k=  2  s=  1  n=  0  m=   0
+
+state    268  color_singlet=1
+    g1 : k=  1  s=  1  n=  0  m=   0
+    g2 : k=  3  s=  1  n=  0  m=  -1
+    g3 : k=  2  s=  1  n=  0  m=  -1
+
+state    269  color_singlet=1
+    g1 : k=  1  s=  1  n=  0  m=   0
+    g2 : k=  3  s=  1  n=  0  m=   0
+    g3 : k=  2  s=  1  n=  0  m=  -2
+
+state    270  color_singlet=2
+    g1 : k=  1  s= -1  n=  0  m=   0
+    g2 : k=  3  s= -1  n=  0  m=   0
+    g3 : k=  2  s=  1  n=  0  m=   2
+
+state    271  color_singlet=2
+    g1 : k=  1  s= -1  n=  0  m=   0
+    g2 : k=  3  s= -1  n=  0  m=   1
+    g3 : k=  2  s=  1  n=  0  m=   1
+
+state    272  color_singlet=2
+    g1 : k=  1  s= -1  n=  0  m=   0
+    g2 : k=  3  s= -1  n=  0  m=   2
+    g3 : k=  2  s=  1  n=  0  m=   0
+
+state    273  color_singlet=2
+    g1 : k=  1  s= -1  n=  0  m=   1
+    g2 : k=  3  s= -1  n=  0  m=   0
+    g3 : k=  2  s=  1  n=  0  m=   1
+
+state    274  color_singlet=2
+    g1 : k=  1  s= -1  n=  0  m=   1
+    g2 : k=  3  s= -1  n=  0  m=   1
+    g3 : k=  2  s=  1  n=  0  m=   0
+
+state    275  color_singlet=2
+    g1 : k=  1  s= -1  n=  0  m=   2
+    g2 : k=  3  s= -1  n=  0  m=   0
+    g3 : k=  2  s=  1  n=  0  m=   0
+
+state    276  color_singlet=2
+    g1 : k=  1  s= -1  n=  0  m=   0
+    g2 : k=  3  s=  1  n=  0  m=   0
+    g3 : k=  2  s= -1  n=  0  m=   2
+
+state    277  color_singlet=2
+    g1 : k=  1  s= -1  n=  0  m=   0
+    g2 : k=  3  s=  1  n=  0  m=   1
+    g3 : k=  2  s= -1  n=  0  m=   1
+
+state    278  color_singlet=2
+    g1 : k=  1  s= -1  n=  0  m=   0
+    g2 : k=  3  s=  1  n=  0  m=   2
+    g3 : k=  2  s= -1  n=  0  m=   0
+
+state    279  color_singlet=2
+    g1 : k=  1  s= -1  n=  0  m=   1
+    g2 : k=  3  s=  1  n=  0  m=   0
+    g3 : k=  2  s= -1  n=  0  m=   1
+
+state    280  color_singlet=2
+    g1 : k=  1  s= -1  n=  0  m=   1
+    g2 : k=  3  s=  1  n=  0  m=   1
+    g3 : k=  2  s= -1  n=  0  m=   0
+
+state    281  color_singlet=2
+    g1 : k=  1  s= -1  n=  0  m=   2
+    g2 : k=  3  s=  1  n=  0  m=   0
+    g3 : k=  2  s= -1  n=  0  m=   0
+
+state    282  color_singlet=2
+    g1 : k=  1  s= -1  n=  0  m=  -1
+    g2 : k=  3  s=  1  n=  0  m=   0
+    g3 : k=  2  s=  1  n=  0  m=   1
+
+state    283  color_singlet=2
+    g1 : k=  1  s= -1  n=  0  m=  -1
+    g2 : k=  3  s=  1  n=  0  m=   1
+    g3 : k=  2  s=  1  n=  0  m=   0
+
+state    284  color_singlet=2
+    g1 : k=  1  s= -1  n=  0  m=   0
+    g2 : k=  3  s=  1  n=  0  m=  -1
+    g3 : k=  2  s=  1  n=  0  m=   1
+
+state    285  color_singlet=2
+    g1 : k=  1  s= -1  n=  0  m=   0
+    g2 : k=  3  s=  1  n=  0  m=   0
+    g3 : k=  2  s=  1  n=  0  m=   0
+
+state    286  color_singlet=2
+    g1 : k=  1  s= -1  n=  0  m=   0
+    g2 : k=  3  s=  1  n=  0  m=   0
+    g3 : k=  2  s=  1  n=  1  m=   0
+
+state    287  color_singlet=2
+    g1 : k=  1  s= -1  n=  0  m=   0
+    g2 : k=  3  s=  1  n=  0  m=   1
+    g3 : k=  2  s=  1  n=  0  m=  -1
+
+state    288  color_singlet=2
+    g1 : k=  1  s= -1  n=  0  m=   0
+    g2 : k=  3  s=  1  n=  1  m=   0
+    g3 : k=  2  s=  1  n=  0  m=   0
+
+state    289  color_singlet=2
+    g1 : k=  1  s= -1  n=  0  m=   1
+    g2 : k=  3  s=  1  n=  0  m=  -1
+    g3 : k=  2  s=  1  n=  0  m=   0
+
+state    290  color_singlet=2
+    g1 : k=  1  s= -1  n=  0  m=   1
+    g2 : k=  3  s=  1  n=  0  m=   0
+    g3 : k=  2  s=  1  n=  0  m=  -1
+
+state    291  color_singlet=2
+    g1 : k=  1  s= -1  n=  1  m=   0
+    g2 : k=  3  s=  1  n=  0  m=   0
+    g3 : k=  2  s=  1  n=  0  m=   0
+
+state    292  color_singlet=2
+    g1 : k=  1  s=  1  n=  0  m=   0
+    g2 : k=  3  s= -1  n=  0  m=   0
+    g3 : k=  2  s= -1  n=  0  m=   2
+
+state    293  color_singlet=2
+    g1 : k=  1  s=  1  n=  0  m=   0
+    g2 : k=  3  s= -1  n=  0  m=   1
+    g3 : k=  2  s= -1  n=  0  m=   1
+
+state    294  color_singlet=2
+    g1 : k=  1  s=  1  n=  0  m=   0
+    g2 : k=  3  s= -1  n=  0  m=   2
+    g3 : k=  2  s= -1  n=  0  m=   0
+
+state    295  color_singlet=2
+    g1 : k=  1  s=  1  n=  0  m=   1
+    g2 : k=  3  s= -1  n=  0  m=   0
+    g3 : k=  2  s= -1  n=  0  m=   1
+
+state    296  color_singlet=2
+    g1 : k=  1  s=  1  n=  0  m=   1
+    g2 : k=  3  s= -1  n=  0  m=   1
+    g3 : k=  2  s= -1  n=  0  m=   0
+
+state    297  color_singlet=2
+    g1 : k=  1  s=  1  n=  0  m=   2
+    g2 : k=  3  s= -1  n=  0  m=   0
+    g3 : k=  2  s= -1  n=  0  m=   0
+
+state    298  color_singlet=2
+    g1 : k=  1  s=  1  n=  0  m=  -1
+    g2 : k=  3  s= -1  n=  0  m=   0
+    g3 : k=  2  s=  1  n=  0  m=   1
+
+state    299  color_singlet=2
+    g1 : k=  1  s=  1  n=  0  m=  -1
+    g2 : k=  3  s= -1  n=  0  m=   1
+    g3 : k=  2  s=  1  n=  0  m=   0
+
+state    300  color_singlet=2
+    g1 : k=  1  s=  1  n=  0  m=   0
+    g2 : k=  3  s= -1  n=  0  m=  -1
+    g3 : k=  2  s=  1  n=  0  m=   1
+
+state    301  color_singlet=2
+    g1 : k=  1  s=  1  n=  0  m=   0
+    g2 : k=  3  s= -1  n=  0  m=   0
+    g3 : k=  2  s=  1  n=  0  m=   0
+
+state    302  color_singlet=2
+    g1 : k=  1  s=  1  n=  0  m=   0
+    g2 : k=  3  s= -1  n=  0  m=   0
+    g3 : k=  2  s=  1  n=  1  m=   0
+
+state    303  color_singlet=2
+    g1 : k=  1  s=  1  n=  0  m=   0
+    g2 : k=  3  s= -1  n=  0  m=   1
+    g3 : k=  2  s=  1  n=  0  m=  -1
+
+state    304  color_singlet=2
+    g1 : k=  1  s=  1  n=  0  m=   0
+    g2 : k=  3  s= -1  n=  1  m=   0
+    g3 : k=  2  s=  1  n=  0  m=   0
+
+state    305  color_singlet=2
+    g1 : k=  1  s=  1  n=  0  m=   1
+    g2 : k=  3  s= -1  n=  0  m=  -1
+    g3 : k=  2  s=  1  n=  0  m=   0
+
+state    306  color_singlet=2
+    g1 : k=  1  s=  1  n=  0  m=   1
+    g2 : k=  3  s= -1  n=  0  m=   0
+    g3 : k=  2  s=  1  n=  0  m=  -1
+
+state    307  color_singlet=2
+    g1 : k=  1  s=  1  n=  1  m=   0
+    g2 : k=  3  s= -1  n=  0  m=   0
+    g3 : k=  2  s=  1  n=  0  m=   0
+
+state    308  color_singlet=2
+    g1 : k=  1  s=  1  n=  0  m=  -1
+    g2 : k=  3  s=  1  n=  0  m=   0
+    g3 : k=  2  s= -1  n=  0  m=   1
+
+state    309  color_singlet=2
+    g1 : k=  1  s=  1  n=  0  m=  -1
+    g2 : k=  3  s=  1  n=  0  m=   1
+    g3 : k=  2  s= -1  n=  0  m=   0
+
+state    310  color_singlet=2
+    g1 : k=  1  s=  1  n=  0  m=   0
+    g2 : k=  3  s=  1  n=  0  m=  -1
+    g3 : k=  2  s= -1  n=  0  m=   1
+
+state    311  color_singlet=2
+    g1 : k=  1  s=  1  n=  0  m=   0
+    g2 : k=  3  s=  1  n=  0  m=   0
+    g3 : k=  2  s= -1  n=  0  m=   0
+
+state    312  color_singlet=2
+    g1 : k=  1  s=  1  n=  0  m=   0
+    g2 : k=  3  s=  1  n=  0  m=   0
+    g3 : k=  2  s= -1  n=  1  m=   0
+
+state    313  color_singlet=2
+    g1 : k=  1  s=  1  n=  0  m=   0
+    g2 : k=  3  s=  1  n=  0  m=   1
+    g3 : k=  2  s= -1  n=  0  m=  -1
+
+state    314  color_singlet=2
+    g1 : k=  1  s=  1  n=  0  m=   0
+    g2 : k=  3  s=  1  n=  1  m=   0
+    g3 : k=  2  s= -1  n=  0  m=   0
+
+state    315  color_singlet=2
+    g1 : k=  1  s=  1  n=  0  m=   1
+    g2 : k=  3  s=  1  n=  0  m=  -1
+    g3 : k=  2  s= -1  n=  0  m=   0
+
+state    316  color_singlet=2
+    g1 : k=  1  s=  1  n=  0  m=   1
+    g2 : k=  3  s=  1  n=  0  m=   0
+    g3 : k=  2  s= -1  n=  0  m=  -1
+
+state    317  color_singlet=2
+    g1 : k=  1  s=  1  n=  1  m=   0
+    g2 : k=  3  s=  1  n=  0  m=   0
+    g3 : k=  2  s= -1  n=  0  m=   0
+
+state    318  color_singlet=2
+    g1 : k=  1  s=  1  n=  0  m=  -2
+    g2 : k=  3  s=  1  n=  0  m=   0
+    g3 : k=  2  s=  1  n=  0  m=   0
+
+state    319  color_singlet=2
+    g1 : k=  1  s=  1  n=  0  m=  -1
+    g2 : k=  3  s=  1  n=  0  m=  -1
+    g3 : k=  2  s=  1  n=  0  m=   0
+
+state    320  color_singlet=2
+    g1 : k=  1  s=  1  n=  0  m=  -1
+    g2 : k=  3  s=  1  n=  0  m=   0
+    g3 : k=  2  s=  1  n=  0  m=  -1
+
+state    321  color_singlet=2
+    g1 : k=  1  s=  1  n=  0  m=   0
+    g2 : k=  3  s=  1  n=  0  m=  -2
+    g3 : k=  2  s=  1  n=  0  m=   0
+
+state    322  color_singlet=2
+    g1 : k=  1  s=  1  n=  0  m=   0
+    g2 : k=  3  s=  1  n=  0  m=  -1
+    g3 : k=  2  s=  1  n=  0  m=  -1
+
+state    323  color_singlet=2
+    g1 : k=  1  s=  1  n=  0  m=   0
+    g2 : k=  3  s=  1  n=  0  m=   0
+    g3 : k=  2  s=  1  n=  0  m=  -2
+
+state    324  color_singlet=1
+    g1 : k=  1  s= -1  n=  0  m=   0
+    g2 : k=  4  s= -1  n=  0  m=   0
+    g3 : k=  1  s=  1  n=  0  m=   2
+
+state    325  color_singlet=1
+    g1 : k=  1  s= -1  n=  0  m=   0
+    g2 : k=  4  s= -1  n=  0  m=   1
+    g3 : k=  1  s=  1  n=  0  m=   1
+
+state    326  color_singlet=1
+    g1 : k=  1  s= -1  n=  0  m=   0
+    g2 : k=  4  s= -1  n=  0  m=   2
+    g3 : k=  1  s=  1  n=  0  m=   0
+
+state    327  color_singlet=1
+    g1 : k=  1  s= -1  n=  0  m=   1
+    g2 : k=  4  s= -1  n=  0  m=   0
+    g3 : k=  1  s=  1  n=  0  m=   1
+
+state    328  color_singlet=1
+    g1 : k=  1  s= -1  n=  0  m=   1
+    g2 : k=  4  s= -1  n=  0  m=   1
+    g3 : k=  1  s=  1  n=  0  m=   0
+
+state    329  color_singlet=1
+    g1 : k=  1  s= -1  n=  0  m=   2
+    g2 : k=  4  s= -1  n=  0  m=   0
+    g3 : k=  1  s=  1  n=  0  m=   0
+
+state    330  color_singlet=1
+    g1 : k=  1  s= -1  n=  0  m=   0
+    g2 : k=  4  s=  1  n=  0  m=   0
+    g3 : k=  1  s= -1  n=  0  m=   2
+
+state    331  color_singlet=1
+    g1 : k=  1  s= -1  n=  0  m=   0
+    g2 : k=  4  s=  1  n=  0  m=   1
+    g3 : k=  1  s= -1  n=  0  m=   1
+
+state    332  color_singlet=1
+    g1 : k=  1  s= -1  n=  0  m=   0
+    g2 : k=  4  s=  1  n=  0  m=   2
+    g3 : k=  1  s= -1  n=  0  m=   0
+
+state    333  color_singlet=1
+    g1 : k=  1  s= -1  n=  0  m=   1
+    g2 : k=  4  s=  1  n=  0  m=   0
+    g3 : k=  1  s= -1  n=  0  m=   1
+
+state    334  color_singlet=1
+    g1 : k=  1  s= -1  n=  0  m=   1
+    g2 : k=  4  s=  1  n=  0  m=   1
+    g3 : k=  1  s= -1  n=  0  m=   0
+
+state    335  color_singlet=1
+    g1 : k=  1  s= -1  n=  0  m=   2
+    g2 : k=  4  s=  1  n=  0  m=   0
+    g3 : k=  1  s= -1  n=  0  m=   0
+
+state    336  color_singlet=1
+    g1 : k=  1  s= -1  n=  0  m=  -1
+    g2 : k=  4  s=  1  n=  0  m=   0
+    g3 : k=  1  s=  1  n=  0  m=   1
+
+state    337  color_singlet=1
+    g1 : k=  1  s= -1  n=  0  m=  -1
+    g2 : k=  4  s=  1  n=  0  m=   1
+    g3 : k=  1  s=  1  n=  0  m=   0
+
+state    338  color_singlet=1
+    g1 : k=  1  s= -1  n=  0  m=   0
+    g2 : k=  4  s=  1  n=  0  m=  -1
+    g3 : k=  1  s=  1  n=  0  m=   1
+
+state    339  color_singlet=1
+    g1 : k=  1  s= -1  n=  0  m=   0
+    g2 : k=  4  s=  1  n=  0  m=   0
+    g3 : k=  1  s=  1  n=  0  m=   0
+
+state    340  color_singlet=1
+    g1 : k=  1  s= -1  n=  0  m=   0
+    g2 : k=  4  s=  1  n=  0  m=   0
+    g3 : k=  1  s=  1  n=  1  m=   0
+
+state    341  color_singlet=1
+    g1 : k=  1  s= -1  n=  0  m=   0
+    g2 : k=  4  s=  1  n=  0  m=   1
+    g3 : k=  1  s=  1  n=  0  m=  -1
+
+state    342  color_singlet=1
+    g1 : k=  1  s= -1  n=  0  m=   0
+    g2 : k=  4  s=  1  n=  1  m=   0
+    g3 : k=  1  s=  1  n=  0  m=   0
+
+state    343  color_singlet=1
+    g1 : k=  1  s= -1  n=  0  m=   1
+    g2 : k=  4  s=  1  n=  0  m=  -1
+    g3 : k=  1  s=  1  n=  0  m=   0
+
+state    344  color_singlet=1
+    g1 : k=  1  s= -1  n=  0  m=   1
+    g2 : k=  4  s=  1  n=  0  m=   0
+    g3 : k=  1  s=  1  n=  0  m=  -1
+
+state    345  color_singlet=1
+    g1 : k=  1  s= -1  n=  1  m=   0
+    g2 : k=  4  s=  1  n=  0  m=   0
+    g3 : k=  1  s=  1  n=  0  m=   0
+
+state    346  color_singlet=1
+    g1 : k=  1  s=  1  n=  0  m=   0
+    g2 : k=  4  s= -1  n=  0  m=   0
+    g3 : k=  1  s= -1  n=  0  m=   2
+
+state    347  color_singlet=1
+    g1 : k=  1  s=  1  n=  0  m=   0
+    g2 : k=  4  s= -1  n=  0  m=   1
+    g3 : k=  1  s= -1  n=  0  m=   1
+
+state    348  color_singlet=1
+    g1 : k=  1  s=  1  n=  0  m=   0
+    g2 : k=  4  s= -1  n=  0  m=   2
+    g3 : k=  1  s= -1  n=  0  m=   0
+
+state    349  color_singlet=1
+    g1 : k=  1  s=  1  n=  0  m=   1
+    g2 : k=  4  s= -1  n=  0  m=   0
+    g3 : k=  1  s= -1  n=  0  m=   1
+
+state    350  color_singlet=1
+    g1 : k=  1  s=  1  n=  0  m=   1
+    g2 : k=  4  s= -1  n=  0  m=   1
+    g3 : k=  1  s= -1  n=  0  m=   0
+
+state    351  color_singlet=1
+    g1 : k=  1  s=  1  n=  0  m=   2
+    g2 : k=  4  s= -1  n=  0  m=   0
+    g3 : k=  1  s= -1  n=  0  m=   0
+
+state    352  color_singlet=1
+    g1 : k=  1  s=  1  n=  0  m=  -1
+    g2 : k=  4  s= -1  n=  0  m=   0
+    g3 : k=  1  s=  1  n=  0  m=   1
+
+state    353  color_singlet=1
+    g1 : k=  1  s=  1  n=  0  m=  -1
+    g2 : k=  4  s= -1  n=  0  m=   1
+    g3 : k=  1  s=  1  n=  0  m=   0
+
+state    354  color_singlet=1
+    g1 : k=  1  s=  1  n=  0  m=   0
+    g2 : k=  4  s= -1  n=  0  m=  -1
+    g3 : k=  1  s=  1  n=  0  m=   1
+
+state    355  color_singlet=1
+    g1 : k=  1  s=  1  n=  0  m=   0
+    g2 : k=  4  s= -1  n=  0  m=   0
+    g3 : k=  1  s=  1  n=  0  m=   0
+
+state    356  color_singlet=1
+    g1 : k=  1  s=  1  n=  0  m=   0
+    g2 : k=  4  s= -1  n=  0  m=   0
+    g3 : k=  1  s=  1  n=  1  m=   0
+
+state    357  color_singlet=1
+    g1 : k=  1  s=  1  n=  0  m=   0
+    g2 : k=  4  s= -1  n=  0  m=   1
+    g3 : k=  1  s=  1  n=  0  m=  -1
+
+state    358  color_singlet=1
+    g1 : k=  1  s=  1  n=  0  m=   0
+    g2 : k=  4  s= -1  n=  1  m=   0
+    g3 : k=  1  s=  1  n=  0  m=   0
+
+state    359  color_singlet=1
+    g1 : k=  1  s=  1  n=  0  m=   1
+    g2 : k=  4  s= -1  n=  0  m=  -1
+    g3 : k=  1  s=  1  n=  0  m=   0
+
+state    360  color_singlet=1
+    g1 : k=  1  s=  1  n=  0  m=   1
+    g2 : k=  4  s= -1  n=  0  m=   0
+    g3 : k=  1  s=  1  n=  0  m=  -1
+
+state    361  color_singlet=1
+    g1 : k=  1  s=  1  n=  1  m=   0
+    g2 : k=  4  s= -1  n=  0  m=   0
+    g3 : k=  1  s=  1  n=  0  m=   0
+
+state    362  color_singlet=1
+    g1 : k=  1  s=  1  n=  0  m=  -1
+    g2 : k=  4  s=  1  n=  0  m=   0
+    g3 : k=  1  s= -1  n=  0  m=   1
+
+state    363  color_singlet=1
+    g1 : k=  1  s=  1  n=  0  m=  -1
+    g2 : k=  4  s=  1  n=  0  m=   1
+    g3 : k=  1  s= -1  n=  0  m=   0
+
+state    364  color_singlet=1
+    g1 : k=  1  s=  1  n=  0  m=   0
+    g2 : k=  4  s=  1  n=  0  m=  -1
+    g3 : k=  1  s= -1  n=  0  m=   1
+
+state    365  color_singlet=1
+    g1 : k=  1  s=  1  n=  0  m=   0
+    g2 : k=  4  s=  1  n=  0  m=   0
+    g3 : k=  1  s= -1  n=  0  m=   0
+
+state    366  color_singlet=1
+    g1 : k=  1  s=  1  n=  0  m=   0
+    g2 : k=  4  s=  1  n=  0  m=   0
+    g3 : k=  1  s= -1  n=  1  m=   0
+
+state    367  color_singlet=1
+    g1 : k=  1  s=  1  n=  0  m=   0
+    g2 : k=  4  s=  1  n=  0  m=   1
+    g3 : k=  1  s= -1  n=  0  m=  -1
+
+state    368  color_singlet=1
+    g1 : k=  1  s=  1  n=  0  m=   0
+    g2 : k=  4  s=  1  n=  1  m=   0
+    g3 : k=  1  s= -1  n=  0  m=   0
+
+state    369  color_singlet=1
+    g1 : k=  1  s=  1  n=  0  m=   1
+    g2 : k=  4  s=  1  n=  0  m=  -1
+    g3 : k=  1  s= -1  n=  0  m=   0
+
+state    370  color_singlet=1
+    g1 : k=  1  s=  1  n=  0  m=   1
+    g2 : k=  4  s=  1  n=  0  m=   0
+    g3 : k=  1  s= -1  n=  0  m=  -1
+
+state    371  color_singlet=1
+    g1 : k=  1  s=  1  n=  1  m=   0
+    g2 : k=  4  s=  1  n=  0  m=   0
+    g3 : k=  1  s= -1  n=  0  m=   0
+
+state    372  color_singlet=1
+    g1 : k=  1  s=  1  n=  0  m=  -2
+    g2 : k=  4  s=  1  n=  0  m=   0
+    g3 : k=  1  s=  1  n=  0  m=   0
+
+state    373  color_singlet=1
+    g1 : k=  1  s=  1  n=  0  m=  -1
+    g2 : k=  4  s=  1  n=  0  m=  -1
+    g3 : k=  1  s=  1  n=  0  m=   0
+
+state    374  color_singlet=1
+    g1 : k=  1  s=  1  n=  0  m=  -1
+    g2 : k=  4  s=  1  n=  0  m=   0
+    g3 : k=  1  s=  1  n=  0  m=  -1
+
+state    375  color_singlet=1
+    g1 : k=  1  s=  1  n=  0  m=   0
+    g2 : k=  4  s=  1  n=  0  m=  -2
+    g3 : k=  1  s=  1  n=  0  m=   0
+
+state    376  color_singlet=1
+    g1 : k=  1  s=  1  n=  0  m=   0
+    g2 : k=  4  s=  1  n=  0  m=  -1
+    g3 : k=  1  s=  1  n=  0  m=  -1
+
+state    377  color_singlet=1
+    g1 : k=  1  s=  1  n=  0  m=   0
+    g2 : k=  4  s=  1  n=  0  m=   0
+    g3 : k=  1  s=  1  n=  0  m=  -2
+
+state    378  color_singlet=2
+    g1 : k=  1  s= -1  n=  0  m=   0
+    g2 : k=  4  s= -1  n=  0  m=   0
+    g3 : k=  1  s=  1  n=  0  m=   2
+
+state    379  color_singlet=2
+    g1 : k=  1  s= -1  n=  0  m=   0
+    g2 : k=  4  s= -1  n=  0  m=   1
+    g3 : k=  1  s=  1  n=  0  m=   1
+
+state    380  color_singlet=2
+    g1 : k=  1  s= -1  n=  0  m=   0
+    g2 : k=  4  s= -1  n=  0  m=   2
+    g3 : k=  1  s=  1  n=  0  m=   0
+
+state    381  color_singlet=2
+    g1 : k=  1  s= -1  n=  0  m=   1
+    g2 : k=  4  s= -1  n=  0  m=   0
+    g3 : k=  1  s=  1  n=  0  m=   1
+
+state    382  color_singlet=2
+    g1 : k=  1  s= -1  n=  0  m=   1
+    g2 : k=  4  s= -1  n=  0  m=   1
+    g3 : k=  1  s=  1  n=  0  m=   0
+
+state    383  color_singlet=2
+    g1 : k=  1  s= -1  n=  0  m=   2
+    g2 : k=  4  s= -1  n=  0  m=   0
+    g3 : k=  1  s=  1  n=  0  m=   0
+
+state    384  color_singlet=2
+    g1 : k=  1  s= -1  n=  0  m=   0
+    g2 : k=  4  s=  1  n=  0  m=   0
+    g3 : k=  1  s= -1  n=  0  m=   2
+
+state    385  color_singlet=2
+    g1 : k=  1  s= -1  n=  0  m=   0
+    g2 : k=  4  s=  1  n=  0  m=   1
+    g3 : k=  1  s= -1  n=  0  m=   1
+
+state    386  color_singlet=2
+    g1 : k=  1  s= -1  n=  0  m=   0
+    g2 : k=  4  s=  1  n=  0  m=   2
+    g3 : k=  1  s= -1  n=  0  m=   0
+
+state    387  color_singlet=2
+    g1 : k=  1  s= -1  n=  0  m=   1
+    g2 : k=  4  s=  1  n=  0  m=   0
+    g3 : k=  1  s= -1  n=  0  m=   1
+
+state    388  color_singlet=2
+    g1 : k=  1  s= -1  n=  0  m=   1
+    g2 : k=  4  s=  1  n=  0  m=   1
+    g3 : k=  1  s= -1  n=  0  m=   0
+
+state    389  color_singlet=2
+    g1 : k=  1  s= -1  n=  0  m=   2
+    g2 : k=  4  s=  1  n=  0  m=   0
+    g3 : k=  1  s= -1  n=  0  m=   0
+
+state    390  color_singlet=2
+    g1 : k=  1  s= -1  n=  0  m=  -1
+    g2 : k=  4  s=  1  n=  0  m=   0
+    g3 : k=  1  s=  1  n=  0  m=   1
+
+state    391  color_singlet=2
+    g1 : k=  1  s= -1  n=  0  m=  -1
+    g2 : k=  4  s=  1  n=  0  m=   1
+    g3 : k=  1  s=  1  n=  0  m=   0
+
+state    392  color_singlet=2
+    g1 : k=  1  s= -1  n=  0  m=   0
+    g2 : k=  4  s=  1  n=  0  m=  -1
+    g3 : k=  1  s=  1  n=  0  m=   1
+
+state    393  color_singlet=2
+    g1 : k=  1  s= -1  n=  0  m=   0
+    g2 : k=  4  s=  1  n=  0  m=   0
+    g3 : k=  1  s=  1  n=  0  m=   0
+
+state    394  color_singlet=2
+    g1 : k=  1  s= -1  n=  0  m=   0
+    g2 : k=  4  s=  1  n=  0  m=   0
+    g3 : k=  1  s=  1  n=  1  m=   0
+
+state    395  color_singlet=2
+    g1 : k=  1  s= -1  n=  0  m=   0
+    g2 : k=  4  s=  1  n=  0  m=   1
+    g3 : k=  1  s=  1  n=  0  m=  -1
+
+state    396  color_singlet=2
+    g1 : k=  1  s= -1  n=  0  m=   0
+    g2 : k=  4  s=  1  n=  1  m=   0
+    g3 : k=  1  s=  1  n=  0  m=   0
+
+state    397  color_singlet=2
+    g1 : k=  1  s= -1  n=  0  m=   1
+    g2 : k=  4  s=  1  n=  0  m=  -1
+    g3 : k=  1  s=  1  n=  0  m=   0
+
+state    398  color_singlet=2
+    g1 : k=  1  s= -1  n=  0  m=   1
+    g2 : k=  4  s=  1  n=  0  m=   0
+    g3 : k=  1  s=  1  n=  0  m=  -1
+
+state    399  color_singlet=2
+    g1 : k=  1  s= -1  n=  1  m=   0
+    g2 : k=  4  s=  1  n=  0  m=   0
+    g3 : k=  1  s=  1  n=  0  m=   0
+
+state    400  color_singlet=2
+    g1 : k=  1  s=  1  n=  0  m=   0
+    g2 : k=  4  s= -1  n=  0  m=   0
+    g3 : k=  1  s= -1  n=  0  m=   2
+
+state    401  color_singlet=2
+    g1 : k=  1  s=  1  n=  0  m=   0
+    g2 : k=  4  s= -1  n=  0  m=   1
+    g3 : k=  1  s= -1  n=  0  m=   1
+
+state    402  color_singlet=2
+    g1 : k=  1  s=  1  n=  0  m=   0
+    g2 : k=  4  s= -1  n=  0  m=   2
+    g3 : k=  1  s= -1  n=  0  m=   0
+
+state    403  color_singlet=2
+    g1 : k=  1  s=  1  n=  0  m=   1
+    g2 : k=  4  s= -1  n=  0  m=   0
+    g3 : k=  1  s= -1  n=  0  m=   1
+
+state    404  color_singlet=2
+    g1 : k=  1  s=  1  n=  0  m=   1
+    g2 : k=  4  s= -1  n=  0  m=   1
+    g3 : k=  1  s= -1  n=  0  m=   0
+
+state    405  color_singlet=2
+    g1 : k=  1  s=  1  n=  0  m=   2
+    g2 : k=  4  s= -1  n=  0  m=   0
+    g3 : k=  1  s= -1  n=  0  m=   0
+
+state    406  color_singlet=2
+    g1 : k=  1  s=  1  n=  0  m=  -1
+    g2 : k=  4  s= -1  n=  0  m=   0
+    g3 : k=  1  s=  1  n=  0  m=   1
+
+state    407  color_singlet=2
+    g1 : k=  1  s=  1  n=  0  m=  -1
+    g2 : k=  4  s= -1  n=  0  m=   1
+    g3 : k=  1  s=  1  n=  0  m=   0
+
+state    408  color_singlet=2
+    g1 : k=  1  s=  1  n=  0  m=   0
+    g2 : k=  4  s= -1  n=  0  m=  -1
+    g3 : k=  1  s=  1  n=  0  m=   1
+
+state    409  color_singlet=2
+    g1 : k=  1  s=  1  n=  0  m=   0
+    g2 : k=  4  s= -1  n=  0  m=   0
+    g3 : k=  1  s=  1  n=  0  m=   0
+
+state    410  color_singlet=2
+    g1 : k=  1  s=  1  n=  0  m=   0
+    g2 : k=  4  s= -1  n=  0  m=   0
+    g3 : k=  1  s=  1  n=  1  m=   0
+
+state    411  color_singlet=2
+    g1 : k=  1  s=  1  n=  0  m=   0
+    g2 : k=  4  s= -1  n=  0  m=   1
+    g3 : k=  1  s=  1  n=  0  m=  -1
+
+state    412  color_singlet=2
+    g1 : k=  1  s=  1  n=  0  m=   0
+    g2 : k=  4  s= -1  n=  1  m=   0
+    g3 : k=  1  s=  1  n=  0  m=   0
+
+state    413  color_singlet=2
+    g1 : k=  1  s=  1  n=  0  m=   1
+    g2 : k=  4  s= -1  n=  0  m=  -1
+    g3 : k=  1  s=  1  n=  0  m=   0
+
+state    414  color_singlet=2
+    g1 : k=  1  s=  1  n=  0  m=   1
+    g2 : k=  4  s= -1  n=  0  m=   0
+    g3 : k=  1  s=  1  n=  0  m=  -1
+
+state    415  color_singlet=2
+    g1 : k=  1  s=  1  n=  1  m=   0
+    g2 : k=  4  s= -1  n=  0  m=   0
+    g3 : k=  1  s=  1  n=  0  m=   0
+
+state    416  color_singlet=2
+    g1 : k=  1  s=  1  n=  0  m=  -1
+    g2 : k=  4  s=  1  n=  0  m=   0
+    g3 : k=  1  s= -1  n=  0  m=   1
+
+state    417  color_singlet=2
+    g1 : k=  1  s=  1  n=  0  m=  -1
+    g2 : k=  4  s=  1  n=  0  m=   1
+    g3 : k=  1  s= -1  n=  0  m=   0
+
+state    418  color_singlet=2
+    g1 : k=  1  s=  1  n=  0  m=   0
+    g2 : k=  4  s=  1  n=  0  m=  -1
+    g3 : k=  1  s= -1  n=  0  m=   1
+
+state    419  color_singlet=2
+    g1 : k=  1  s=  1  n=  0  m=   0
+    g2 : k=  4  s=  1  n=  0  m=   0
+    g3 : k=  1  s= -1  n=  0  m=   0
+
+state    420  color_singlet=2
+    g1 : k=  1  s=  1  n=  0  m=   0
+    g2 : k=  4  s=  1  n=  0  m=   0
+    g3 : k=  1  s= -1  n=  1  m=   0
+
+state    421  color_singlet=2
+    g1 : k=  1  s=  1  n=  0  m=   0
+    g2 : k=  4  s=  1  n=  0  m=   1
+    g3 : k=  1  s= -1  n=  0  m=  -1
+
+state    422  color_singlet=2
+    g1 : k=  1  s=  1  n=  0  m=   0
+    g2 : k=  4  s=  1  n=  1  m=   0
+    g3 : k=  1  s= -1  n=  0  m=   0
+
+state    423  color_singlet=2
+    g1 : k=  1  s=  1  n=  0  m=   1
+    g2 : k=  4  s=  1  n=  0  m=  -1
+    g3 : k=  1  s= -1  n=  0  m=   0
+
+state    424  color_singlet=2
+    g1 : k=  1  s=  1  n=  0  m=   1
+    g2 : k=  4  s=  1  n=  0  m=   0
+    g3 : k=  1  s= -1  n=  0  m=  -1
+
+state    425  color_singlet=2
+    g1 : k=  1  s=  1  n=  1  m=   0
+    g2 : k=  4  s=  1  n=  0  m=   0
+    g3 : k=  1  s= -1  n=  0  m=   0
+
+state    426  color_singlet=2
+    g1 : k=  1  s=  1  n=  0  m=  -2
+    g2 : k=  4  s=  1  n=  0  m=   0
+    g3 : k=  1  s=  1  n=  0  m=   0
+
+state    427  color_singlet=2
+    g1 : k=  1  s=  1  n=  0  m=  -1
+    g2 : k=  4  s=  1  n=  0  m=  -1
+    g3 : k=  1  s=  1  n=  0  m=   0
+
+state    428  color_singlet=2
+    g1 : k=  1  s=  1  n=  0  m=  -1
+    g2 : k=  4  s=  1  n=  0  m=   0
+    g3 : k=  1  s=  1  n=  0  m=  -1
+
+state    429  color_singlet=2
+    g1 : k=  1  s=  1  n=  0  m=   0
+    g2 : k=  4  s=  1  n=  0  m=  -2
+    g3 : k=  1  s=  1  n=  0  m=   0
+
+state    430  color_singlet=2
+    g1 : k=  1  s=  1  n=  0  m=   0
+    g2 : k=  4  s=  1  n=  0  m=  -1
+    g3 : k=  1  s=  1  n=  0  m=  -1
+
+state    431  color_singlet=2
+    g1 : k=  1  s=  1  n=  0  m=   0
+    g2 : k=  4  s=  1  n=  0  m=   0
+    g3 : k=  1  s=  1  n=  0  m=  -2
+
+state    432  color_singlet=1
+    g1 : k=  2  s= -1  n=  0  m=   0
+    g2 : k=  1  s= -1  n=  0  m=   0
+    g3 : k=  3  s=  1  n=  0  m=   2
+
+state    433  color_singlet=1
+    g1 : k=  2  s= -1  n=  0  m=   0
+    g2 : k=  1  s= -1  n=  0  m=   1
+    g3 : k=  3  s=  1  n=  0  m=   1
+
+state    434  color_singlet=1
+    g1 : k=  2  s= -1  n=  0  m=   0
+    g2 : k=  1  s= -1  n=  0  m=   2
+    g3 : k=  3  s=  1  n=  0  m=   0
+
+state    435  color_singlet=1
+    g1 : k=  2  s= -1  n=  0  m=   1
+    g2 : k=  1  s= -1  n=  0  m=   0
+    g3 : k=  3  s=  1  n=  0  m=   1
+
+state    436  color_singlet=1
+    g1 : k=  2  s= -1  n=  0  m=   1
+    g2 : k=  1  s= -1  n=  0  m=   1
+    g3 : k=  3  s=  1  n=  0  m=   0
+
+state    437  color_singlet=1
+    g1 : k=  2  s= -1  n=  0  m=   2
+    g2 : k=  1  s= -1  n=  0  m=   0
+    g3 : k=  3  s=  1  n=  0  m=   0
+
+state    438  color_singlet=1
+    g1 : k=  2  s= -1  n=  0  m=   0
+    g2 : k=  1  s=  1  n=  0  m=   0
+    g3 : k=  3  s= -1  n=  0  m=   2
+
+state    439  color_singlet=1
+    g1 : k=  2  s= -1  n=  0  m=   0
+    g2 : k=  1  s=  1  n=  0  m=   1
+    g3 : k=  3  s= -1  n=  0  m=   1
+
+state    440  color_singlet=1
+    g1 : k=  2  s= -1  n=  0  m=   0
+    g2 : k=  1  s=  1  n=  0  m=   2
+    g3 : k=  3  s= -1  n=  0  m=   0
+
+state    441  color_singlet=1
+    g1 : k=  2  s= -1  n=  0  m=   1
+    g2 : k=  1  s=  1  n=  0  m=   0
+    g3 : k=  3  s= -1  n=  0  m=   1
+
+state    442  color_singlet=1
+    g1 : k=  2  s= -1  n=  0  m=   1
+    g2 : k=  1  s=  1  n=  0  m=   1
+    g3 : k=  3  s= -1  n=  0  m=   0
+
+state    443  color_singlet=1
+    g1 : k=  2  s= -1  n=  0  m=   2
+    g2 : k=  1  s=  1  n=  0  m=   0
+    g3 : k=  3  s= -1  n=  0  m=   0
+
+state    444  color_singlet=1
+    g1 : k=  2  s= -1  n=  0  m=  -1
+    g2 : k=  1  s=  1  n=  0  m=   0
+    g3 : k=  3  s=  1  n=  0  m=   1
+
+state    445  color_singlet=1
+    g1 : k=  2  s= -1  n=  0  m=  -1
+    g2 : k=  1  s=  1  n=  0  m=   1
+    g3 : k=  3  s=  1  n=  0  m=   0
+
+state    446  color_singlet=1
+    g1 : k=  2  s= -1  n=  0  m=   0
+    g2 : k=  1  s=  1  n=  0  m=  -1
+    g3 : k=  3  s=  1  n=  0  m=   1
+
+state    447  color_singlet=1
+    g1 : k=  2  s= -1  n=  0  m=   0
+    g2 : k=  1  s=  1  n=  0  m=   0
+    g3 : k=  3  s=  1  n=  0  m=   0
+
+state    448  color_singlet=1
+    g1 : k=  2  s= -1  n=  0  m=   0
+    g2 : k=  1  s=  1  n=  0  m=   0
+    g3 : k=  3  s=  1  n=  1  m=   0
+
+state    449  color_singlet=1
+    g1 : k=  2  s= -1  n=  0  m=   0
+    g2 : k=  1  s=  1  n=  0  m=   1
+    g3 : k=  3  s=  1  n=  0  m=  -1
+
+state    450  color_singlet=1
+    g1 : k=  2  s= -1  n=  0  m=   0
+    g2 : k=  1  s=  1  n=  1  m=   0
+    g3 : k=  3  s=  1  n=  0  m=   0
+
+state    451  color_singlet=1
+    g1 : k=  2  s= -1  n=  0  m=   1
+    g2 : k=  1  s=  1  n=  0  m=  -1
+    g3 : k=  3  s=  1  n=  0  m=   0
+
+state    452  color_singlet=1
+    g1 : k=  2  s= -1  n=  0  m=   1
+    g2 : k=  1  s=  1  n=  0  m=   0
+    g3 : k=  3  s=  1  n=  0  m=  -1
+
+state    453  color_singlet=1
+    g1 : k=  2  s= -1  n=  1  m=   0
+    g2 : k=  1  s=  1  n=  0  m=   0
+    g3 : k=  3  s=  1  n=  0  m=   0
+
+state    454  color_singlet=1
+    g1 : k=  2  s=  1  n=  0  m=   0
+    g2 : k=  1  s= -1  n=  0  m=   0
+    g3 : k=  3  s= -1  n=  0  m=   2
+
+state    455  color_singlet=1
+    g1 : k=  2  s=  1  n=  0  m=   0
+    g2 : k=  1  s= -1  n=  0  m=   1
+    g3 : k=  3  s= -1  n=  0  m=   1
+
+state    456  color_singlet=1
+    g1 : k=  2  s=  1  n=  0  m=   0
+    g2 : k=  1  s= -1  n=  0  m=   2
+    g3 : k=  3  s= -1  n=  0  m=   0
+
+state    457  color_singlet=1
+    g1 : k=  2  s=  1  n=  0  m=   1
+    g2 : k=  1  s= -1  n=  0  m=   0
+    g3 : k=  3  s= -1  n=  0  m=   1
+
+state    458  color_singlet=1
+    g1 : k=  2  s=  1  n=  0  m=   1
+    g2 : k=  1  s= -1  n=  0  m=   1
+    g3 : k=  3  s= -1  n=  0  m=   0
+
+state    459  color_singlet=1
+    g1 : k=  2  s=  1  n=  0  m=   2
+    g2 : k=  1  s= -1  n=  0  m=   0
+    g3 : k=  3  s= -1  n=  0  m=   0
+
+state    460  color_singlet=1
+    g1 : k=  2  s=  1  n=  0  m=  -1
+    g2 : k=  1  s= -1  n=  0  m=   0
+    g3 : k=  3  s=  1  n=  0  m=   1
+
+state    461  color_singlet=1
+    g1 : k=  2  s=  1  n=  0  m=  -1
+    g2 : k=  1  s= -1  n=  0  m=   1
+    g3 : k=  3  s=  1  n=  0  m=   0
+
+state    462  color_singlet=1
+    g1 : k=  2  s=  1  n=  0  m=   0
+    g2 : k=  1  s= -1  n=  0  m=  -1
+    g3 : k=  3  s=  1  n=  0  m=   1
+
+state    463  color_singlet=1
+    g1 : k=  2  s=  1  n=  0  m=   0
+    g2 : k=  1  s= -1  n=  0  m=   0
+    g3 : k=  3  s=  1  n=  0  m=   0
+
+state    464  color_singlet=1
+    g1 : k=  2  s=  1  n=  0  m=   0
+    g2 : k=  1  s= -1  n=  0  m=   0
+    g3 : k=  3  s=  1  n=  1  m=   0
+
+state    465  color_singlet=1
+    g1 : k=  2  s=  1  n=  0  m=   0
+    g2 : k=  1  s= -1  n=  0  m=   1
+    g3 : k=  3  s=  1  n=  0  m=  -1
+
+state    466  color_singlet=1
+    g1 : k=  2  s=  1  n=  0  m=   0
+    g2 : k=  1  s= -1  n=  1  m=   0
+    g3 : k=  3  s=  1  n=  0  m=   0
+
+state    467  color_singlet=1
+    g1 : k=  2  s=  1  n=  0  m=   1
+    g2 : k=  1  s= -1  n=  0  m=  -1
+    g3 : k=  3  s=  1  n=  0  m=   0
+
+state    468  color_singlet=1
+    g1 : k=  2  s=  1  n=  0  m=   1
+    g2 : k=  1  s= -1  n=  0  m=   0
+    g3 : k=  3  s=  1  n=  0  m=  -1
+
+state    469  color_singlet=1
+    g1 : k=  2  s=  1  n=  1  m=   0
+    g2 : k=  1  s= -1  n=  0  m=   0
+    g3 : k=  3  s=  1  n=  0  m=   0
+
+state    470  color_singlet=1
+    g1 : k=  2  s=  1  n=  0  m=  -1
+    g2 : k=  1  s=  1  n=  0  m=   0
+    g3 : k=  3  s= -1  n=  0  m=   1
+
+state    471  color_singlet=1
+    g1 : k=  2  s=  1  n=  0  m=  -1
+    g2 : k=  1  s=  1  n=  0  m=   1
+    g3 : k=  3  s= -1  n=  0  m=   0
+
+state    472  color_singlet=1
+    g1 : k=  2  s=  1  n=  0  m=   0
+    g2 : k=  1  s=  1  n=  0  m=  -1
+    g3 : k=  3  s= -1  n=  0  m=   1
+
+state    473  color_singlet=1
+    g1 : k=  2  s=  1  n=  0  m=   0
+    g2 : k=  1  s=  1  n=  0  m=   0
+    g3 : k=  3  s= -1  n=  0  m=   0
+
+state    474  color_singlet=1
+    g1 : k=  2  s=  1  n=  0  m=   0
+    g2 : k=  1  s=  1  n=  0  m=   0
+    g3 : k=  3  s= -1  n=  1  m=   0
+
+state    475  color_singlet=1
+    g1 : k=  2  s=  1  n=  0  m=   0
+    g2 : k=  1  s=  1  n=  0  m=   1
+    g3 : k=  3  s= -1  n=  0  m=  -1
+
+state    476  color_singlet=1
+    g1 : k=  2  s=  1  n=  0  m=   0
+    g2 : k=  1  s=  1  n=  1  m=   0
+    g3 : k=  3  s= -1  n=  0  m=   0
+
+state    477  color_singlet=1
+    g1 : k=  2  s=  1  n=  0  m=   1
+    g2 : k=  1  s=  1  n=  0  m=  -1
+    g3 : k=  3  s= -1  n=  0  m=   0
+
+state    478  color_singlet=1
+    g1 : k=  2  s=  1  n=  0  m=   1
+    g2 : k=  1  s=  1  n=  0  m=   0
+    g3 : k=  3  s= -1  n=  0  m=  -1
+
+state    479  color_singlet=1
+    g1 : k=  2  s=  1  n=  1  m=   0
+    g2 : k=  1  s=  1  n=  0  m=   0
+    g3 : k=  3  s= -1  n=  0  m=   0
+
+state    480  color_singlet=1
+    g1 : k=  2  s=  1  n=  0  m=  -2
+    g2 : k=  1  s=  1  n=  0  m=   0
+    g3 : k=  3  s=  1  n=  0  m=   0
+
+state    481  color_singlet=1
+    g1 : k=  2  s=  1  n=  0  m=  -1
+    g2 : k=  1  s=  1  n=  0  m=  -1
+    g3 : k=  3  s=  1  n=  0  m=   0
+
+state    482  color_singlet=1
+    g1 : k=  2  s=  1  n=  0  m=  -1
+    g2 : k=  1  s=  1  n=  0  m=   0
+    g3 : k=  3  s=  1  n=  0  m=  -1
+
+state    483  color_singlet=1
+    g1 : k=  2  s=  1  n=  0  m=   0
+    g2 : k=  1  s=  1  n=  0  m=  -2
+    g3 : k=  3  s=  1  n=  0  m=   0
+
+state    484  color_singlet=1
+    g1 : k=  2  s=  1  n=  0  m=   0
+    g2 : k=  1  s=  1  n=  0  m=  -1
+    g3 : k=  3  s=  1  n=  0  m=  -1
+
+state    485  color_singlet=1
+    g1 : k=  2  s=  1  n=  0  m=   0
+    g2 : k=  1  s=  1  n=  0  m=   0
+    g3 : k=  3  s=  1  n=  0  m=  -2
+
+state    486  color_singlet=2
+    g1 : k=  2  s= -1  n=  0  m=   0
+    g2 : k=  1  s= -1  n=  0  m=   0
+    g3 : k=  3  s=  1  n=  0  m=   2
+
+state    487  color_singlet=2
+    g1 : k=  2  s= -1  n=  0  m=   0
+    g2 : k=  1  s= -1  n=  0  m=   1
+    g3 : k=  3  s=  1  n=  0  m=   1
+
+state    488  color_singlet=2
+    g1 : k=  2  s= -1  n=  0  m=   0
+    g2 : k=  1  s= -1  n=  0  m=   2
+    g3 : k=  3  s=  1  n=  0  m=   0
+
+state    489  color_singlet=2
+    g1 : k=  2  s= -1  n=  0  m=   1
+    g2 : k=  1  s= -1  n=  0  m=   0
+    g3 : k=  3  s=  1  n=  0  m=   1
+
+state    490  color_singlet=2
+    g1 : k=  2  s= -1  n=  0  m=   1
+    g2 : k=  1  s= -1  n=  0  m=   1
+    g3 : k=  3  s=  1  n=  0  m=   0
+
+state    491  color_singlet=2
+    g1 : k=  2  s= -1  n=  0  m=   2
+    g2 : k=  1  s= -1  n=  0  m=   0
+    g3 : k=  3  s=  1  n=  0  m=   0
+
+state    492  color_singlet=2
+    g1 : k=  2  s= -1  n=  0  m=   0
+    g2 : k=  1  s=  1  n=  0  m=   0
+    g3 : k=  3  s= -1  n=  0  m=   2
+
+state    493  color_singlet=2
+    g1 : k=  2  s= -1  n=  0  m=   0
+    g2 : k=  1  s=  1  n=  0  m=   1
+    g3 : k=  3  s= -1  n=  0  m=   1
+
+state    494  color_singlet=2
+    g1 : k=  2  s= -1  n=  0  m=   0
+    g2 : k=  1  s=  1  n=  0  m=   2
+    g3 : k=  3  s= -1  n=  0  m=   0
+
+state    495  color_singlet=2
+    g1 : k=  2  s= -1  n=  0  m=   1
+    g2 : k=  1  s=  1  n=  0  m=   0
+    g3 : k=  3  s= -1  n=  0  m=   1
+
+state    496  color_singlet=2
+    g1 : k=  2  s= -1  n=  0  m=   1
+    g2 : k=  1  s=  1  n=  0  m=   1
+    g3 : k=  3  s= -1  n=  0  m=   0
+
+state    497  color_singlet=2
+    g1 : k=  2  s= -1  n=  0  m=   2
+    g2 : k=  1  s=  1  n=  0  m=   0
+    g3 : k=  3  s= -1  n=  0  m=   0
+
+state    498  color_singlet=2
+    g1 : k=  2  s= -1  n=  0  m=  -1
+    g2 : k=  1  s=  1  n=  0  m=   0
+    g3 : k=  3  s=  1  n=  0  m=   1
+
+state    499  color_singlet=2
+    g1 : k=  2  s= -1  n=  0  m=  -1
+    g2 : k=  1  s=  1  n=  0  m=   1
+    g3 : k=  3  s=  1  n=  0  m=   0
+
+state    500  color_singlet=2
+    g1 : k=  2  s= -1  n=  0  m=   0
+    g2 : k=  1  s=  1  n=  0  m=  -1
+    g3 : k=  3  s=  1  n=  0  m=   1
+
+state    501  color_singlet=2
+    g1 : k=  2  s= -1  n=  0  m=   0
+    g2 : k=  1  s=  1  n=  0  m=   0
+    g3 : k=  3  s=  1  n=  0  m=   0
+
+state    502  color_singlet=2
+    g1 : k=  2  s= -1  n=  0  m=   0
+    g2 : k=  1  s=  1  n=  0  m=   0
+    g3 : k=  3  s=  1  n=  1  m=   0
+
+state    503  color_singlet=2
+    g1 : k=  2  s= -1  n=  0  m=   0
+    g2 : k=  1  s=  1  n=  0  m=   1
+    g3 : k=  3  s=  1  n=  0  m=  -1
+
+state    504  color_singlet=2
+    g1 : k=  2  s= -1  n=  0  m=   0
+    g2 : k=  1  s=  1  n=  1  m=   0
+    g3 : k=  3  s=  1  n=  0  m=   0
+
+state    505  color_singlet=2
+    g1 : k=  2  s= -1  n=  0  m=   1
+    g2 : k=  1  s=  1  n=  0  m=  -1
+    g3 : k=  3  s=  1  n=  0  m=   0
+
+state    506  color_singlet=2
+    g1 : k=  2  s= -1  n=  0  m=   1
+    g2 : k=  1  s=  1  n=  0  m=   0
+    g3 : k=  3  s=  1  n=  0  m=  -1
+
+state    507  color_singlet=2
+    g1 : k=  2  s= -1  n=  1  m=   0
+    g2 : k=  1  s=  1  n=  0  m=   0
+    g3 : k=  3  s=  1  n=  0  m=   0
+
+state    508  color_singlet=2
+    g1 : k=  2  s=  1  n=  0  m=   0
+    g2 : k=  1  s= -1  n=  0  m=   0
+    g3 : k=  3  s= -1  n=  0  m=   2
+
+state    509  color_singlet=2
+    g1 : k=  2  s=  1  n=  0  m=   0
+    g2 : k=  1  s= -1  n=  0  m=   1
+    g3 : k=  3  s= -1  n=  0  m=   1
+
+state    510  color_singlet=2
+    g1 : k=  2  s=  1  n=  0  m=   0
+    g2 : k=  1  s= -1  n=  0  m=   2
+    g3 : k=  3  s= -1  n=  0  m=   0
+
+state    511  color_singlet=2
+    g1 : k=  2  s=  1  n=  0  m=   1
+    g2 : k=  1  s= -1  n=  0  m=   0
+    g3 : k=  3  s= -1  n=  0  m=   1
+
+state    512  color_singlet=2
+    g1 : k=  2  s=  1  n=  0  m=   1
+    g2 : k=  1  s= -1  n=  0  m=   1
+    g3 : k=  3  s= -1  n=  0  m=   0
+
+state    513  color_singlet=2
+    g1 : k=  2  s=  1  n=  0  m=   2
+    g2 : k=  1  s= -1  n=  0  m=   0
+    g3 : k=  3  s= -1  n=  0  m=   0
+
+state    514  color_singlet=2
+    g1 : k=  2  s=  1  n=  0  m=  -1
+    g2 : k=  1  s= -1  n=  0  m=   0
+    g3 : k=  3  s=  1  n=  0  m=   1
+
+state    515  color_singlet=2
+    g1 : k=  2  s=  1  n=  0  m=  -1
+    g2 : k=  1  s= -1  n=  0  m=   1
+    g3 : k=  3  s=  1  n=  0  m=   0
+
+state    516  color_singlet=2
+    g1 : k=  2  s=  1  n=  0  m=   0
+    g2 : k=  1  s= -1  n=  0  m=  -1
+    g3 : k=  3  s=  1  n=  0  m=   1
+
+state    517  color_singlet=2
+    g1 : k=  2  s=  1  n=  0  m=   0
+    g2 : k=  1  s= -1  n=  0  m=   0
+    g3 : k=  3  s=  1  n=  0  m=   0
+
+state    518  color_singlet=2
+    g1 : k=  2  s=  1  n=  0  m=   0
+    g2 : k=  1  s= -1  n=  0  m=   0
+    g3 : k=  3  s=  1  n=  1  m=   0
+
+state    519  color_singlet=2
+    g1 : k=  2  s=  1  n=  0  m=   0
+    g2 : k=  1  s= -1  n=  0  m=   1
+    g3 : k=  3  s=  1  n=  0  m=  -1
+
+state    520  color_singlet=2
+    g1 : k=  2  s=  1  n=  0  m=   0
+    g2 : k=  1  s= -1  n=  1  m=   0
+    g3 : k=  3  s=  1  n=  0  m=   0
+
+state    521  color_singlet=2
+    g1 : k=  2  s=  1  n=  0  m=   1
+    g2 : k=  1  s= -1  n=  0  m=  -1
+    g3 : k=  3  s=  1  n=  0  m=   0
+
+state    522  color_singlet=2
+    g1 : k=  2  s=  1  n=  0  m=   1
+    g2 : k=  1  s= -1  n=  0  m=   0
+    g3 : k=  3  s=  1  n=  0  m=  -1
+
+state    523  color_singlet=2
+    g1 : k=  2  s=  1  n=  1  m=   0
+    g2 : k=  1  s= -1  n=  0  m=   0
+    g3 : k=  3  s=  1  n=  0  m=   0
+
+state    524  color_singlet=2
+    g1 : k=  2  s=  1  n=  0  m=  -1
+    g2 : k=  1  s=  1  n=  0  m=   0
+    g3 : k=  3  s= -1  n=  0  m=   1
+
+state    525  color_singlet=2
+    g1 : k=  2  s=  1  n=  0  m=  -1
+    g2 : k=  1  s=  1  n=  0  m=   1
+    g3 : k=  3  s= -1  n=  0  m=   0
+
+state    526  color_singlet=2
+    g1 : k=  2  s=  1  n=  0  m=   0
+    g2 : k=  1  s=  1  n=  0  m=  -1
+    g3 : k=  3  s= -1  n=  0  m=   1
+
+state    527  color_singlet=2
+    g1 : k=  2  s=  1  n=  0  m=   0
+    g2 : k=  1  s=  1  n=  0  m=   0
+    g3 : k=  3  s= -1  n=  0  m=   0
+
+state    528  color_singlet=2
+    g1 : k=  2  s=  1  n=  0  m=   0
+    g2 : k=  1  s=  1  n=  0  m=   0
+    g3 : k=  3  s= -1  n=  1  m=   0
+
+state    529  color_singlet=2
+    g1 : k=  2  s=  1  n=  0  m=   0
+    g2 : k=  1  s=  1  n=  0  m=   1
+    g3 : k=  3  s= -1  n=  0  m=  -1
+
+state    530  color_singlet=2
+    g1 : k=  2  s=  1  n=  0  m=   0
+    g2 : k=  1  s=  1  n=  1  m=   0
+    g3 : k=  3  s= -1  n=  0  m=   0
+
+state    531  color_singlet=2
+    g1 : k=  2  s=  1  n=  0  m=   1
+    g2 : k=  1  s=  1  n=  0  m=  -1
+    g3 : k=  3  s= -1  n=  0  m=   0
+
+state    532  color_singlet=2
+    g1 : k=  2  s=  1  n=  0  m=   1
+    g2 : k=  1  s=  1  n=  0  m=   0
+    g3 : k=  3  s= -1  n=  0  m=  -1
+
+state    533  color_singlet=2
+    g1 : k=  2  s=  1  n=  1  m=   0
+    g2 : k=  1  s=  1  n=  0  m=   0
+    g3 : k=  3  s= -1  n=  0  m=   0
+
+state    534  color_singlet=2
+    g1 : k=  2  s=  1  n=  0  m=  -2
+    g2 : k=  1  s=  1  n=  0  m=   0
+    g3 : k=  3  s=  1  n=  0  m=   0
+
+state    535  color_singlet=2
+    g1 : k=  2  s=  1  n=  0  m=  -1
+    g2 : k=  1  s=  1  n=  0  m=  -1
+    g3 : k=  3  s=  1  n=  0  m=   0
+
+state    536  color_singlet=2
+    g1 : k=  2  s=  1  n=  0  m=  -1
+    g2 : k=  1  s=  1  n=  0  m=   0
+    g3 : k=  3  s=  1  n=  0  m=  -1
+
+state    537  color_singlet=2
+    g1 : k=  2  s=  1  n=  0  m=   0
+    g2 : k=  1  s=  1  n=  0  m=  -2
+    g3 : k=  3  s=  1  n=  0  m=   0
+
+state    538  color_singlet=2
+    g1 : k=  2  s=  1  n=  0  m=   0
+    g2 : k=  1  s=  1  n=  0  m=  -1
+    g3 : k=  3  s=  1  n=  0  m=  -1
+
+state    539  color_singlet=2
+    g1 : k=  2  s=  1  n=  0  m=   0
+    g2 : k=  1  s=  1  n=  0  m=   0
+    g3 : k=  3  s=  1  n=  0  m=  -2
+
+state    540  color_singlet=1
+    g1 : k=  2  s= -1  n=  0  m=   0
+    g2 : k=  2  s= -1  n=  0  m=   0
+    g3 : k=  2  s=  1  n=  0  m=   2
+
+state    541  color_singlet=1
+    g1 : k=  2  s= -1  n=  0  m=   0
+    g2 : k=  2  s= -1  n=  0  m=   1
+    g3 : k=  2  s=  1  n=  0  m=   1
+
+state    542  color_singlet=1
+    g1 : k=  2  s= -1  n=  0  m=   0
+    g2 : k=  2  s= -1  n=  0  m=   2
+    g3 : k=  2  s=  1  n=  0  m=   0
+
+state    543  color_singlet=1
+    g1 : k=  2  s= -1  n=  0  m=   1
+    g2 : k=  2  s= -1  n=  0  m=   0
+    g3 : k=  2  s=  1  n=  0  m=   1
+
+state    544  color_singlet=1
+    g1 : k=  2  s= -1  n=  0  m=   1
+    g2 : k=  2  s= -1  n=  0  m=   1
+    g3 : k=  2  s=  1  n=  0  m=   0
+
+state    545  color_singlet=1
+    g1 : k=  2  s= -1  n=  0  m=   2
+    g2 : k=  2  s= -1  n=  0  m=   0
+    g3 : k=  2  s=  1  n=  0  m=   0
+
+state    546  color_singlet=1
+    g1 : k=  2  s= -1  n=  0  m=   0
+    g2 : k=  2  s=  1  n=  0  m=   0
+    g3 : k=  2  s= -1  n=  0  m=   2
+
+state    547  color_singlet=1
+    g1 : k=  2  s= -1  n=  0  m=   0
+    g2 : k=  2  s=  1  n=  0  m=   1
+    g3 : k=  2  s= -1  n=  0  m=   1
+
+state    548  color_singlet=1
+    g1 : k=  2  s= -1  n=  0  m=   0
+    g2 : k=  2  s=  1  n=  0  m=   2
+    g3 : k=  2  s= -1  n=  0  m=   0
+
+state    549  color_singlet=1
+    g1 : k=  2  s= -1  n=  0  m=   1
+    g2 : k=  2  s=  1  n=  0  m=   0
+    g3 : k=  2  s= -1  n=  0  m=   1
+
+state    550  color_singlet=1
+    g1 : k=  2  s= -1  n=  0  m=   1
+    g2 : k=  2  s=  1  n=  0  m=   1
+    g3 : k=  2  s= -1  n=  0  m=   0
+
+state    551  color_singlet=1
+    g1 : k=  2  s= -1  n=  0  m=   2
+    g2 : k=  2  s=  1  n=  0  m=   0
+    g3 : k=  2  s= -1  n=  0  m=   0
+
+state    552  color_singlet=1
+    g1 : k=  2  s= -1  n=  0  m=  -1
+    g2 : k=  2  s=  1  n=  0  m=   0
+    g3 : k=  2  s=  1  n=  0  m=   1
+
+state    553  color_singlet=1
+    g1 : k=  2  s= -1  n=  0  m=  -1
+    g2 : k=  2  s=  1  n=  0  m=   1
+    g3 : k=  2  s=  1  n=  0  m=   0
+
+state    554  color_singlet=1
+    g1 : k=  2  s= -1  n=  0  m=   0
+    g2 : k=  2  s=  1  n=  0  m=  -1
+    g3 : k=  2  s=  1  n=  0  m=   1
+
+state    555  color_singlet=1
+    g1 : k=  2  s= -1  n=  0  m=   0
+    g2 : k=  2  s=  1  n=  0  m=   0
+    g3 : k=  2  s=  1  n=  0  m=   0
+
+state    556  color_singlet=1
+    g1 : k=  2  s= -1  n=  0  m=   0
+    g2 : k=  2  s=  1  n=  0  m=   0
+    g3 : k=  2  s=  1  n=  1  m=   0
+
+state    557  color_singlet=1
+    g1 : k=  2  s= -1  n=  0  m=   0
+    g2 : k=  2  s=  1  n=  0  m=   1
+    g3 : k=  2  s=  1  n=  0  m=  -1
+
+state    558  color_singlet=1
+    g1 : k=  2  s= -1  n=  0  m=   0
+    g2 : k=  2  s=  1  n=  1  m=   0
+    g3 : k=  2  s=  1  n=  0  m=   0
+
+state    559  color_singlet=1
+    g1 : k=  2  s= -1  n=  0  m=   1
+    g2 : k=  2  s=  1  n=  0  m=  -1
+    g3 : k=  2  s=  1  n=  0  m=   0
+
+state    560  color_singlet=1
+    g1 : k=  2  s= -1  n=  0  m=   1
+    g2 : k=  2  s=  1  n=  0  m=   0
+    g3 : k=  2  s=  1  n=  0  m=  -1
+
+state    561  color_singlet=1
+    g1 : k=  2  s= -1  n=  1  m=   0
+    g2 : k=  2  s=  1  n=  0  m=   0
+    g3 : k=  2  s=  1  n=  0  m=   0
+
+state    562  color_singlet=1
+    g1 : k=  2  s=  1  n=  0  m=   0
+    g2 : k=  2  s= -1  n=  0  m=   0
+    g3 : k=  2  s= -1  n=  0  m=   2
+
+state    563  color_singlet=1
+    g1 : k=  2  s=  1  n=  0  m=   0
+    g2 : k=  2  s= -1  n=  0  m=   1
+    g3 : k=  2  s= -1  n=  0  m=   1
+
+state    564  color_singlet=1
+    g1 : k=  2  s=  1  n=  0  m=   0
+    g2 : k=  2  s= -1  n=  0  m=   2
+    g3 : k=  2  s= -1  n=  0  m=   0
+
+state    565  color_singlet=1
+    g1 : k=  2  s=  1  n=  0  m=   1
+    g2 : k=  2  s= -1  n=  0  m=   0
+    g3 : k=  2  s= -1  n=  0  m=   1
+
+state    566  color_singlet=1
+    g1 : k=  2  s=  1  n=  0  m=   1
+    g2 : k=  2  s= -1  n=  0  m=   1
+    g3 : k=  2  s= -1  n=  0  m=   0
+
+state    567  color_singlet=1
+    g1 : k=  2  s=  1  n=  0  m=   2
+    g2 : k=  2  s= -1  n=  0  m=   0
+    g3 : k=  2  s= -1  n=  0  m=   0
+
+state    568  color_singlet=1
+    g1 : k=  2  s=  1  n=  0  m=  -1
+    g2 : k=  2  s= -1  n=  0  m=   0
+    g3 : k=  2  s=  1  n=  0  m=   1
+
+state    569  color_singlet=1
+    g1 : k=  2  s=  1  n=  0  m=  -1
+    g2 : k=  2  s= -1  n=  0  m=   1
+    g3 : k=  2  s=  1  n=  0  m=   0
+
+state    570  color_singlet=1
+    g1 : k=  2  s=  1  n=  0  m=   0
+    g2 : k=  2  s= -1  n=  0  m=  -1
+    g3 : k=  2  s=  1  n=  0  m=   1
+
+state    571  color_singlet=1
+    g1 : k=  2  s=  1  n=  0  m=   0
+    g2 : k=  2  s= -1  n=  0  m=   0
+    g3 : k=  2  s=  1  n=  0  m=   0
+
+state    572  color_singlet=1
+    g1 : k=  2  s=  1  n=  0  m=   0
+    g2 : k=  2  s= -1  n=  0  m=   0
+    g3 : k=  2  s=  1  n=  1  m=   0
+
+state    573  color_singlet=1
+    g1 : k=  2  s=  1  n=  0  m=   0
+    g2 : k=  2  s= -1  n=  0  m=   1
+    g3 : k=  2  s=  1  n=  0  m=  -1
+
+state    574  color_singlet=1
+    g1 : k=  2  s=  1  n=  0  m=   0
+    g2 : k=  2  s= -1  n=  1  m=   0
+    g3 : k=  2  s=  1  n=  0  m=   0
+
+state    575  color_singlet=1
+    g1 : k=  2  s=  1  n=  0  m=   1
+    g2 : k=  2  s= -1  n=  0  m=  -1
+    g3 : k=  2  s=  1  n=  0  m=   0
+
+state    576  color_singlet=1
+    g1 : k=  2  s=  1  n=  0  m=   1
+    g2 : k=  2  s= -1  n=  0  m=   0
+    g3 : k=  2  s=  1  n=  0  m=  -1
+
+state    577  color_singlet=1
+    g1 : k=  2  s=  1  n=  1  m=   0
+    g2 : k=  2  s= -1  n=  0  m=   0
+    g3 : k=  2  s=  1  n=  0  m=   0
+
+state    578  color_singlet=1
+    g1 : k=  2  s=  1  n=  0  m=  -1
+    g2 : k=  2  s=  1  n=  0  m=   0
+    g3 : k=  2  s= -1  n=  0  m=   1
+
+state    579  color_singlet=1
+    g1 : k=  2  s=  1  n=  0  m=  -1
+    g2 : k=  2  s=  1  n=  0  m=   1
+    g3 : k=  2  s= -1  n=  0  m=   0
+
+state    580  color_singlet=1
+    g1 : k=  2  s=  1  n=  0  m=   0
+    g2 : k=  2  s=  1  n=  0  m=  -1
+    g3 : k=  2  s= -1  n=  0  m=   1
+
+state    581  color_singlet=1
+    g1 : k=  2  s=  1  n=  0  m=   0
+    g2 : k=  2  s=  1  n=  0  m=   0
+    g3 : k=  2  s= -1  n=  0  m=   0
+
+state    582  color_singlet=1
+    g1 : k=  2  s=  1  n=  0  m=   0
+    g2 : k=  2  s=  1  n=  0  m=   0
+    g3 : k=  2  s= -1  n=  1  m=   0
+
+state    583  color_singlet=1
+    g1 : k=  2  s=  1  n=  0  m=   0
+    g2 : k=  2  s=  1  n=  0  m=   1
+    g3 : k=  2  s= -1  n=  0  m=  -1
+
+state    584  color_singlet=1
+    g1 : k=  2  s=  1  n=  0  m=   0
+    g2 : k=  2  s=  1  n=  1  m=   0
+    g3 : k=  2  s= -1  n=  0  m=   0
+
+state    585  color_singlet=1
+    g1 : k=  2  s=  1  n=  0  m=   1
+    g2 : k=  2  s=  1  n=  0  m=  -1
+    g3 : k=  2  s= -1  n=  0  m=   0
+
+state    586  color_singlet=1
+    g1 : k=  2  s=  1  n=  0  m=   1
+    g2 : k=  2  s=  1  n=  0  m=   0
+    g3 : k=  2  s= -1  n=  0  m=  -1
+
+state    587  color_singlet=1
+    g1 : k=  2  s=  1  n=  1  m=   0
+    g2 : k=  2  s=  1  n=  0  m=   0
+    g3 : k=  2  s= -1  n=  0  m=   0
+
+state    588  color_singlet=1
+    g1 : k=  2  s=  1  n=  0  m=  -2
+    g2 : k=  2  s=  1  n=  0  m=   0
+    g3 : k=  2  s=  1  n=  0  m=   0
+
+state    589  color_singlet=1
+    g1 : k=  2  s=  1  n=  0  m=  -1
+    g2 : k=  2  s=  1  n=  0  m=  -1
+    g3 : k=  2  s=  1  n=  0  m=   0
+
+state    590  color_singlet=1
+    g1 : k=  2  s=  1  n=  0  m=  -1
+    g2 : k=  2  s=  1  n=  0  m=   0
+    g3 : k=  2  s=  1  n=  0  m=  -1
+
+state    591  color_singlet=1
+    g1 : k=  2  s=  1  n=  0  m=   0
+    g2 : k=  2  s=  1  n=  0  m=  -2
+    g3 : k=  2  s=  1  n=  0  m=   0
+
+state    592  color_singlet=1
+    g1 : k=  2  s=  1  n=  0  m=   0
+    g2 : k=  2  s=  1  n=  0  m=  -1
+    g3 : k=  2  s=  1  n=  0  m=  -1
+
+state    593  color_singlet=1
+    g1 : k=  2  s=  1  n=  0  m=   0
+    g2 : k=  2  s=  1  n=  0  m=   0
+    g3 : k=  2  s=  1  n=  0  m=  -2
+
+state    594  color_singlet=2
+    g1 : k=  2  s= -1  n=  0  m=   0
+    g2 : k=  2  s= -1  n=  0  m=   0
+    g3 : k=  2  s=  1  n=  0  m=   2
+
+state    595  color_singlet=2
+    g1 : k=  2  s= -1  n=  0  m=   0
+    g2 : k=  2  s= -1  n=  0  m=   1
+    g3 : k=  2  s=  1  n=  0  m=   1
+
+state    596  color_singlet=2
+    g1 : k=  2  s= -1  n=  0  m=   0
+    g2 : k=  2  s= -1  n=  0  m=   2
+    g3 : k=  2  s=  1  n=  0  m=   0
+
+state    597  color_singlet=2
+    g1 : k=  2  s= -1  n=  0  m=   1
+    g2 : k=  2  s= -1  n=  0  m=   0
+    g3 : k=  2  s=  1  n=  0  m=   1
+
+state    598  color_singlet=2
+    g1 : k=  2  s= -1  n=  0  m=   1
+    g2 : k=  2  s= -1  n=  0  m=   1
+    g3 : k=  2  s=  1  n=  0  m=   0
+
+state    599  color_singlet=2
+    g1 : k=  2  s= -1  n=  0  m=   2
+    g2 : k=  2  s= -1  n=  0  m=   0
+    g3 : k=  2  s=  1  n=  0  m=   0
+
+state    600  color_singlet=2
+    g1 : k=  2  s= -1  n=  0  m=   0
+    g2 : k=  2  s=  1  n=  0  m=   0
+    g3 : k=  2  s= -1  n=  0  m=   2
+
+state    601  color_singlet=2
+    g1 : k=  2  s= -1  n=  0  m=   0
+    g2 : k=  2  s=  1  n=  0  m=   1
+    g3 : k=  2  s= -1  n=  0  m=   1
+
+state    602  color_singlet=2
+    g1 : k=  2  s= -1  n=  0  m=   0
+    g2 : k=  2  s=  1  n=  0  m=   2
+    g3 : k=  2  s= -1  n=  0  m=   0
+
+state    603  color_singlet=2
+    g1 : k=  2  s= -1  n=  0  m=   1
+    g2 : k=  2  s=  1  n=  0  m=   0
+    g3 : k=  2  s= -1  n=  0  m=   1
+
+state    604  color_singlet=2
+    g1 : k=  2  s= -1  n=  0  m=   1
+    g2 : k=  2  s=  1  n=  0  m=   1
+    g3 : k=  2  s= -1  n=  0  m=   0
+
+state    605  color_singlet=2
+    g1 : k=  2  s= -1  n=  0  m=   2
+    g2 : k=  2  s=  1  n=  0  m=   0
+    g3 : k=  2  s= -1  n=  0  m=   0
+
+state    606  color_singlet=2
+    g1 : k=  2  s= -1  n=  0  m=  -1
+    g2 : k=  2  s=  1  n=  0  m=   0
+    g3 : k=  2  s=  1  n=  0  m=   1
+
+state    607  color_singlet=2
+    g1 : k=  2  s= -1  n=  0  m=  -1
+    g2 : k=  2  s=  1  n=  0  m=   1
+    g3 : k=  2  s=  1  n=  0  m=   0
+
+state    608  color_singlet=2
+    g1 : k=  2  s= -1  n=  0  m=   0
+    g2 : k=  2  s=  1  n=  0  m=  -1
+    g3 : k=  2  s=  1  n=  0  m=   1
+
+state    609  color_singlet=2
+    g1 : k=  2  s= -1  n=  0  m=   0
+    g2 : k=  2  s=  1  n=  0  m=   0
+    g3 : k=  2  s=  1  n=  0  m=   0
+
+state    610  color_singlet=2
+    g1 : k=  2  s= -1  n=  0  m=   0
+    g2 : k=  2  s=  1  n=  0  m=   0
+    g3 : k=  2  s=  1  n=  1  m=   0
+
+state    611  color_singlet=2
+    g1 : k=  2  s= -1  n=  0  m=   0
+    g2 : k=  2  s=  1  n=  0  m=   1
+    g3 : k=  2  s=  1  n=  0  m=  -1
+
+state    612  color_singlet=2
+    g1 : k=  2  s= -1  n=  0  m=   0
+    g2 : k=  2  s=  1  n=  1  m=   0
+    g3 : k=  2  s=  1  n=  0  m=   0
+
+state    613  color_singlet=2
+    g1 : k=  2  s= -1  n=  0  m=   1
+    g2 : k=  2  s=  1  n=  0  m=  -1
+    g3 : k=  2  s=  1  n=  0  m=   0
+
+state    614  color_singlet=2
+    g1 : k=  2  s= -1  n=  0  m=   1
+    g2 : k=  2  s=  1  n=  0  m=   0
+    g3 : k=  2  s=  1  n=  0  m=  -1
+
+state    615  color_singlet=2
+    g1 : k=  2  s= -1  n=  1  m=   0
+    g2 : k=  2  s=  1  n=  0  m=   0
+    g3 : k=  2  s=  1  n=  0  m=   0
+
+state    616  color_singlet=2
+    g1 : k=  2  s=  1  n=  0  m=   0
+    g2 : k=  2  s= -1  n=  0  m=   0
+    g3 : k=  2  s= -1  n=  0  m=   2
+
+state    617  color_singlet=2
+    g1 : k=  2  s=  1  n=  0  m=   0
+    g2 : k=  2  s= -1  n=  0  m=   1
+    g3 : k=  2  s= -1  n=  0  m=   1
+
+state    618  color_singlet=2
+    g1 : k=  2  s=  1  n=  0  m=   0
+    g2 : k=  2  s= -1  n=  0  m=   2
+    g3 : k=  2  s= -1  n=  0  m=   0
+
+state    619  color_singlet=2
+    g1 : k=  2  s=  1  n=  0  m=   1
+    g2 : k=  2  s= -1  n=  0  m=   0
+    g3 : k=  2  s= -1  n=  0  m=   1
+
+state    620  color_singlet=2
+    g1 : k=  2  s=  1  n=  0  m=   1
+    g2 : k=  2  s= -1  n=  0  m=   1
+    g3 : k=  2  s= -1  n=  0  m=   0
+
+state    621  color_singlet=2
+    g1 : k=  2  s=  1  n=  0  m=   2
+    g2 : k=  2  s= -1  n=  0  m=   0
+    g3 : k=  2  s= -1  n=  0  m=   0
+
+state    622  color_singlet=2
+    g1 : k=  2  s=  1  n=  0  m=  -1
+    g2 : k=  2  s= -1  n=  0  m=   0
+    g3 : k=  2  s=  1  n=  0  m=   1
+
+state    623  color_singlet=2
+    g1 : k=  2  s=  1  n=  0  m=  -1
+    g2 : k=  2  s= -1  n=  0  m=   1
+    g3 : k=  2  s=  1  n=  0  m=   0
+
+state    624  color_singlet=2
+    g1 : k=  2  s=  1  n=  0  m=   0
+    g2 : k=  2  s= -1  n=  0  m=  -1
+    g3 : k=  2  s=  1  n=  0  m=   1
+
+state    625  color_singlet=2
+    g1 : k=  2  s=  1  n=  0  m=   0
+    g2 : k=  2  s= -1  n=  0  m=   0
+    g3 : k=  2  s=  1  n=  0  m=   0
+
+state    626  color_singlet=2
+    g1 : k=  2  s=  1  n=  0  m=   0
+    g2 : k=  2  s= -1  n=  0  m=   0
+    g3 : k=  2  s=  1  n=  1  m=   0
+
+state    627  color_singlet=2
+    g1 : k=  2  s=  1  n=  0  m=   0
+    g2 : k=  2  s= -1  n=  0  m=   1
+    g3 : k=  2  s=  1  n=  0  m=  -1
+
+state    628  color_singlet=2
+    g1 : k=  2  s=  1  n=  0  m=   0
+    g2 : k=  2  s= -1  n=  1  m=   0
+    g3 : k=  2  s=  1  n=  0  m=   0
+
+state    629  color_singlet=2
+    g1 : k=  2  s=  1  n=  0  m=   1
+    g2 : k=  2  s= -1  n=  0  m=  -1
+    g3 : k=  2  s=  1  n=  0  m=   0
+
+state    630  color_singlet=2
+    g1 : k=  2  s=  1  n=  0  m=   1
+    g2 : k=  2  s= -1  n=  0  m=   0
+    g3 : k=  2  s=  1  n=  0  m=  -1
+
+state    631  color_singlet=2
+    g1 : k=  2  s=  1  n=  1  m=   0
+    g2 : k=  2  s= -1  n=  0  m=   0
+    g3 : k=  2  s=  1  n=  0  m=   0
+
+state    632  color_singlet=2
+    g1 : k=  2  s=  1  n=  0  m=  -1
+    g2 : k=  2  s=  1  n=  0  m=   0
+    g3 : k=  2  s= -1  n=  0  m=   1
+
+state    633  color_singlet=2
+    g1 : k=  2  s=  1  n=  0  m=  -1
+    g2 : k=  2  s=  1  n=  0  m=   1
+    g3 : k=  2  s= -1  n=  0  m=   0
+
+state    634  color_singlet=2
+    g1 : k=  2  s=  1  n=  0  m=   0
+    g2 : k=  2  s=  1  n=  0  m=  -1
+    g3 : k=  2  s= -1  n=  0  m=   1
+
+state    635  color_singlet=2
+    g1 : k=  2  s=  1  n=  0  m=   0
+    g2 : k=  2  s=  1  n=  0  m=   0
+    g3 : k=  2  s= -1  n=  0  m=   0
+
+state    636  color_singlet=2
+    g1 : k=  2  s=  1  n=  0  m=   0
+    g2 : k=  2  s=  1  n=  0  m=   0
+    g3 : k=  2  s= -1  n=  1  m=   0
+
+state    637  color_singlet=2
+    g1 : k=  2  s=  1  n=  0  m=   0
+    g2 : k=  2  s=  1  n=  0  m=   1
+    g3 : k=  2  s= -1  n=  0  m=  -1
+
+state    638  color_singlet=2
+    g1 : k=  2  s=  1  n=  0  m=   0
+    g2 : k=  2  s=  1  n=  1  m=   0
+    g3 : k=  2  s= -1  n=  0  m=   0
+
+state    639  color_singlet=2
+    g1 : k=  2  s=  1  n=  0  m=   1
+    g2 : k=  2  s=  1  n=  0  m=  -1
+    g3 : k=  2  s= -1  n=  0  m=   0
+
+state    640  color_singlet=2
+    g1 : k=  2  s=  1  n=  0  m=   1
+    g2 : k=  2  s=  1  n=  0  m=   0
+    g3 : k=  2  s= -1  n=  0  m=  -1
+
+state    641  color_singlet=2
+    g1 : k=  2  s=  1  n=  1  m=   0
+    g2 : k=  2  s=  1  n=  0  m=   0
+    g3 : k=  2  s= -1  n=  0  m=   0
+
+state    642  color_singlet=2
+    g1 : k=  2  s=  1  n=  0  m=  -2
+    g2 : k=  2  s=  1  n=  0  m=   0
+    g3 : k=  2  s=  1  n=  0  m=   0
+
+state    643  color_singlet=2
+    g1 : k=  2  s=  1  n=  0  m=  -1
+    g2 : k=  2  s=  1  n=  0  m=  -1
+    g3 : k=  2  s=  1  n=  0  m=   0
+
+state    644  color_singlet=2
+    g1 : k=  2  s=  1  n=  0  m=  -1
+    g2 : k=  2  s=  1  n=  0  m=   0
+    g3 : k=  2  s=  1  n=  0  m=  -1
+
+state    645  color_singlet=2
+    g1 : k=  2  s=  1  n=  0  m=   0
+    g2 : k=  2  s=  1  n=  0  m=  -2
+    g3 : k=  2  s=  1  n=  0  m=   0
+
+state    646  color_singlet=2
+    g1 : k=  2  s=  1  n=  0  m=   0
+    g2 : k=  2  s=  1  n=  0  m=  -1
+    g3 : k=  2  s=  1  n=  0  m=  -1
+
+state    647  color_singlet=2
+    g1 : k=  2  s=  1  n=  0  m=   0
+    g2 : k=  2  s=  1  n=  0  m=   0
+    g3 : k=  2  s=  1  n=  0  m=  -2
+
+state    648  color_singlet=1
+    g1 : k=  2  s= -1  n=  0  m=   0
+    g2 : k=  3  s= -1  n=  0  m=   0
+    g3 : k=  1  s=  1  n=  0  m=   2
+
+state    649  color_singlet=1
+    g1 : k=  2  s= -1  n=  0  m=   0
+    g2 : k=  3  s= -1  n=  0  m=   1
+    g3 : k=  1  s=  1  n=  0  m=   1
+
+state    650  color_singlet=1
+    g1 : k=  2  s= -1  n=  0  m=   0
+    g2 : k=  3  s= -1  n=  0  m=   2
+    g3 : k=  1  s=  1  n=  0  m=   0
+
+state    651  color_singlet=1
+    g1 : k=  2  s= -1  n=  0  m=   1
+    g2 : k=  3  s= -1  n=  0  m=   0
+    g3 : k=  1  s=  1  n=  0  m=   1
+
+state    652  color_singlet=1
+    g1 : k=  2  s= -1  n=  0  m=   1
+    g2 : k=  3  s= -1  n=  0  m=   1
+    g3 : k=  1  s=  1  n=  0  m=   0
+
+state    653  color_singlet=1
+    g1 : k=  2  s= -1  n=  0  m=   2
+    g2 : k=  3  s= -1  n=  0  m=   0
+    g3 : k=  1  s=  1  n=  0  m=   0
+
+state    654  color_singlet=1
+    g1 : k=  2  s= -1  n=  0  m=   0
+    g2 : k=  3  s=  1  n=  0  m=   0
+    g3 : k=  1  s= -1  n=  0  m=   2
+
+state    655  color_singlet=1
+    g1 : k=  2  s= -1  n=  0  m=   0
+    g2 : k=  3  s=  1  n=  0  m=   1
+    g3 : k=  1  s= -1  n=  0  m=   1
+
+state    656  color_singlet=1
+    g1 : k=  2  s= -1  n=  0  m=   0
+    g2 : k=  3  s=  1  n=  0  m=   2
+    g3 : k=  1  s= -1  n=  0  m=   0
+
+state    657  color_singlet=1
+    g1 : k=  2  s= -1  n=  0  m=   1
+    g2 : k=  3  s=  1  n=  0  m=   0
+    g3 : k=  1  s= -1  n=  0  m=   1
+
+state    658  color_singlet=1
+    g1 : k=  2  s= -1  n=  0  m=   1
+    g2 : k=  3  s=  1  n=  0  m=   1
+    g3 : k=  1  s= -1  n=  0  m=   0
+
+state    659  color_singlet=1
+    g1 : k=  2  s= -1  n=  0  m=   2
+    g2 : k=  3  s=  1  n=  0  m=   0
+    g3 : k=  1  s= -1  n=  0  m=   0
+
+state    660  color_singlet=1
+    g1 : k=  2  s= -1  n=  0  m=  -1
+    g2 : k=  3  s=  1  n=  0  m=   0
+    g3 : k=  1  s=  1  n=  0  m=   1
+
+state    661  color_singlet=1
+    g1 : k=  2  s= -1  n=  0  m=  -1
+    g2 : k=  3  s=  1  n=  0  m=   1
+    g3 : k=  1  s=  1  n=  0  m=   0
+
+state    662  color_singlet=1
+    g1 : k=  2  s= -1  n=  0  m=   0
+    g2 : k=  3  s=  1  n=  0  m=  -1
+    g3 : k=  1  s=  1  n=  0  m=   1
+
+state    663  color_singlet=1
+    g1 : k=  2  s= -1  n=  0  m=   0
+    g2 : k=  3  s=  1  n=  0  m=   0
+    g3 : k=  1  s=  1  n=  0  m=   0
+
+state    664  color_singlet=1
+    g1 : k=  2  s= -1  n=  0  m=   0
+    g2 : k=  3  s=  1  n=  0  m=   0
+    g3 : k=  1  s=  1  n=  1  m=   0
+
+state    665  color_singlet=1
+    g1 : k=  2  s= -1  n=  0  m=   0
+    g2 : k=  3  s=  1  n=  0  m=   1
+    g3 : k=  1  s=  1  n=  0  m=  -1
+
+state    666  color_singlet=1
+    g1 : k=  2  s= -1  n=  0  m=   0
+    g2 : k=  3  s=  1  n=  1  m=   0
+    g3 : k=  1  s=  1  n=  0  m=   0
+
+state    667  color_singlet=1
+    g1 : k=  2  s= -1  n=  0  m=   1
+    g2 : k=  3  s=  1  n=  0  m=  -1
+    g3 : k=  1  s=  1  n=  0  m=   0
+
+state    668  color_singlet=1
+    g1 : k=  2  s= -1  n=  0  m=   1
+    g2 : k=  3  s=  1  n=  0  m=   0
+    g3 : k=  1  s=  1  n=  0  m=  -1
+
+state    669  color_singlet=1
+    g1 : k=  2  s= -1  n=  1  m=   0
+    g2 : k=  3  s=  1  n=  0  m=   0
+    g3 : k=  1  s=  1  n=  0  m=   0
+
+state    670  color_singlet=1
+    g1 : k=  2  s=  1  n=  0  m=   0
+    g2 : k=  3  s= -1  n=  0  m=   0
+    g3 : k=  1  s= -1  n=  0  m=   2
+
+state    671  color_singlet=1
+    g1 : k=  2  s=  1  n=  0  m=   0
+    g2 : k=  3  s= -1  n=  0  m=   1
+    g3 : k=  1  s= -1  n=  0  m=   1
+
+state    672  color_singlet=1
+    g1 : k=  2  s=  1  n=  0  m=   0
+    g2 : k=  3  s= -1  n=  0  m=   2
+    g3 : k=  1  s= -1  n=  0  m=   0
+
+state    673  color_singlet=1
+    g1 : k=  2  s=  1  n=  0  m=   1
+    g2 : k=  3  s= -1  n=  0  m=   0
+    g3 : k=  1  s= -1  n=  0  m=   1
+
+state    674  color_singlet=1
+    g1 : k=  2  s=  1  n=  0  m=   1
+    g2 : k=  3  s= -1  n=  0  m=   1
+    g3 : k=  1  s= -1  n=  0  m=   0
+
+state    675  color_singlet=1
+    g1 : k=  2  s=  1  n=  0  m=   2
+    g2 : k=  3  s= -1  n=  0  m=   0
+    g3 : k=  1  s= -1  n=  0  m=   0
+
+state    676  color_singlet=1
+    g1 : k=  2  s=  1  n=  0  m=  -1
+    g2 : k=  3  s= -1  n=  0  m=   0
+    g3 : k=  1  s=  1  n=  0  m=   1
+
+state    677  color_singlet=1
+    g1 : k=  2  s=  1  n=  0  m=  -1
+    g2 : k=  3  s= -1  n=  0  m=   1
+    g3 : k=  1  s=  1  n=  0  m=   0
+
+state    678  color_singlet=1
+    g1 : k=  2  s=  1  n=  0  m=   0
+    g2 : k=  3  s= -1  n=  0  m=  -1
+    g3 : k=  1  s=  1  n=  0  m=   1
+
+state    679  color_singlet=1
+    g1 : k=  2  s=  1  n=  0  m=   0
+    g2 : k=  3  s= -1  n=  0  m=   0
+    g3 : k=  1  s=  1  n=  0  m=   0
+
+state    680  color_singlet=1
+    g1 : k=  2  s=  1  n=  0  m=   0
+    g2 : k=  3  s= -1  n=  0  m=   0
+    g3 : k=  1  s=  1  n=  1  m=   0
+
+state    681  color_singlet=1
+    g1 : k=  2  s=  1  n=  0  m=   0
+    g2 : k=  3  s= -1  n=  0  m=   1
+    g3 : k=  1  s=  1  n=  0  m=  -1
+
+state    682  color_singlet=1
+    g1 : k=  2  s=  1  n=  0  m=   0
+    g2 : k=  3  s= -1  n=  1  m=   0
+    g3 : k=  1  s=  1  n=  0  m=   0
+
+state    683  color_singlet=1
+    g1 : k=  2  s=  1  n=  0  m=   1
+    g2 : k=  3  s= -1  n=  0  m=  -1
+    g3 : k=  1  s=  1  n=  0  m=   0
+
+state    684  color_singlet=1
+    g1 : k=  2  s=  1  n=  0  m=   1
+    g2 : k=  3  s= -1  n=  0  m=   0
+    g3 : k=  1  s=  1  n=  0  m=  -1
+
+state    685  color_singlet=1
+    g1 : k=  2  s=  1  n=  1  m=   0
+    g2 : k=  3  s= -1  n=  0  m=   0
+    g3 : k=  1  s=  1  n=  0  m=   0
+
+state    686  color_singlet=1
+    g1 : k=  2  s=  1  n=  0  m=  -1
+    g2 : k=  3  s=  1  n=  0  m=   0
+    g3 : k=  1  s= -1  n=  0  m=   1
+
+state    687  color_singlet=1
+    g1 : k=  2  s=  1  n=  0  m=  -1
+    g2 : k=  3  s=  1  n=  0  m=   1
+    g3 : k=  1  s= -1  n=  0  m=   0
+
+state    688  color_singlet=1
+    g1 : k=  2  s=  1  n=  0  m=   0
+    g2 : k=  3  s=  1  n=  0  m=  -1
+    g3 : k=  1  s= -1  n=  0  m=   1
+
+state    689  color_singlet=1
+    g1 : k=  2  s=  1  n=  0  m=   0
+    g2 : k=  3  s=  1  n=  0  m=   0
+    g3 : k=  1  s= -1  n=  0  m=   0
+
+state    690  color_singlet=1
+    g1 : k=  2  s=  1  n=  0  m=   0
+    g2 : k=  3  s=  1  n=  0  m=   0
+    g3 : k=  1  s= -1  n=  1  m=   0
+
+state    691  color_singlet=1
+    g1 : k=  2  s=  1  n=  0  m=   0
+    g2 : k=  3  s=  1  n=  0  m=   1
+    g3 : k=  1  s= -1  n=  0  m=  -1
+
+state    692  color_singlet=1
+    g1 : k=  2  s=  1  n=  0  m=   0
+    g2 : k=  3  s=  1  n=  1  m=   0
+    g3 : k=  1  s= -1  n=  0  m=   0
+
+state    693  color_singlet=1
+    g1 : k=  2  s=  1  n=  0  m=   1
+    g2 : k=  3  s=  1  n=  0  m=  -1
+    g3 : k=  1  s= -1  n=  0  m=   0
+
+state    694  color_singlet=1
+    g1 : k=  2  s=  1  n=  0  m=   1
+    g2 : k=  3  s=  1  n=  0  m=   0
+    g3 : k=  1  s= -1  n=  0  m=  -1
+
+state    695  color_singlet=1
+    g1 : k=  2  s=  1  n=  1  m=   0
+    g2 : k=  3  s=  1  n=  0  m=   0
+    g3 : k=  1  s= -1  n=  0  m=   0
+
+state    696  color_singlet=1
+    g1 : k=  2  s=  1  n=  0  m=  -2
+    g2 : k=  3  s=  1  n=  0  m=   0
+    g3 : k=  1  s=  1  n=  0  m=   0
+
+state    697  color_singlet=1
+    g1 : k=  2  s=  1  n=  0  m=  -1
+    g2 : k=  3  s=  1  n=  0  m=  -1
+    g3 : k=  1  s=  1  n=  0  m=   0
+
+state    698  color_singlet=1
+    g1 : k=  2  s=  1  n=  0  m=  -1
+    g2 : k=  3  s=  1  n=  0  m=   0
+    g3 : k=  1  s=  1  n=  0  m=  -1
+
+state    699  color_singlet=1
+    g1 : k=  2  s=  1  n=  0  m=   0
+    g2 : k=  3  s=  1  n=  0  m=  -2
+    g3 : k=  1  s=  1  n=  0  m=   0
+
+state    700  color_singlet=1
+    g1 : k=  2  s=  1  n=  0  m=   0
+    g2 : k=  3  s=  1  n=  0  m=  -1
+    g3 : k=  1  s=  1  n=  0  m=  -1
+
+state    701  color_singlet=1
+    g1 : k=  2  s=  1  n=  0  m=   0
+    g2 : k=  3  s=  1  n=  0  m=   0
+    g3 : k=  1  s=  1  n=  0  m=  -2
+
+state    702  color_singlet=2
+    g1 : k=  2  s= -1  n=  0  m=   0
+    g2 : k=  3  s= -1  n=  0  m=   0
+    g3 : k=  1  s=  1  n=  0  m=   2
+
+state    703  color_singlet=2
+    g1 : k=  2  s= -1  n=  0  m=   0
+    g2 : k=  3  s= -1  n=  0  m=   1
+    g3 : k=  1  s=  1  n=  0  m=   1
+
+state    704  color_singlet=2
+    g1 : k=  2  s= -1  n=  0  m=   0
+    g2 : k=  3  s= -1  n=  0  m=   2
+    g3 : k=  1  s=  1  n=  0  m=   0
+
+state    705  color_singlet=2
+    g1 : k=  2  s= -1  n=  0  m=   1
+    g2 : k=  3  s= -1  n=  0  m=   0
+    g3 : k=  1  s=  1  n=  0  m=   1
+
+state    706  color_singlet=2
+    g1 : k=  2  s= -1  n=  0  m=   1
+    g2 : k=  3  s= -1  n=  0  m=   1
+    g3 : k=  1  s=  1  n=  0  m=   0
+
+state    707  color_singlet=2
+    g1 : k=  2  s= -1  n=  0  m=   2
+    g2 : k=  3  s= -1  n=  0  m=   0
+    g3 : k=  1  s=  1  n=  0  m=   0
+
+state    708  color_singlet=2
+    g1 : k=  2  s= -1  n=  0  m=   0
+    g2 : k=  3  s=  1  n=  0  m=   0
+    g3 : k=  1  s= -1  n=  0  m=   2
+
+state    709  color_singlet=2
+    g1 : k=  2  s= -1  n=  0  m=   0
+    g2 : k=  3  s=  1  n=  0  m=   1
+    g3 : k=  1  s= -1  n=  0  m=   1
+
+state    710  color_singlet=2
+    g1 : k=  2  s= -1  n=  0  m=   0
+    g2 : k=  3  s=  1  n=  0  m=   2
+    g3 : k=  1  s= -1  n=  0  m=   0
+
+state    711  color_singlet=2
+    g1 : k=  2  s= -1  n=  0  m=   1
+    g2 : k=  3  s=  1  n=  0  m=   0
+    g3 : k=  1  s= -1  n=  0  m=   1
+
+state    712  color_singlet=2
+    g1 : k=  2  s= -1  n=  0  m=   1
+    g2 : k=  3  s=  1  n=  0  m=   1
+    g3 : k=  1  s= -1  n=  0  m=   0
+
+state    713  color_singlet=2
+    g1 : k=  2  s= -1  n=  0  m=   2
+    g2 : k=  3  s=  1  n=  0  m=   0
+    g3 : k=  1  s= -1  n=  0  m=   0
+
+state    714  color_singlet=2
+    g1 : k=  2  s= -1  n=  0  m=  -1
+    g2 : k=  3  s=  1  n=  0  m=   0
+    g3 : k=  1  s=  1  n=  0  m=   1
+
+state    715  color_singlet=2
+    g1 : k=  2  s= -1  n=  0  m=  -1
+    g2 : k=  3  s=  1  n=  0  m=   1
+    g3 : k=  1  s=  1  n=  0  m=   0
+
+state    716  color_singlet=2
+    g1 : k=  2  s= -1  n=  0  m=   0
+    g2 : k=  3  s=  1  n=  0  m=  -1
+    g3 : k=  1  s=  1  n=  0  m=   1
+
+state    717  color_singlet=2
+    g1 : k=  2  s= -1  n=  0  m=   0
+    g2 : k=  3  s=  1  n=  0  m=   0
+    g3 : k=  1  s=  1  n=  0  m=   0
+
+state    718  color_singlet=2
+    g1 : k=  2  s= -1  n=  0  m=   0
+    g2 : k=  3  s=  1  n=  0  m=   0
+    g3 : k=  1  s=  1  n=  1  m=   0
+
+state    719  color_singlet=2
+    g1 : k=  2  s= -1  n=  0  m=   0
+    g2 : k=  3  s=  1  n=  0  m=   1
+    g3 : k=  1  s=  1  n=  0  m=  -1
+
+state    720  color_singlet=2
+    g1 : k=  2  s= -1  n=  0  m=   0
+    g2 : k=  3  s=  1  n=  1  m=   0
+    g3 : k=  1  s=  1  n=  0  m=   0
+
+state    721  color_singlet=2
+    g1 : k=  2  s= -1  n=  0  m=   1
+    g2 : k=  3  s=  1  n=  0  m=  -1
+    g3 : k=  1  s=  1  n=  0  m=   0
+
+state    722  color_singlet=2
+    g1 : k=  2  s= -1  n=  0  m=   1
+    g2 : k=  3  s=  1  n=  0  m=   0
+    g3 : k=  1  s=  1  n=  0  m=  -1
+
+state    723  color_singlet=2
+    g1 : k=  2  s= -1  n=  1  m=   0
+    g2 : k=  3  s=  1  n=  0  m=   0
+    g3 : k=  1  s=  1  n=  0  m=   0
+
+state    724  color_singlet=2
+    g1 : k=  2  s=  1  n=  0  m=   0
+    g2 : k=  3  s= -1  n=  0  m=   0
+    g3 : k=  1  s= -1  n=  0  m=   2
+
+state    725  color_singlet=2
+    g1 : k=  2  s=  1  n=  0  m=   0
+    g2 : k=  3  s= -1  n=  0  m=   1
+    g3 : k=  1  s= -1  n=  0  m=   1
+
+state    726  color_singlet=2
+    g1 : k=  2  s=  1  n=  0  m=   0
+    g2 : k=  3  s= -1  n=  0  m=   2
+    g3 : k=  1  s= -1  n=  0  m=   0
+
+state    727  color_singlet=2
+    g1 : k=  2  s=  1  n=  0  m=   1
+    g2 : k=  3  s= -1  n=  0  m=   0
+    g3 : k=  1  s= -1  n=  0  m=   1
+
+state    728  color_singlet=2
+    g1 : k=  2  s=  1  n=  0  m=   1
+    g2 : k=  3  s= -1  n=  0  m=   1
+    g3 : k=  1  s= -1  n=  0  m=   0
+
+state    729  color_singlet=2
+    g1 : k=  2  s=  1  n=  0  m=   2
+    g2 : k=  3  s= -1  n=  0  m=   0
+    g3 : k=  1  s= -1  n=  0  m=   0
+
+state    730  color_singlet=2
+    g1 : k=  2  s=  1  n=  0  m=  -1
+    g2 : k=  3  s= -1  n=  0  m=   0
+    g3 : k=  1  s=  1  n=  0  m=   1
+
+state    731  color_singlet=2
+    g1 : k=  2  s=  1  n=  0  m=  -1
+    g2 : k=  3  s= -1  n=  0  m=   1
+    g3 : k=  1  s=  1  n=  0  m=   0
+
+state    732  color_singlet=2
+    g1 : k=  2  s=  1  n=  0  m=   0
+    g2 : k=  3  s= -1  n=  0  m=  -1
+    g3 : k=  1  s=  1  n=  0  m=   1
+
+state    733  color_singlet=2
+    g1 : k=  2  s=  1  n=  0  m=   0
+    g2 : k=  3  s= -1  n=  0  m=   0
+    g3 : k=  1  s=  1  n=  0  m=   0
+
+state    734  color_singlet=2
+    g1 : k=  2  s=  1  n=  0  m=   0
+    g2 : k=  3  s= -1  n=  0  m=   0
+    g3 : k=  1  s=  1  n=  1  m=   0
+
+state    735  color_singlet=2
+    g1 : k=  2  s=  1  n=  0  m=   0
+    g2 : k=  3  s= -1  n=  0  m=   1
+    g3 : k=  1  s=  1  n=  0  m=  -1
+
+state    736  color_singlet=2
+    g1 : k=  2  s=  1  n=  0  m=   0
+    g2 : k=  3  s= -1  n=  1  m=   0
+    g3 : k=  1  s=  1  n=  0  m=   0
+
+state    737  color_singlet=2
+    g1 : k=  2  s=  1  n=  0  m=   1
+    g2 : k=  3  s= -1  n=  0  m=  -1
+    g3 : k=  1  s=  1  n=  0  m=   0
+
+state    738  color_singlet=2
+    g1 : k=  2  s=  1  n=  0  m=   1
+    g2 : k=  3  s= -1  n=  0  m=   0
+    g3 : k=  1  s=  1  n=  0  m=  -1
+
+state    739  color_singlet=2
+    g1 : k=  2  s=  1  n=  1  m=   0
+    g2 : k=  3  s= -1  n=  0  m=   0
+    g3 : k=  1  s=  1  n=  0  m=   0
+
+state    740  color_singlet=2
+    g1 : k=  2  s=  1  n=  0  m=  -1
+    g2 : k=  3  s=  1  n=  0  m=   0
+    g3 : k=  1  s= -1  n=  0  m=   1
+
+state    741  color_singlet=2
+    g1 : k=  2  s=  1  n=  0  m=  -1
+    g2 : k=  3  s=  1  n=  0  m=   1
+    g3 : k=  1  s= -1  n=  0  m=   0
+
+state    742  color_singlet=2
+    g1 : k=  2  s=  1  n=  0  m=   0
+    g2 : k=  3  s=  1  n=  0  m=  -1
+    g3 : k=  1  s= -1  n=  0  m=   1
+
+state    743  color_singlet=2
+    g1 : k=  2  s=  1  n=  0  m=   0
+    g2 : k=  3  s=  1  n=  0  m=   0
+    g3 : k=  1  s= -1  n=  0  m=   0
+
+state    744  color_singlet=2
+    g1 : k=  2  s=  1  n=  0  m=   0
+    g2 : k=  3  s=  1  n=  0  m=   0
+    g3 : k=  1  s= -1  n=  1  m=   0
+
+state    745  color_singlet=2
+    g1 : k=  2  s=  1  n=  0  m=   0
+    g2 : k=  3  s=  1  n=  0  m=   1
+    g3 : k=  1  s= -1  n=  0  m=  -1
+
+state    746  color_singlet=2
+    g1 : k=  2  s=  1  n=  0  m=   0
+    g2 : k=  3  s=  1  n=  1  m=   0
+    g3 : k=  1  s= -1  n=  0  m=   0
+
+state    747  color_singlet=2
+    g1 : k=  2  s=  1  n=  0  m=   1
+    g2 : k=  3  s=  1  n=  0  m=  -1
+    g3 : k=  1  s= -1  n=  0  m=   0
+
+state    748  color_singlet=2
+    g1 : k=  2  s=  1  n=  0  m=   1
+    g2 : k=  3  s=  1  n=  0  m=   0
+    g3 : k=  1  s= -1  n=  0  m=  -1
+
+state    749  color_singlet=2
+    g1 : k=  2  s=  1  n=  1  m=   0
+    g2 : k=  3  s=  1  n=  0  m=   0
+    g3 : k=  1  s= -1  n=  0  m=   0
+
+state    750  color_singlet=2
+    g1 : k=  2  s=  1  n=  0  m=  -2
+    g2 : k=  3  s=  1  n=  0  m=   0
+    g3 : k=  1  s=  1  n=  0  m=   0
+
+state    751  color_singlet=2
+    g1 : k=  2  s=  1  n=  0  m=  -1
+    g2 : k=  3  s=  1  n=  0  m=  -1
+    g3 : k=  1  s=  1  n=  0  m=   0
+
+state    752  color_singlet=2
+    g1 : k=  2  s=  1  n=  0  m=  -1
+    g2 : k=  3  s=  1  n=  0  m=   0
+    g3 : k=  1  s=  1  n=  0  m=  -1
+
+state    753  color_singlet=2
+    g1 : k=  2  s=  1  n=  0  m=   0
+    g2 : k=  3  s=  1  n=  0  m=  -2
+    g3 : k=  1  s=  1  n=  0  m=   0
+
+state    754  color_singlet=2
+    g1 : k=  2  s=  1  n=  0  m=   0
+    g2 : k=  3  s=  1  n=  0  m=  -1
+    g3 : k=  1  s=  1  n=  0  m=  -1
+
+state    755  color_singlet=2
+    g1 : k=  2  s=  1  n=  0  m=   0
+    g2 : k=  3  s=  1  n=  0  m=   0
+    g3 : k=  1  s=  1  n=  0  m=  -2
+
+state    756  color_singlet=1
+    g1 : k=  3  s= -1  n=  0  m=   0
+    g2 : k=  1  s= -1  n=  0  m=   0
+    g3 : k=  2  s=  1  n=  0  m=   2
+
+state    757  color_singlet=1
+    g1 : k=  3  s= -1  n=  0  m=   0
+    g2 : k=  1  s= -1  n=  0  m=   1
+    g3 : k=  2  s=  1  n=  0  m=   1
+
+state    758  color_singlet=1
+    g1 : k=  3  s= -1  n=  0  m=   0
+    g2 : k=  1  s= -1  n=  0  m=   2
+    g3 : k=  2  s=  1  n=  0  m=   0
+
+state    759  color_singlet=1
+    g1 : k=  3  s= -1  n=  0  m=   1
+    g2 : k=  1  s= -1  n=  0  m=   0
+    g3 : k=  2  s=  1  n=  0  m=   1
+
+state    760  color_singlet=1
+    g1 : k=  3  s= -1  n=  0  m=   1
+    g2 : k=  1  s= -1  n=  0  m=   1
+    g3 : k=  2  s=  1  n=  0  m=   0
+
+state    761  color_singlet=1
+    g1 : k=  3  s= -1  n=  0  m=   2
+    g2 : k=  1  s= -1  n=  0  m=   0
+    g3 : k=  2  s=  1  n=  0  m=   0
+
+state    762  color_singlet=1
+    g1 : k=  3  s= -1  n=  0  m=   0
+    g2 : k=  1  s=  1  n=  0  m=   0
+    g3 : k=  2  s= -1  n=  0  m=   2
+
+state    763  color_singlet=1
+    g1 : k=  3  s= -1  n=  0  m=   0
+    g2 : k=  1  s=  1  n=  0  m=   1
+    g3 : k=  2  s= -1  n=  0  m=   1
+
+state    764  color_singlet=1
+    g1 : k=  3  s= -1  n=  0  m=   0
+    g2 : k=  1  s=  1  n=  0  m=   2
+    g3 : k=  2  s= -1  n=  0  m=   0
+
+state    765  color_singlet=1
+    g1 : k=  3  s= -1  n=  0  m=   1
+    g2 : k=  1  s=  1  n=  0  m=   0
+    g3 : k=  2  s= -1  n=  0  m=   1
+
+state    766  color_singlet=1
+    g1 : k=  3  s= -1  n=  0  m=   1
+    g2 : k=  1  s=  1  n=  0  m=   1
+    g3 : k=  2  s= -1  n=  0  m=   0
+
+state    767  color_singlet=1
+    g1 : k=  3  s= -1  n=  0  m=   2
+    g2 : k=  1  s=  1  n=  0  m=   0
+    g3 : k=  2  s= -1  n=  0  m=   0
+
+state    768  color_singlet=1
+    g1 : k=  3  s= -1  n=  0  m=  -1
+    g2 : k=  1  s=  1  n=  0  m=   0
+    g3 : k=  2  s=  1  n=  0  m=   1
+
+state    769  color_singlet=1
+    g1 : k=  3  s= -1  n=  0  m=  -1
+    g2 : k=  1  s=  1  n=  0  m=   1
+    g3 : k=  2  s=  1  n=  0  m=   0
+
+state    770  color_singlet=1
+    g1 : k=  3  s= -1  n=  0  m=   0
+    g2 : k=  1  s=  1  n=  0  m=  -1
+    g3 : k=  2  s=  1  n=  0  m=   1
+
+state    771  color_singlet=1
+    g1 : k=  3  s= -1  n=  0  m=   0
+    g2 : k=  1  s=  1  n=  0  m=   0
+    g3 : k=  2  s=  1  n=  0  m=   0
+
+state    772  color_singlet=1
+    g1 : k=  3  s= -1  n=  0  m=   0
+    g2 : k=  1  s=  1  n=  0  m=   0
+    g3 : k=  2  s=  1  n=  1  m=   0
+
+state    773  color_singlet=1
+    g1 : k=  3  s= -1  n=  0  m=   0
+    g2 : k=  1  s=  1  n=  0  m=   1
+    g3 : k=  2  s=  1  n=  0  m=  -1
+
+state    774  color_singlet=1
+    g1 : k=  3  s= -1  n=  0  m=   0
+    g2 : k=  1  s=  1  n=  1  m=   0
+    g3 : k=  2  s=  1  n=  0  m=   0
+
+state    775  color_singlet=1
+    g1 : k=  3  s= -1  n=  0  m=   1
+    g2 : k=  1  s=  1  n=  0  m=  -1
+    g3 : k=  2  s=  1  n=  0  m=   0
+
+state    776  color_singlet=1
+    g1 : k=  3  s= -1  n=  0  m=   1
+    g2 : k=  1  s=  1  n=  0  m=   0
+    g3 : k=  2  s=  1  n=  0  m=  -1
+
+state    777  color_singlet=1
+    g1 : k=  3  s= -1  n=  1  m=   0
+    g2 : k=  1  s=  1  n=  0  m=   0
+    g3 : k=  2  s=  1  n=  0  m=   0
+
+state    778  color_singlet=1
+    g1 : k=  3  s=  1  n=  0  m=   0
+    g2 : k=  1  s= -1  n=  0  m=   0
+    g3 : k=  2  s= -1  n=  0  m=   2
+
+state    779  color_singlet=1
+    g1 : k=  3  s=  1  n=  0  m=   0
+    g2 : k=  1  s= -1  n=  0  m=   1
+    g3 : k=  2  s= -1  n=  0  m=   1
+
+state    780  color_singlet=1
+    g1 : k=  3  s=  1  n=  0  m=   0
+    g2 : k=  1  s= -1  n=  0  m=   2
+    g3 : k=  2  s= -1  n=  0  m=   0
+
+state    781  color_singlet=1
+    g1 : k=  3  s=  1  n=  0  m=   1
+    g2 : k=  1  s= -1  n=  0  m=   0
+    g3 : k=  2  s= -1  n=  0  m=   1
+
+state    782  color_singlet=1
+    g1 : k=  3  s=  1  n=  0  m=   1
+    g2 : k=  1  s= -1  n=  0  m=   1
+    g3 : k=  2  s= -1  n=  0  m=   0
+
+state    783  color_singlet=1
+    g1 : k=  3  s=  1  n=  0  m=   2
+    g2 : k=  1  s= -1  n=  0  m=   0
+    g3 : k=  2  s= -1  n=  0  m=   0
+
+state    784  color_singlet=1
+    g1 : k=  3  s=  1  n=  0  m=  -1
+    g2 : k=  1  s= -1  n=  0  m=   0
+    g3 : k=  2  s=  1  n=  0  m=   1
+
+state    785  color_singlet=1
+    g1 : k=  3  s=  1  n=  0  m=  -1
+    g2 : k=  1  s= -1  n=  0  m=   1
+    g3 : k=  2  s=  1  n=  0  m=   0
+
+state    786  color_singlet=1
+    g1 : k=  3  s=  1  n=  0  m=   0
+    g2 : k=  1  s= -1  n=  0  m=  -1
+    g3 : k=  2  s=  1  n=  0  m=   1
+
+state    787  color_singlet=1
+    g1 : k=  3  s=  1  n=  0  m=   0
+    g2 : k=  1  s= -1  n=  0  m=   0
+    g3 : k=  2  s=  1  n=  0  m=   0
+
+state    788  color_singlet=1
+    g1 : k=  3  s=  1  n=  0  m=   0
+    g2 : k=  1  s= -1  n=  0  m=   0
+    g3 : k=  2  s=  1  n=  1  m=   0
+
+state    789  color_singlet=1
+    g1 : k=  3  s=  1  n=  0  m=   0
+    g2 : k=  1  s= -1  n=  0  m=   1
+    g3 : k=  2  s=  1  n=  0  m=  -1
+
+state    790  color_singlet=1
+    g1 : k=  3  s=  1  n=  0  m=   0
+    g2 : k=  1  s= -1  n=  1  m=   0
+    g3 : k=  2  s=  1  n=  0  m=   0
+
+state    791  color_singlet=1
+    g1 : k=  3  s=  1  n=  0  m=   1
+    g2 : k=  1  s= -1  n=  0  m=  -1
+    g3 : k=  2  s=  1  n=  0  m=   0
+
+state    792  color_singlet=1
+    g1 : k=  3  s=  1  n=  0  m=   1
+    g2 : k=  1  s= -1  n=  0  m=   0
+    g3 : k=  2  s=  1  n=  0  m=  -1
+
+state    793  color_singlet=1
+    g1 : k=  3  s=  1  n=  1  m=   0
+    g2 : k=  1  s= -1  n=  0  m=   0
+    g3 : k=  2  s=  1  n=  0  m=   0
+
+state    794  color_singlet=1
+    g1 : k=  3  s=  1  n=  0  m=  -1
+    g2 : k=  1  s=  1  n=  0  m=   0
+    g3 : k=  2  s= -1  n=  0  m=   1
+
+state    795  color_singlet=1
+    g1 : k=  3  s=  1  n=  0  m=  -1
+    g2 : k=  1  s=  1  n=  0  m=   1
+    g3 : k=  2  s= -1  n=  0  m=   0
+
+state    796  color_singlet=1
+    g1 : k=  3  s=  1  n=  0  m=   0
+    g2 : k=  1  s=  1  n=  0  m=  -1
+    g3 : k=  2  s= -1  n=  0  m=   1
+
+state    797  color_singlet=1
+    g1 : k=  3  s=  1  n=  0  m=   0
+    g2 : k=  1  s=  1  n=  0  m=   0
+    g3 : k=  2  s= -1  n=  0  m=   0
+
+state    798  color_singlet=1
+    g1 : k=  3  s=  1  n=  0  m=   0
+    g2 : k=  1  s=  1  n=  0  m=   0
+    g3 : k=  2  s= -1  n=  1  m=   0
+
+state    799  color_singlet=1
+    g1 : k=  3  s=  1  n=  0  m=   0
+    g2 : k=  1  s=  1  n=  0  m=   1
+    g3 : k=  2  s= -1  n=  0  m=  -1
+
+state    800  color_singlet=1
+    g1 : k=  3  s=  1  n=  0  m=   0
+    g2 : k=  1  s=  1  n=  1  m=   0
+    g3 : k=  2  s= -1  n=  0  m=   0
+
+state    801  color_singlet=1
+    g1 : k=  3  s=  1  n=  0  m=   1
+    g2 : k=  1  s=  1  n=  0  m=  -1
+    g3 : k=  2  s= -1  n=  0  m=   0
+
+state    802  color_singlet=1
+    g1 : k=  3  s=  1  n=  0  m=   1
+    g2 : k=  1  s=  1  n=  0  m=   0
+    g3 : k=  2  s= -1  n=  0  m=  -1
+
+state    803  color_singlet=1
+    g1 : k=  3  s=  1  n=  1  m=   0
+    g2 : k=  1  s=  1  n=  0  m=   0
+    g3 : k=  2  s= -1  n=  0  m=   0
+
+state    804  color_singlet=1
+    g1 : k=  3  s=  1  n=  0  m=  -2
+    g2 : k=  1  s=  1  n=  0  m=   0
+    g3 : k=  2  s=  1  n=  0  m=   0
+
+state    805  color_singlet=1
+    g1 : k=  3  s=  1  n=  0  m=  -1
+    g2 : k=  1  s=  1  n=  0  m=  -1
+    g3 : k=  2  s=  1  n=  0  m=   0
+
+state    806  color_singlet=1
+    g1 : k=  3  s=  1  n=  0  m=  -1
+    g2 : k=  1  s=  1  n=  0  m=   0
+    g3 : k=  2  s=  1  n=  0  m=  -1
+
+state    807  color_singlet=1
+    g1 : k=  3  s=  1  n=  0  m=   0
+    g2 : k=  1  s=  1  n=  0  m=  -2
+    g3 : k=  2  s=  1  n=  0  m=   0
+
+state    808  color_singlet=1
+    g1 : k=  3  s=  1  n=  0  m=   0
+    g2 : k=  1  s=  1  n=  0  m=  -1
+    g3 : k=  2  s=  1  n=  0  m=  -1
+
+state    809  color_singlet=1
+    g1 : k=  3  s=  1  n=  0  m=   0
+    g2 : k=  1  s=  1  n=  0  m=   0
+    g3 : k=  2  s=  1  n=  0  m=  -2
+
+state    810  color_singlet=2
+    g1 : k=  3  s= -1  n=  0  m=   0
+    g2 : k=  1  s= -1  n=  0  m=   0
+    g3 : k=  2  s=  1  n=  0  m=   2
+
+state    811  color_singlet=2
+    g1 : k=  3  s= -1  n=  0  m=   0
+    g2 : k=  1  s= -1  n=  0  m=   1
+    g3 : k=  2  s=  1  n=  0  m=   1
+
+state    812  color_singlet=2
+    g1 : k=  3  s= -1  n=  0  m=   0
+    g2 : k=  1  s= -1  n=  0  m=   2
+    g3 : k=  2  s=  1  n=  0  m=   0
+
+state    813  color_singlet=2
+    g1 : k=  3  s= -1  n=  0  m=   1
+    g2 : k=  1  s= -1  n=  0  m=   0
+    g3 : k=  2  s=  1  n=  0  m=   1
+
+state    814  color_singlet=2
+    g1 : k=  3  s= -1  n=  0  m=   1
+    g2 : k=  1  s= -1  n=  0  m=   1
+    g3 : k=  2  s=  1  n=  0  m=   0
+
+state    815  color_singlet=2
+    g1 : k=  3  s= -1  n=  0  m=   2
+    g2 : k=  1  s= -1  n=  0  m=   0
+    g3 : k=  2  s=  1  n=  0  m=   0
+
+state    816  color_singlet=2
+    g1 : k=  3  s= -1  n=  0  m=   0
+    g2 : k=  1  s=  1  n=  0  m=   0
+    g3 : k=  2  s= -1  n=  0  m=   2
+
+state    817  color_singlet=2
+    g1 : k=  3  s= -1  n=  0  m=   0
+    g2 : k=  1  s=  1  n=  0  m=   1
+    g3 : k=  2  s= -1  n=  0  m=   1
+
+state    818  color_singlet=2
+    g1 : k=  3  s= -1  n=  0  m=   0
+    g2 : k=  1  s=  1  n=  0  m=   2
+    g3 : k=  2  s= -1  n=  0  m=   0
+
+state    819  color_singlet=2
+    g1 : k=  3  s= -1  n=  0  m=   1
+    g2 : k=  1  s=  1  n=  0  m=   0
+    g3 : k=  2  s= -1  n=  0  m=   1
+
+state    820  color_singlet=2
+    g1 : k=  3  s= -1  n=  0  m=   1
+    g2 : k=  1  s=  1  n=  0  m=   1
+    g3 : k=  2  s= -1  n=  0  m=   0
+
+state    821  color_singlet=2
+    g1 : k=  3  s= -1  n=  0  m=   2
+    g2 : k=  1  s=  1  n=  0  m=   0
+    g3 : k=  2  s= -1  n=  0  m=   0
+
+state    822  color_singlet=2
+    g1 : k=  3  s= -1  n=  0  m=  -1
+    g2 : k=  1  s=  1  n=  0  m=   0
+    g3 : k=  2  s=  1  n=  0  m=   1
+
+state    823  color_singlet=2
+    g1 : k=  3  s= -1  n=  0  m=  -1
+    g2 : k=  1  s=  1  n=  0  m=   1
+    g3 : k=  2  s=  1  n=  0  m=   0
+
+state    824  color_singlet=2
+    g1 : k=  3  s= -1  n=  0  m=   0
+    g2 : k=  1  s=  1  n=  0  m=  -1
+    g3 : k=  2  s=  1  n=  0  m=   1
+
+state    825  color_singlet=2
+    g1 : k=  3  s= -1  n=  0  m=   0
+    g2 : k=  1  s=  1  n=  0  m=   0
+    g3 : k=  2  s=  1  n=  0  m=   0
+
+state    826  color_singlet=2
+    g1 : k=  3  s= -1  n=  0  m=   0
+    g2 : k=  1  s=  1  n=  0  m=   0
+    g3 : k=  2  s=  1  n=  1  m=   0
+
+state    827  color_singlet=2
+    g1 : k=  3  s= -1  n=  0  m=   0
+    g2 : k=  1  s=  1  n=  0  m=   1
+    g3 : k=  2  s=  1  n=  0  m=  -1
+
+state    828  color_singlet=2
+    g1 : k=  3  s= -1  n=  0  m=   0
+    g2 : k=  1  s=  1  n=  1  m=   0
+    g3 : k=  2  s=  1  n=  0  m=   0
+
+state    829  color_singlet=2
+    g1 : k=  3  s= -1  n=  0  m=   1
+    g2 : k=  1  s=  1  n=  0  m=  -1
+    g3 : k=  2  s=  1  n=  0  m=   0
+
+state    830  color_singlet=2
+    g1 : k=  3  s= -1  n=  0  m=   1
+    g2 : k=  1  s=  1  n=  0  m=   0
+    g3 : k=  2  s=  1  n=  0  m=  -1
+
+state    831  color_singlet=2
+    g1 : k=  3  s= -1  n=  1  m=   0
+    g2 : k=  1  s=  1  n=  0  m=   0
+    g3 : k=  2  s=  1  n=  0  m=   0
+
+state    832  color_singlet=2
+    g1 : k=  3  s=  1  n=  0  m=   0
+    g2 : k=  1  s= -1  n=  0  m=   0
+    g3 : k=  2  s= -1  n=  0  m=   2
+
+state    833  color_singlet=2
+    g1 : k=  3  s=  1  n=  0  m=   0
+    g2 : k=  1  s= -1  n=  0  m=   1
+    g3 : k=  2  s= -1  n=  0  m=   1
+
+state    834  color_singlet=2
+    g1 : k=  3  s=  1  n=  0  m=   0
+    g2 : k=  1  s= -1  n=  0  m=   2
+    g3 : k=  2  s= -1  n=  0  m=   0
+
+state    835  color_singlet=2
+    g1 : k=  3  s=  1  n=  0  m=   1
+    g2 : k=  1  s= -1  n=  0  m=   0
+    g3 : k=  2  s= -1  n=  0  m=   1
+
+state    836  color_singlet=2
+    g1 : k=  3  s=  1  n=  0  m=   1
+    g2 : k=  1  s= -1  n=  0  m=   1
+    g3 : k=  2  s= -1  n=  0  m=   0
+
+state    837  color_singlet=2
+    g1 : k=  3  s=  1  n=  0  m=   2
+    g2 : k=  1  s= -1  n=  0  m=   0
+    g3 : k=  2  s= -1  n=  0  m=   0
+
+state    838  color_singlet=2
+    g1 : k=  3  s=  1  n=  0  m=  -1
+    g2 : k=  1  s= -1  n=  0  m=   0
+    g3 : k=  2  s=  1  n=  0  m=   1
+
+state    839  color_singlet=2
+    g1 : k=  3  s=  1  n=  0  m=  -1
+    g2 : k=  1  s= -1  n=  0  m=   1
+    g3 : k=  2  s=  1  n=  0  m=   0
+
+state    840  color_singlet=2
+    g1 : k=  3  s=  1  n=  0  m=   0
+    g2 : k=  1  s= -1  n=  0  m=  -1
+    g3 : k=  2  s=  1  n=  0  m=   1
+
+state    841  color_singlet=2
+    g1 : k=  3  s=  1  n=  0  m=   0
+    g2 : k=  1  s= -1  n=  0  m=   0
+    g3 : k=  2  s=  1  n=  0  m=   0
+
+state    842  color_singlet=2
+    g1 : k=  3  s=  1  n=  0  m=   0
+    g2 : k=  1  s= -1  n=  0  m=   0
+    g3 : k=  2  s=  1  n=  1  m=   0
+
+state    843  color_singlet=2
+    g1 : k=  3  s=  1  n=  0  m=   0
+    g2 : k=  1  s= -1  n=  0  m=   1
+    g3 : k=  2  s=  1  n=  0  m=  -1
+
+state    844  color_singlet=2
+    g1 : k=  3  s=  1  n=  0  m=   0
+    g2 : k=  1  s= -1  n=  1  m=   0
+    g3 : k=  2  s=  1  n=  0  m=   0
+
+state    845  color_singlet=2
+    g1 : k=  3  s=  1  n=  0  m=   1
+    g2 : k=  1  s= -1  n=  0  m=  -1
+    g3 : k=  2  s=  1  n=  0  m=   0
+
+state    846  color_singlet=2
+    g1 : k=  3  s=  1  n=  0  m=   1
+    g2 : k=  1  s= -1  n=  0  m=   0
+    g3 : k=  2  s=  1  n=  0  m=  -1
+
+state    847  color_singlet=2
+    g1 : k=  3  s=  1  n=  1  m=   0
+    g2 : k=  1  s= -1  n=  0  m=   0
+    g3 : k=  2  s=  1  n=  0  m=   0
+
+state    848  color_singlet=2
+    g1 : k=  3  s=  1  n=  0  m=  -1
+    g2 : k=  1  s=  1  n=  0  m=   0
+    g3 : k=  2  s= -1  n=  0  m=   1
+
+state    849  color_singlet=2
+    g1 : k=  3  s=  1  n=  0  m=  -1
+    g2 : k=  1  s=  1  n=  0  m=   1
+    g3 : k=  2  s= -1  n=  0  m=   0
+
+state    850  color_singlet=2
+    g1 : k=  3  s=  1  n=  0  m=   0
+    g2 : k=  1  s=  1  n=  0  m=  -1
+    g3 : k=  2  s= -1  n=  0  m=   1
+
+state    851  color_singlet=2
+    g1 : k=  3  s=  1  n=  0  m=   0
+    g2 : k=  1  s=  1  n=  0  m=   0
+    g3 : k=  2  s= -1  n=  0  m=   0
+
+state    852  color_singlet=2
+    g1 : k=  3  s=  1  n=  0  m=   0
+    g2 : k=  1  s=  1  n=  0  m=   0
+    g3 : k=  2  s= -1  n=  1  m=   0
+
+state    853  color_singlet=2
+    g1 : k=  3  s=  1  n=  0  m=   0
+    g2 : k=  1  s=  1  n=  0  m=   1
+    g3 : k=  2  s= -1  n=  0  m=  -1
+
+state    854  color_singlet=2
+    g1 : k=  3  s=  1  n=  0  m=   0
+    g2 : k=  1  s=  1  n=  1  m=   0
+    g3 : k=  2  s= -1  n=  0  m=   0
+
+state    855  color_singlet=2
+    g1 : k=  3  s=  1  n=  0  m=   1
+    g2 : k=  1  s=  1  n=  0  m=  -1
+    g3 : k=  2  s= -1  n=  0  m=   0
+
+state    856  color_singlet=2
+    g1 : k=  3  s=  1  n=  0  m=   1
+    g2 : k=  1  s=  1  n=  0  m=   0
+    g3 : k=  2  s= -1  n=  0  m=  -1
+
+state    857  color_singlet=2
+    g1 : k=  3  s=  1  n=  1  m=   0
+    g2 : k=  1  s=  1  n=  0  m=   0
+    g3 : k=  2  s= -1  n=  0  m=   0
+
+state    858  color_singlet=2
+    g1 : k=  3  s=  1  n=  0  m=  -2
+    g2 : k=  1  s=  1  n=  0  m=   0
+    g3 : k=  2  s=  1  n=  0  m=   0
+
+state    859  color_singlet=2
+    g1 : k=  3  s=  1  n=  0  m=  -1
+    g2 : k=  1  s=  1  n=  0  m=  -1
+    g3 : k=  2  s=  1  n=  0  m=   0
+
+state    860  color_singlet=2
+    g1 : k=  3  s=  1  n=  0  m=  -1
+    g2 : k=  1  s=  1  n=  0  m=   0
+    g3 : k=  2  s=  1  n=  0  m=  -1
+
+state    861  color_singlet=2
+    g1 : k=  3  s=  1  n=  0  m=   0
+    g2 : k=  1  s=  1  n=  0  m=  -2
+    g3 : k=  2  s=  1  n=  0  m=   0
+
+state    862  color_singlet=2
+    g1 : k=  3  s=  1  n=  0  m=   0
+    g2 : k=  1  s=  1  n=  0  m=  -1
+    g3 : k=  2  s=  1  n=  0  m=  -1
+
+state    863  color_singlet=2
+    g1 : k=  3  s=  1  n=  0  m=   0
+    g2 : k=  1  s=  1  n=  0  m=   0
+    g3 : k=  2  s=  1  n=  0  m=  -2
+
+state    864  color_singlet=1
+    g1 : k=  3  s= -1  n=  0  m=   0
+    g2 : k=  2  s= -1  n=  0  m=   0
+    g3 : k=  1  s=  1  n=  0  m=   2
+
+state    865  color_singlet=1
+    g1 : k=  3  s= -1  n=  0  m=   0
+    g2 : k=  2  s= -1  n=  0  m=   1
+    g3 : k=  1  s=  1  n=  0  m=   1
+
+state    866  color_singlet=1
+    g1 : k=  3  s= -1  n=  0  m=   0
+    g2 : k=  2  s= -1  n=  0  m=   2
+    g3 : k=  1  s=  1  n=  0  m=   0
+
+state    867  color_singlet=1
+    g1 : k=  3  s= -1  n=  0  m=   1
+    g2 : k=  2  s= -1  n=  0  m=   0
+    g3 : k=  1  s=  1  n=  0  m=   1
+
+state    868  color_singlet=1
+    g1 : k=  3  s= -1  n=  0  m=   1
+    g2 : k=  2  s= -1  n=  0  m=   1
+    g3 : k=  1  s=  1  n=  0  m=   0
+
+state    869  color_singlet=1
+    g1 : k=  3  s= -1  n=  0  m=   2
+    g2 : k=  2  s= -1  n=  0  m=   0
+    g3 : k=  1  s=  1  n=  0  m=   0
+
+state    870  color_singlet=1
+    g1 : k=  3  s= -1  n=  0  m=   0
+    g2 : k=  2  s=  1  n=  0  m=   0
+    g3 : k=  1  s= -1  n=  0  m=   2
+
+state    871  color_singlet=1
+    g1 : k=  3  s= -1  n=  0  m=   0
+    g2 : k=  2  s=  1  n=  0  m=   1
+    g3 : k=  1  s= -1  n=  0  m=   1
+
+state    872  color_singlet=1
+    g1 : k=  3  s= -1  n=  0  m=   0
+    g2 : k=  2  s=  1  n=  0  m=   2
+    g3 : k=  1  s= -1  n=  0  m=   0
+
+state    873  color_singlet=1
+    g1 : k=  3  s= -1  n=  0  m=   1
+    g2 : k=  2  s=  1  n=  0  m=   0
+    g3 : k=  1  s= -1  n=  0  m=   1
+
+state    874  color_singlet=1
+    g1 : k=  3  s= -1  n=  0  m=   1
+    g2 : k=  2  s=  1  n=  0  m=   1
+    g3 : k=  1  s= -1  n=  0  m=   0
+
+state    875  color_singlet=1
+    g1 : k=  3  s= -1  n=  0  m=   2
+    g2 : k=  2  s=  1  n=  0  m=   0
+    g3 : k=  1  s= -1  n=  0  m=   0
+
+state    876  color_singlet=1
+    g1 : k=  3  s= -1  n=  0  m=  -1
+    g2 : k=  2  s=  1  n=  0  m=   0
+    g3 : k=  1  s=  1  n=  0  m=   1
+
+state    877  color_singlet=1
+    g1 : k=  3  s= -1  n=  0  m=  -1
+    g2 : k=  2  s=  1  n=  0  m=   1
+    g3 : k=  1  s=  1  n=  0  m=   0
+
+state    878  color_singlet=1
+    g1 : k=  3  s= -1  n=  0  m=   0
+    g2 : k=  2  s=  1  n=  0  m=  -1
+    g3 : k=  1  s=  1  n=  0  m=   1
+
+state    879  color_singlet=1
+    g1 : k=  3  s= -1  n=  0  m=   0
+    g2 : k=  2  s=  1  n=  0  m=   0
+    g3 : k=  1  s=  1  n=  0  m=   0
+
+state    880  color_singlet=1
+    g1 : k=  3  s= -1  n=  0  m=   0
+    g2 : k=  2  s=  1  n=  0  m=   0
+    g3 : k=  1  s=  1  n=  1  m=   0
+
+state    881  color_singlet=1
+    g1 : k=  3  s= -1  n=  0  m=   0
+    g2 : k=  2  s=  1  n=  0  m=   1
+    g3 : k=  1  s=  1  n=  0  m=  -1
+
+state    882  color_singlet=1
+    g1 : k=  3  s= -1  n=  0  m=   0
+    g2 : k=  2  s=  1  n=  1  m=   0
+    g3 : k=  1  s=  1  n=  0  m=   0
+
+state    883  color_singlet=1
+    g1 : k=  3  s= -1  n=  0  m=   1
+    g2 : k=  2  s=  1  n=  0  m=  -1
+    g3 : k=  1  s=  1  n=  0  m=   0
+
+state    884  color_singlet=1
+    g1 : k=  3  s= -1  n=  0  m=   1
+    g2 : k=  2  s=  1  n=  0  m=   0
+    g3 : k=  1  s=  1  n=  0  m=  -1
+
+state    885  color_singlet=1
+    g1 : k=  3  s= -1  n=  1  m=   0
+    g2 : k=  2  s=  1  n=  0  m=   0
+    g3 : k=  1  s=  1  n=  0  m=   0
+
+state    886  color_singlet=1
+    g1 : k=  3  s=  1  n=  0  m=   0
+    g2 : k=  2  s= -1  n=  0  m=   0
+    g3 : k=  1  s= -1  n=  0  m=   2
+
+state    887  color_singlet=1
+    g1 : k=  3  s=  1  n=  0  m=   0
+    g2 : k=  2  s= -1  n=  0  m=   1
+    g3 : k=  1  s= -1  n=  0  m=   1
+
+state    888  color_singlet=1
+    g1 : k=  3  s=  1  n=  0  m=   0
+    g2 : k=  2  s= -1  n=  0  m=   2
+    g3 : k=  1  s= -1  n=  0  m=   0
+
+state    889  color_singlet=1
+    g1 : k=  3  s=  1  n=  0  m=   1
+    g2 : k=  2  s= -1  n=  0  m=   0
+    g3 : k=  1  s= -1  n=  0  m=   1
+
+state    890  color_singlet=1
+    g1 : k=  3  s=  1  n=  0  m=   1
+    g2 : k=  2  s= -1  n=  0  m=   1
+    g3 : k=  1  s= -1  n=  0  m=   0
+
+state    891  color_singlet=1
+    g1 : k=  3  s=  1  n=  0  m=   2
+    g2 : k=  2  s= -1  n=  0  m=   0
+    g3 : k=  1  s= -1  n=  0  m=   0
+
+state    892  color_singlet=1
+    g1 : k=  3  s=  1  n=  0  m=  -1
+    g2 : k=  2  s= -1  n=  0  m=   0
+    g3 : k=  1  s=  1  n=  0  m=   1
+
+state    893  color_singlet=1
+    g1 : k=  3  s=  1  n=  0  m=  -1
+    g2 : k=  2  s= -1  n=  0  m=   1
+    g3 : k=  1  s=  1  n=  0  m=   0
+
+state    894  color_singlet=1
+    g1 : k=  3  s=  1  n=  0  m=   0
+    g2 : k=  2  s= -1  n=  0  m=  -1
+    g3 : k=  1  s=  1  n=  0  m=   1
+
+state    895  color_singlet=1
+    g1 : k=  3  s=  1  n=  0  m=   0
+    g2 : k=  2  s= -1  n=  0  m=   0
+    g3 : k=  1  s=  1  n=  0  m=   0
+
+state    896  color_singlet=1
+    g1 : k=  3  s=  1  n=  0  m=   0
+    g2 : k=  2  s= -1  n=  0  m=   0
+    g3 : k=  1  s=  1  n=  1  m=   0
+
+state    897  color_singlet=1
+    g1 : k=  3  s=  1  n=  0  m=   0
+    g2 : k=  2  s= -1  n=  0  m=   1
+    g3 : k=  1  s=  1  n=  0  m=  -1
+
+state    898  color_singlet=1
+    g1 : k=  3  s=  1  n=  0  m=   0
+    g2 : k=  2  s= -1  n=  1  m=   0
+    g3 : k=  1  s=  1  n=  0  m=   0
+
+state    899  color_singlet=1
+    g1 : k=  3  s=  1  n=  0  m=   1
+    g2 : k=  2  s= -1  n=  0  m=  -1
+    g3 : k=  1  s=  1  n=  0  m=   0
+
+state    900  color_singlet=1
+    g1 : k=  3  s=  1  n=  0  m=   1
+    g2 : k=  2  s= -1  n=  0  m=   0
+    g3 : k=  1  s=  1  n=  0  m=  -1
+
+state    901  color_singlet=1
+    g1 : k=  3  s=  1  n=  1  m=   0
+    g2 : k=  2  s= -1  n=  0  m=   0
+    g3 : k=  1  s=  1  n=  0  m=   0
+
+state    902  color_singlet=1
+    g1 : k=  3  s=  1  n=  0  m=  -1
+    g2 : k=  2  s=  1  n=  0  m=   0
+    g3 : k=  1  s= -1  n=  0  m=   1
+
+state    903  color_singlet=1
+    g1 : k=  3  s=  1  n=  0  m=  -1
+    g2 : k=  2  s=  1  n=  0  m=   1
+    g3 : k=  1  s= -1  n=  0  m=   0
+
+state    904  color_singlet=1
+    g1 : k=  3  s=  1  n=  0  m=   0
+    g2 : k=  2  s=  1  n=  0  m=  -1
+    g3 : k=  1  s= -1  n=  0  m=   1
+
+state    905  color_singlet=1
+    g1 : k=  3  s=  1  n=  0  m=   0
+    g2 : k=  2  s=  1  n=  0  m=   0
+    g3 : k=  1  s= -1  n=  0  m=   0
+
+state    906  color_singlet=1
+    g1 : k=  3  s=  1  n=  0  m=   0
+    g2 : k=  2  s=  1  n=  0  m=   0
+    g3 : k=  1  s= -1  n=  1  m=   0
+
+state    907  color_singlet=1
+    g1 : k=  3  s=  1  n=  0  m=   0
+    g2 : k=  2  s=  1  n=  0  m=   1
+    g3 : k=  1  s= -1  n=  0  m=  -1
+
+state    908  color_singlet=1
+    g1 : k=  3  s=  1  n=  0  m=   0
+    g2 : k=  2  s=  1  n=  1  m=   0
+    g3 : k=  1  s= -1  n=  0  m=   0
+
+state    909  color_singlet=1
+    g1 : k=  3  s=  1  n=  0  m=   1
+    g2 : k=  2  s=  1  n=  0  m=  -1
+    g3 : k=  1  s= -1  n=  0  m=   0
+
+state    910  color_singlet=1
+    g1 : k=  3  s=  1  n=  0  m=   1
+    g2 : k=  2  s=  1  n=  0  m=   0
+    g3 : k=  1  s= -1  n=  0  m=  -1
+
+state    911  color_singlet=1
+    g1 : k=  3  s=  1  n=  1  m=   0
+    g2 : k=  2  s=  1  n=  0  m=   0
+    g3 : k=  1  s= -1  n=  0  m=   0
+
+state    912  color_singlet=1
+    g1 : k=  3  s=  1  n=  0  m=  -2
+    g2 : k=  2  s=  1  n=  0  m=   0
+    g3 : k=  1  s=  1  n=  0  m=   0
+
+state    913  color_singlet=1
+    g1 : k=  3  s=  1  n=  0  m=  -1
+    g2 : k=  2  s=  1  n=  0  m=  -1
+    g3 : k=  1  s=  1  n=  0  m=   0
+
+state    914  color_singlet=1
+    g1 : k=  3  s=  1  n=  0  m=  -1
+    g2 : k=  2  s=  1  n=  0  m=   0
+    g3 : k=  1  s=  1  n=  0  m=  -1
+
+state    915  color_singlet=1
+    g1 : k=  3  s=  1  n=  0  m=   0
+    g2 : k=  2  s=  1  n=  0  m=  -2
+    g3 : k=  1  s=  1  n=  0  m=   0
+
+state    916  color_singlet=1
+    g1 : k=  3  s=  1  n=  0  m=   0
+    g2 : k=  2  s=  1  n=  0  m=  -1
+    g3 : k=  1  s=  1  n=  0  m=  -1
+
+state    917  color_singlet=1
+    g1 : k=  3  s=  1  n=  0  m=   0
+    g2 : k=  2  s=  1  n=  0  m=   0
+    g3 : k=  1  s=  1  n=  0  m=  -2
+
+state    918  color_singlet=2
+    g1 : k=  3  s= -1  n=  0  m=   0
+    g2 : k=  2  s= -1  n=  0  m=   0
+    g3 : k=  1  s=  1  n=  0  m=   2
+
+state    919  color_singlet=2
+    g1 : k=  3  s= -1  n=  0  m=   0
+    g2 : k=  2  s= -1  n=  0  m=   1
+    g3 : k=  1  s=  1  n=  0  m=   1
+
+state    920  color_singlet=2
+    g1 : k=  3  s= -1  n=  0  m=   0
+    g2 : k=  2  s= -1  n=  0  m=   2
+    g3 : k=  1  s=  1  n=  0  m=   0
+
+state    921  color_singlet=2
+    g1 : k=  3  s= -1  n=  0  m=   1
+    g2 : k=  2  s= -1  n=  0  m=   0
+    g3 : k=  1  s=  1  n=  0  m=   1
+
+state    922  color_singlet=2
+    g1 : k=  3  s= -1  n=  0  m=   1
+    g2 : k=  2  s= -1  n=  0  m=   1
+    g3 : k=  1  s=  1  n=  0  m=   0
+
+state    923  color_singlet=2
+    g1 : k=  3  s= -1  n=  0  m=   2
+    g2 : k=  2  s= -1  n=  0  m=   0
+    g3 : k=  1  s=  1  n=  0  m=   0
+
+state    924  color_singlet=2
+    g1 : k=  3  s= -1  n=  0  m=   0
+    g2 : k=  2  s=  1  n=  0  m=   0
+    g3 : k=  1  s= -1  n=  0  m=   2
+
+state    925  color_singlet=2
+    g1 : k=  3  s= -1  n=  0  m=   0
+    g2 : k=  2  s=  1  n=  0  m=   1
+    g3 : k=  1  s= -1  n=  0  m=   1
+
+state    926  color_singlet=2
+    g1 : k=  3  s= -1  n=  0  m=   0
+    g2 : k=  2  s=  1  n=  0  m=   2
+    g3 : k=  1  s= -1  n=  0  m=   0
+
+state    927  color_singlet=2
+    g1 : k=  3  s= -1  n=  0  m=   1
+    g2 : k=  2  s=  1  n=  0  m=   0
+    g3 : k=  1  s= -1  n=  0  m=   1
+
+state    928  color_singlet=2
+    g1 : k=  3  s= -1  n=  0  m=   1
+    g2 : k=  2  s=  1  n=  0  m=   1
+    g3 : k=  1  s= -1  n=  0  m=   0
+
+state    929  color_singlet=2
+    g1 : k=  3  s= -1  n=  0  m=   2
+    g2 : k=  2  s=  1  n=  0  m=   0
+    g3 : k=  1  s= -1  n=  0  m=   0
+
+state    930  color_singlet=2
+    g1 : k=  3  s= -1  n=  0  m=  -1
+    g2 : k=  2  s=  1  n=  0  m=   0
+    g3 : k=  1  s=  1  n=  0  m=   1
+
+state    931  color_singlet=2
+    g1 : k=  3  s= -1  n=  0  m=  -1
+    g2 : k=  2  s=  1  n=  0  m=   1
+    g3 : k=  1  s=  1  n=  0  m=   0
+
+state    932  color_singlet=2
+    g1 : k=  3  s= -1  n=  0  m=   0
+    g2 : k=  2  s=  1  n=  0  m=  -1
+    g3 : k=  1  s=  1  n=  0  m=   1
+
+state    933  color_singlet=2
+    g1 : k=  3  s= -1  n=  0  m=   0
+    g2 : k=  2  s=  1  n=  0  m=   0
+    g3 : k=  1  s=  1  n=  0  m=   0
+
+state    934  color_singlet=2
+    g1 : k=  3  s= -1  n=  0  m=   0
+    g2 : k=  2  s=  1  n=  0  m=   0
+    g3 : k=  1  s=  1  n=  1  m=   0
+
+state    935  color_singlet=2
+    g1 : k=  3  s= -1  n=  0  m=   0
+    g2 : k=  2  s=  1  n=  0  m=   1
+    g3 : k=  1  s=  1  n=  0  m=  -1
+
+state    936  color_singlet=2
+    g1 : k=  3  s= -1  n=  0  m=   0
+    g2 : k=  2  s=  1  n=  1  m=   0
+    g3 : k=  1  s=  1  n=  0  m=   0
+
+state    937  color_singlet=2
+    g1 : k=  3  s= -1  n=  0  m=   1
+    g2 : k=  2  s=  1  n=  0  m=  -1
+    g3 : k=  1  s=  1  n=  0  m=   0
+
+state    938  color_singlet=2
+    g1 : k=  3  s= -1  n=  0  m=   1
+    g2 : k=  2  s=  1  n=  0  m=   0
+    g3 : k=  1  s=  1  n=  0  m=  -1
+
+state    939  color_singlet=2
+    g1 : k=  3  s= -1  n=  1  m=   0
+    g2 : k=  2  s=  1  n=  0  m=   0
+    g3 : k=  1  s=  1  n=  0  m=   0
+
+state    940  color_singlet=2
+    g1 : k=  3  s=  1  n=  0  m=   0
+    g2 : k=  2  s= -1  n=  0  m=   0
+    g3 : k=  1  s= -1  n=  0  m=   2
+
+state    941  color_singlet=2
+    g1 : k=  3  s=  1  n=  0  m=   0
+    g2 : k=  2  s= -1  n=  0  m=   1
+    g3 : k=  1  s= -1  n=  0  m=   1
+
+state    942  color_singlet=2
+    g1 : k=  3  s=  1  n=  0  m=   0
+    g2 : k=  2  s= -1  n=  0  m=   2
+    g3 : k=  1  s= -1  n=  0  m=   0
+
+state    943  color_singlet=2
+    g1 : k=  3  s=  1  n=  0  m=   1
+    g2 : k=  2  s= -1  n=  0  m=   0
+    g3 : k=  1  s= -1  n=  0  m=   1
+
+state    944  color_singlet=2
+    g1 : k=  3  s=  1  n=  0  m=   1
+    g2 : k=  2  s= -1  n=  0  m=   1
+    g3 : k=  1  s= -1  n=  0  m=   0
+
+state    945  color_singlet=2
+    g1 : k=  3  s=  1  n=  0  m=   2
+    g2 : k=  2  s= -1  n=  0  m=   0
+    g3 : k=  1  s= -1  n=  0  m=   0
+
+state    946  color_singlet=2
+    g1 : k=  3  s=  1  n=  0  m=  -1
+    g2 : k=  2  s= -1  n=  0  m=   0
+    g3 : k=  1  s=  1  n=  0  m=   1
+
+state    947  color_singlet=2
+    g1 : k=  3  s=  1  n=  0  m=  -1
+    g2 : k=  2  s= -1  n=  0  m=   1
+    g3 : k=  1  s=  1  n=  0  m=   0
+
+state    948  color_singlet=2
+    g1 : k=  3  s=  1  n=  0  m=   0
+    g2 : k=  2  s= -1  n=  0  m=  -1
+    g3 : k=  1  s=  1  n=  0  m=   1
+
+state    949  color_singlet=2
+    g1 : k=  3  s=  1  n=  0  m=   0
+    g2 : k=  2  s= -1  n=  0  m=   0
+    g3 : k=  1  s=  1  n=  0  m=   0
+
+state    950  color_singlet=2
+    g1 : k=  3  s=  1  n=  0  m=   0
+    g2 : k=  2  s= -1  n=  0  m=   0
+    g3 : k=  1  s=  1  n=  1  m=   0
+
+state    951  color_singlet=2
+    g1 : k=  3  s=  1  n=  0  m=   0
+    g2 : k=  2  s= -1  n=  0  m=   1
+    g3 : k=  1  s=  1  n=  0  m=  -1
+
+state    952  color_singlet=2
+    g1 : k=  3  s=  1  n=  0  m=   0
+    g2 : k=  2  s= -1  n=  1  m=   0
+    g3 : k=  1  s=  1  n=  0  m=   0
+
+state    953  color_singlet=2
+    g1 : k=  3  s=  1  n=  0  m=   1
+    g2 : k=  2  s= -1  n=  0  m=  -1
+    g3 : k=  1  s=  1  n=  0  m=   0
+
+state    954  color_singlet=2
+    g1 : k=  3  s=  1  n=  0  m=   1
+    g2 : k=  2  s= -1  n=  0  m=   0
+    g3 : k=  1  s=  1  n=  0  m=  -1
+
+state    955  color_singlet=2
+    g1 : k=  3  s=  1  n=  1  m=   0
+    g2 : k=  2  s= -1  n=  0  m=   0
+    g3 : k=  1  s=  1  n=  0  m=   0
+
+state    956  color_singlet=2
+    g1 : k=  3  s=  1  n=  0  m=  -1
+    g2 : k=  2  s=  1  n=  0  m=   0
+    g3 : k=  1  s= -1  n=  0  m=   1
+
+state    957  color_singlet=2
+    g1 : k=  3  s=  1  n=  0  m=  -1
+    g2 : k=  2  s=  1  n=  0  m=   1
+    g3 : k=  1  s= -1  n=  0  m=   0
+
+state    958  color_singlet=2
+    g1 : k=  3  s=  1  n=  0  m=   0
+    g2 : k=  2  s=  1  n=  0  m=  -1
+    g3 : k=  1  s= -1  n=  0  m=   1
+
+state    959  color_singlet=2
+    g1 : k=  3  s=  1  n=  0  m=   0
+    g2 : k=  2  s=  1  n=  0  m=   0
+    g3 : k=  1  s= -1  n=  0  m=   0
+
+state    960  color_singlet=2
+    g1 : k=  3  s=  1  n=  0  m=   0
+    g2 : k=  2  s=  1  n=  0  m=   0
+    g3 : k=  1  s= -1  n=  1  m=   0
+
+state    961  color_singlet=2
+    g1 : k=  3  s=  1  n=  0  m=   0
+    g2 : k=  2  s=  1  n=  0  m=   1
+    g3 : k=  1  s= -1  n=  0  m=  -1
+
+state    962  color_singlet=2
+    g1 : k=  3  s=  1  n=  0  m=   0
+    g2 : k=  2  s=  1  n=  1  m=   0
+    g3 : k=  1  s= -1  n=  0  m=   0
+
+state    963  color_singlet=2
+    g1 : k=  3  s=  1  n=  0  m=   1
+    g2 : k=  2  s=  1  n=  0  m=  -1
+    g3 : k=  1  s= -1  n=  0  m=   0
+
+state    964  color_singlet=2
+    g1 : k=  3  s=  1  n=  0  m=   1
+    g2 : k=  2  s=  1  n=  0  m=   0
+    g3 : k=  1  s= -1  n=  0  m=  -1
+
+state    965  color_singlet=2
+    g1 : k=  3  s=  1  n=  1  m=   0
+    g2 : k=  2  s=  1  n=  0  m=   0
+    g3 : k=  1  s= -1  n=  0  m=   0
+
+state    966  color_singlet=2
+    g1 : k=  3  s=  1  n=  0  m=  -2
+    g2 : k=  2  s=  1  n=  0  m=   0
+    g3 : k=  1  s=  1  n=  0  m=   0
+
+state    967  color_singlet=2
+    g1 : k=  3  s=  1  n=  0  m=  -1
+    g2 : k=  2  s=  1  n=  0  m=  -1
+    g3 : k=  1  s=  1  n=  0  m=   0
+
+state    968  color_singlet=2
+    g1 : k=  3  s=  1  n=  0  m=  -1
+    g2 : k=  2  s=  1  n=  0  m=   0
+    g3 : k=  1  s=  1  n=  0  m=  -1
+
+state    969  color_singlet=2
+    g1 : k=  3  s=  1  n=  0  m=   0
+    g2 : k=  2  s=  1  n=  0  m=  -2
+    g3 : k=  1  s=  1  n=  0  m=   0
+
+state    970  color_singlet=2
+    g1 : k=  3  s=  1  n=  0  m=   0
+    g2 : k=  2  s=  1  n=  0  m=  -1
+    g3 : k=  1  s=  1  n=  0  m=  -1
+
+state    971  color_singlet=2
+    g1 : k=  3  s=  1  n=  0  m=   0
+    g2 : k=  2  s=  1  n=  0  m=   0
+    g3 : k=  1  s=  1  n=  0  m=  -2
+
+state    972  color_singlet=1
+    g1 : k=  4  s= -1  n=  0  m=   0
+    g2 : k=  1  s= -1  n=  0  m=   0
+    g3 : k=  1  s=  1  n=  0  m=   2
+
+state    973  color_singlet=1
+    g1 : k=  4  s= -1  n=  0  m=   0
+    g2 : k=  1  s= -1  n=  0  m=   1
+    g3 : k=  1  s=  1  n=  0  m=   1
+
+state    974  color_singlet=1
+    g1 : k=  4  s= -1  n=  0  m=   0
+    g2 : k=  1  s= -1  n=  0  m=   2
+    g3 : k=  1  s=  1  n=  0  m=   0
+
+state    975  color_singlet=1
+    g1 : k=  4  s= -1  n=  0  m=   1
+    g2 : k=  1  s= -1  n=  0  m=   0
+    g3 : k=  1  s=  1  n=  0  m=   1
+
+state    976  color_singlet=1
+    g1 : k=  4  s= -1  n=  0  m=   1
+    g2 : k=  1  s= -1  n=  0  m=   1
+    g3 : k=  1  s=  1  n=  0  m=   0
+
+state    977  color_singlet=1
+    g1 : k=  4  s= -1  n=  0  m=   2
+    g2 : k=  1  s= -1  n=  0  m=   0
+    g3 : k=  1  s=  1  n=  0  m=   0
+
+state    978  color_singlet=1
+    g1 : k=  4  s= -1  n=  0  m=   0
+    g2 : k=  1  s=  1  n=  0  m=   0
+    g3 : k=  1  s= -1  n=  0  m=   2
+
+state    979  color_singlet=1
+    g1 : k=  4  s= -1  n=  0  m=   0
+    g2 : k=  1  s=  1  n=  0  m=   1
+    g3 : k=  1  s= -1  n=  0  m=   1
+
+state    980  color_singlet=1
+    g1 : k=  4  s= -1  n=  0  m=   0
+    g2 : k=  1  s=  1  n=  0  m=   2
+    g3 : k=  1  s= -1  n=  0  m=   0
+
+state    981  color_singlet=1
+    g1 : k=  4  s= -1  n=  0  m=   1
+    g2 : k=  1  s=  1  n=  0  m=   0
+    g3 : k=  1  s= -1  n=  0  m=   1
+
+state    982  color_singlet=1
+    g1 : k=  4  s= -1  n=  0  m=   1
+    g2 : k=  1  s=  1  n=  0  m=   1
+    g3 : k=  1  s= -1  n=  0  m=   0
+
+state    983  color_singlet=1
+    g1 : k=  4  s= -1  n=  0  m=   2
+    g2 : k=  1  s=  1  n=  0  m=   0
+    g3 : k=  1  s= -1  n=  0  m=   0
+
+state    984  color_singlet=1
+    g1 : k=  4  s= -1  n=  0  m=  -1
+    g2 : k=  1  s=  1  n=  0  m=   0
+    g3 : k=  1  s=  1  n=  0  m=   1
+
+state    985  color_singlet=1
+    g1 : k=  4  s= -1  n=  0  m=  -1
+    g2 : k=  1  s=  1  n=  0  m=   1
+    g3 : k=  1  s=  1  n=  0  m=   0
+
+state    986  color_singlet=1
+    g1 : k=  4  s= -1  n=  0  m=   0
+    g2 : k=  1  s=  1  n=  0  m=  -1
+    g3 : k=  1  s=  1  n=  0  m=   1
+
+state    987  color_singlet=1
+    g1 : k=  4  s= -1  n=  0  m=   0
+    g2 : k=  1  s=  1  n=  0  m=   0
+    g3 : k=  1  s=  1  n=  0  m=   0
+
+state    988  color_singlet=1
+    g1 : k=  4  s= -1  n=  0  m=   0
+    g2 : k=  1  s=  1  n=  0  m=   0
+    g3 : k=  1  s=  1  n=  1  m=   0
+
+state    989  color_singlet=1
+    g1 : k=  4  s= -1  n=  0  m=   0
+    g2 : k=  1  s=  1  n=  0  m=   1
+    g3 : k=  1  s=  1  n=  0  m=  -1
+
+state    990  color_singlet=1
+    g1 : k=  4  s= -1  n=  0  m=   0
+    g2 : k=  1  s=  1  n=  1  m=   0
+    g3 : k=  1  s=  1  n=  0  m=   0
+
+state    991  color_singlet=1
+    g1 : k=  4  s= -1  n=  0  m=   1
+    g2 : k=  1  s=  1  n=  0  m=  -1
+    g3 : k=  1  s=  1  n=  0  m=   0
+
+state    992  color_singlet=1
+    g1 : k=  4  s= -1  n=  0  m=   1
+    g2 : k=  1  s=  1  n=  0  m=   0
+    g3 : k=  1  s=  1  n=  0  m=  -1
+
+state    993  color_singlet=1
+    g1 : k=  4  s= -1  n=  1  m=   0
+    g2 : k=  1  s=  1  n=  0  m=   0
+    g3 : k=  1  s=  1  n=  0  m=   0
+
+state    994  color_singlet=1
+    g1 : k=  4  s=  1  n=  0  m=   0
+    g2 : k=  1  s= -1  n=  0  m=   0
+    g3 : k=  1  s= -1  n=  0  m=   2
+
+state    995  color_singlet=1
+    g1 : k=  4  s=  1  n=  0  m=   0
+    g2 : k=  1  s= -1  n=  0  m=   1
+    g3 : k=  1  s= -1  n=  0  m=   1
+
+state    996  color_singlet=1
+    g1 : k=  4  s=  1  n=  0  m=   0
+    g2 : k=  1  s= -1  n=  0  m=   2
+    g3 : k=  1  s= -1  n=  0  m=   0
+
+state    997  color_singlet=1
+    g1 : k=  4  s=  1  n=  0  m=   1
+    g2 : k=  1  s= -1  n=  0  m=   0
+    g3 : k=  1  s= -1  n=  0  m=   1
+
+state    998  color_singlet=1
+    g1 : k=  4  s=  1  n=  0  m=   1
+    g2 : k=  1  s= -1  n=  0  m=   1
+    g3 : k=  1  s= -1  n=  0  m=   0
+
+state    999  color_singlet=1
+    g1 : k=  4  s=  1  n=  0  m=   2
+    g2 : k=  1  s= -1  n=  0  m=   0
+    g3 : k=  1  s= -1  n=  0  m=   0
+
+state   1000  color_singlet=1
+    g1 : k=  4  s=  1  n=  0  m=  -1
+    g2 : k=  1  s= -1  n=  0  m=   0
+    g3 : k=  1  s=  1  n=  0  m=   1
+
+state   1001  color_singlet=1
+    g1 : k=  4  s=  1  n=  0  m=  -1
+    g2 : k=  1  s= -1  n=  0  m=   1
+    g3 : k=  1  s=  1  n=  0  m=   0
+
+state   1002  color_singlet=1
+    g1 : k=  4  s=  1  n=  0  m=   0
+    g2 : k=  1  s= -1  n=  0  m=  -1
+    g3 : k=  1  s=  1  n=  0  m=   1
+
+state   1003  color_singlet=1
+    g1 : k=  4  s=  1  n=  0  m=   0
+    g2 : k=  1  s= -1  n=  0  m=   0
+    g3 : k=  1  s=  1  n=  0  m=   0
+
+state   1004  color_singlet=1
+    g1 : k=  4  s=  1  n=  0  m=   0
+    g2 : k=  1  s= -1  n=  0  m=   0
+    g3 : k=  1  s=  1  n=  1  m=   0
+
+state   1005  color_singlet=1
+    g1 : k=  4  s=  1  n=  0  m=   0
+    g2 : k=  1  s= -1  n=  0  m=   1
+    g3 : k=  1  s=  1  n=  0  m=  -1
+
+state   1006  color_singlet=1
+    g1 : k=  4  s=  1  n=  0  m=   0
+    g2 : k=  1  s= -1  n=  1  m=   0
+    g3 : k=  1  s=  1  n=  0  m=   0
+
+state   1007  color_singlet=1
+    g1 : k=  4  s=  1  n=  0  m=   1
+    g2 : k=  1  s= -1  n=  0  m=  -1
+    g3 : k=  1  s=  1  n=  0  m=   0
+
+state   1008  color_singlet=1
+    g1 : k=  4  s=  1  n=  0  m=   1
+    g2 : k=  1  s= -1  n=  0  m=   0
+    g3 : k=  1  s=  1  n=  0  m=  -1
+
+state   1009  color_singlet=1
+    g1 : k=  4  s=  1  n=  1  m=   0
+    g2 : k=  1  s= -1  n=  0  m=   0
+    g3 : k=  1  s=  1  n=  0  m=   0
+
+state   1010  color_singlet=1
+    g1 : k=  4  s=  1  n=  0  m=  -1
+    g2 : k=  1  s=  1  n=  0  m=   0
+    g3 : k=  1  s= -1  n=  0  m=   1
+
+state   1011  color_singlet=1
+    g1 : k=  4  s=  1  n=  0  m=  -1
+    g2 : k=  1  s=  1  n=  0  m=   1
+    g3 : k=  1  s= -1  n=  0  m=   0
+
+state   1012  color_singlet=1
+    g1 : k=  4  s=  1  n=  0  m=   0
+    g2 : k=  1  s=  1  n=  0  m=  -1
+    g3 : k=  1  s= -1  n=  0  m=   1
+
+state   1013  color_singlet=1
+    g1 : k=  4  s=  1  n=  0  m=   0
+    g2 : k=  1  s=  1  n=  0  m=   0
+    g3 : k=  1  s= -1  n=  0  m=   0
+
+state   1014  color_singlet=1
+    g1 : k=  4  s=  1  n=  0  m=   0
+    g2 : k=  1  s=  1  n=  0  m=   0
+    g3 : k=  1  s= -1  n=  1  m=   0
+
+state   1015  color_singlet=1
+    g1 : k=  4  s=  1  n=  0  m=   0
+    g2 : k=  1  s=  1  n=  0  m=   1
+    g3 : k=  1  s= -1  n=  0  m=  -1
+
+state   1016  color_singlet=1
+    g1 : k=  4  s=  1  n=  0  m=   0
+    g2 : k=  1  s=  1  n=  1  m=   0
+    g3 : k=  1  s= -1  n=  0  m=   0
+
+state   1017  color_singlet=1
+    g1 : k=  4  s=  1  n=  0  m=   1
+    g2 : k=  1  s=  1  n=  0  m=  -1
+    g3 : k=  1  s= -1  n=  0  m=   0
+
+state   1018  color_singlet=1
+    g1 : k=  4  s=  1  n=  0  m=   1
+    g2 : k=  1  s=  1  n=  0  m=   0
+    g3 : k=  1  s= -1  n=  0  m=  -1
+
+state   1019  color_singlet=1
+    g1 : k=  4  s=  1  n=  1  m=   0
+    g2 : k=  1  s=  1  n=  0  m=   0
+    g3 : k=  1  s= -1  n=  0  m=   0
+
+state   1020  color_singlet=1
+    g1 : k=  4  s=  1  n=  0  m=  -2
+    g2 : k=  1  s=  1  n=  0  m=   0
+    g3 : k=  1  s=  1  n=  0  m=   0
+
+state   1021  color_singlet=1
+    g1 : k=  4  s=  1  n=  0  m=  -1
+    g2 : k=  1  s=  1  n=  0  m=  -1
+    g3 : k=  1  s=  1  n=  0  m=   0
+
+state   1022  color_singlet=1
+    g1 : k=  4  s=  1  n=  0  m=  -1
+    g2 : k=  1  s=  1  n=  0  m=   0
+    g3 : k=  1  s=  1  n=  0  m=  -1
+
+state   1023  color_singlet=1
+    g1 : k=  4  s=  1  n=  0  m=   0
+    g2 : k=  1  s=  1  n=  0  m=  -2
+    g3 : k=  1  s=  1  n=  0  m=   0
+
+state   1024  color_singlet=1
+    g1 : k=  4  s=  1  n=  0  m=   0
+    g2 : k=  1  s=  1  n=  0  m=  -1
+    g3 : k=  1  s=  1  n=  0  m=  -1
+
+state   1025  color_singlet=1
+    g1 : k=  4  s=  1  n=  0  m=   0
+    g2 : k=  1  s=  1  n=  0  m=   0
+    g3 : k=  1  s=  1  n=  0  m=  -2
+
+state   1026  color_singlet=2
+    g1 : k=  4  s= -1  n=  0  m=   0
+    g2 : k=  1  s= -1  n=  0  m=   0
+    g3 : k=  1  s=  1  n=  0  m=   2
+
+state   1027  color_singlet=2
+    g1 : k=  4  s= -1  n=  0  m=   0
+    g2 : k=  1  s= -1  n=  0  m=   1
+    g3 : k=  1  s=  1  n=  0  m=   1
+
+state   1028  color_singlet=2
+    g1 : k=  4  s= -1  n=  0  m=   0
+    g2 : k=  1  s= -1  n=  0  m=   2
+    g3 : k=  1  s=  1  n=  0  m=   0
+
+state   1029  color_singlet=2
+    g1 : k=  4  s= -1  n=  0  m=   1
+    g2 : k=  1  s= -1  n=  0  m=   0
+    g3 : k=  1  s=  1  n=  0  m=   1
+
+state   1030  color_singlet=2
+    g1 : k=  4  s= -1  n=  0  m=   1
+    g2 : k=  1  s= -1  n=  0  m=   1
+    g3 : k=  1  s=  1  n=  0  m=   0
+
+state   1031  color_singlet=2
+    g1 : k=  4  s= -1  n=  0  m=   2
+    g2 : k=  1  s= -1  n=  0  m=   0
+    g3 : k=  1  s=  1  n=  0  m=   0
+
+state   1032  color_singlet=2
+    g1 : k=  4  s= -1  n=  0  m=   0
+    g2 : k=  1  s=  1  n=  0  m=   0
+    g3 : k=  1  s= -1  n=  0  m=   2
+
+state   1033  color_singlet=2
+    g1 : k=  4  s= -1  n=  0  m=   0
+    g2 : k=  1  s=  1  n=  0  m=   1
+    g3 : k=  1  s= -1  n=  0  m=   1
+
+state   1034  color_singlet=2
+    g1 : k=  4  s= -1  n=  0  m=   0
+    g2 : k=  1  s=  1  n=  0  m=   2
+    g3 : k=  1  s= -1  n=  0  m=   0
+
+state   1035  color_singlet=2
+    g1 : k=  4  s= -1  n=  0  m=   1
+    g2 : k=  1  s=  1  n=  0  m=   0
+    g3 : k=  1  s= -1  n=  0  m=   1
+
+state   1036  color_singlet=2
+    g1 : k=  4  s= -1  n=  0  m=   1
+    g2 : k=  1  s=  1  n=  0  m=   1
+    g3 : k=  1  s= -1  n=  0  m=   0
+
+state   1037  color_singlet=2
+    g1 : k=  4  s= -1  n=  0  m=   2
+    g2 : k=  1  s=  1  n=  0  m=   0
+    g3 : k=  1  s= -1  n=  0  m=   0
+
+state   1038  color_singlet=2
+    g1 : k=  4  s= -1  n=  0  m=  -1
+    g2 : k=  1  s=  1  n=  0  m=   0
+    g3 : k=  1  s=  1  n=  0  m=   1
+
+state   1039  color_singlet=2
+    g1 : k=  4  s= -1  n=  0  m=  -1
+    g2 : k=  1  s=  1  n=  0  m=   1
+    g3 : k=  1  s=  1  n=  0  m=   0
+
+state   1040  color_singlet=2
+    g1 : k=  4  s= -1  n=  0  m=   0
+    g2 : k=  1  s=  1  n=  0  m=  -1
+    g3 : k=  1  s=  1  n=  0  m=   1
+
+state   1041  color_singlet=2
+    g1 : k=  4  s= -1  n=  0  m=   0
+    g2 : k=  1  s=  1  n=  0  m=   0
+    g3 : k=  1  s=  1  n=  0  m=   0
+
+state   1042  color_singlet=2
+    g1 : k=  4  s= -1  n=  0  m=   0
+    g2 : k=  1  s=  1  n=  0  m=   0
+    g3 : k=  1  s=  1  n=  1  m=   0
+
+state   1043  color_singlet=2
+    g1 : k=  4  s= -1  n=  0  m=   0
+    g2 : k=  1  s=  1  n=  0  m=   1
+    g3 : k=  1  s=  1  n=  0  m=  -1
+
+state   1044  color_singlet=2
+    g1 : k=  4  s= -1  n=  0  m=   0
+    g2 : k=  1  s=  1  n=  1  m=   0
+    g3 : k=  1  s=  1  n=  0  m=   0
+
+state   1045  color_singlet=2
+    g1 : k=  4  s= -1  n=  0  m=   1
+    g2 : k=  1  s=  1  n=  0  m=  -1
+    g3 : k=  1  s=  1  n=  0  m=   0
+
+state   1046  color_singlet=2
+    g1 : k=  4  s= -1  n=  0  m=   1
+    g2 : k=  1  s=  1  n=  0  m=   0
+    g3 : k=  1  s=  1  n=  0  m=  -1
+
+state   1047  color_singlet=2
+    g1 : k=  4  s= -1  n=  1  m=   0
+    g2 : k=  1  s=  1  n=  0  m=   0
+    g3 : k=  1  s=  1  n=  0  m=   0
+
+state   1048  color_singlet=2
+    g1 : k=  4  s=  1  n=  0  m=   0
+    g2 : k=  1  s= -1  n=  0  m=   0
+    g3 : k=  1  s= -1  n=  0  m=   2
+
+state   1049  color_singlet=2
+    g1 : k=  4  s=  1  n=  0  m=   0
+    g2 : k=  1  s= -1  n=  0  m=   1
+    g3 : k=  1  s= -1  n=  0  m=   1
+
+state   1050  color_singlet=2
+    g1 : k=  4  s=  1  n=  0  m=   0
+    g2 : k=  1  s= -1  n=  0  m=   2
+    g3 : k=  1  s= -1  n=  0  m=   0
+
+state   1051  color_singlet=2
+    g1 : k=  4  s=  1  n=  0  m=   1
+    g2 : k=  1  s= -1  n=  0  m=   0
+    g3 : k=  1  s= -1  n=  0  m=   1
+
+state   1052  color_singlet=2
+    g1 : k=  4  s=  1  n=  0  m=   1
+    g2 : k=  1  s= -1  n=  0  m=   1
+    g3 : k=  1  s= -1  n=  0  m=   0
+
+state   1053  color_singlet=2
+    g1 : k=  4  s=  1  n=  0  m=   2
+    g2 : k=  1  s= -1  n=  0  m=   0
+    g3 : k=  1  s= -1  n=  0  m=   0
+
+state   1054  color_singlet=2
+    g1 : k=  4  s=  1  n=  0  m=  -1
+    g2 : k=  1  s= -1  n=  0  m=   0
+    g3 : k=  1  s=  1  n=  0  m=   1
+
+state   1055  color_singlet=2
+    g1 : k=  4  s=  1  n=  0  m=  -1
+    g2 : k=  1  s= -1  n=  0  m=   1
+    g3 : k=  1  s=  1  n=  0  m=   0
+
+state   1056  color_singlet=2
+    g1 : k=  4  s=  1  n=  0  m=   0
+    g2 : k=  1  s= -1  n=  0  m=  -1
+    g3 : k=  1  s=  1  n=  0  m=   1
+
+state   1057  color_singlet=2
+    g1 : k=  4  s=  1  n=  0  m=   0
+    g2 : k=  1  s= -1  n=  0  m=   0
+    g3 : k=  1  s=  1  n=  0  m=   0
+
+state   1058  color_singlet=2
+    g1 : k=  4  s=  1  n=  0  m=   0
+    g2 : k=  1  s= -1  n=  0  m=   0
+    g3 : k=  1  s=  1  n=  1  m=   0
+
+state   1059  color_singlet=2
+    g1 : k=  4  s=  1  n=  0  m=   0
+    g2 : k=  1  s= -1  n=  0  m=   1
+    g3 : k=  1  s=  1  n=  0  m=  -1
+
+state   1060  color_singlet=2
+    g1 : k=  4  s=  1  n=  0  m=   0
+    g2 : k=  1  s= -1  n=  1  m=   0
+    g3 : k=  1  s=  1  n=  0  m=   0
+
+state   1061  color_singlet=2
+    g1 : k=  4  s=  1  n=  0  m=   1
+    g2 : k=  1  s= -1  n=  0  m=  -1
+    g3 : k=  1  s=  1  n=  0  m=   0
+
+state   1062  color_singlet=2
+    g1 : k=  4  s=  1  n=  0  m=   1
+    g2 : k=  1  s= -1  n=  0  m=   0
+    g3 : k=  1  s=  1  n=  0  m=  -1
+
+state   1063  color_singlet=2
+    g1 : k=  4  s=  1  n=  1  m=   0
+    g2 : k=  1  s= -1  n=  0  m=   0
+    g3 : k=  1  s=  1  n=  0  m=   0
+
+state   1064  color_singlet=2
+    g1 : k=  4  s=  1  n=  0  m=  -1
+    g2 : k=  1  s=  1  n=  0  m=   0
+    g3 : k=  1  s= -1  n=  0  m=   1
+
+state   1065  color_singlet=2
+    g1 : k=  4  s=  1  n=  0  m=  -1
+    g2 : k=  1  s=  1  n=  0  m=   1
+    g3 : k=  1  s= -1  n=  0  m=   0
+
+state   1066  color_singlet=2
+    g1 : k=  4  s=  1  n=  0  m=   0
+    g2 : k=  1  s=  1  n=  0  m=  -1
+    g3 : k=  1  s= -1  n=  0  m=   1
+
+state   1067  color_singlet=2
+    g1 : k=  4  s=  1  n=  0  m=   0
+    g2 : k=  1  s=  1  n=  0  m=   0
+    g3 : k=  1  s= -1  n=  0  m=   0
+
+state   1068  color_singlet=2
+    g1 : k=  4  s=  1  n=  0  m=   0
+    g2 : k=  1  s=  1  n=  0  m=   0
+    g3 : k=  1  s= -1  n=  1  m=   0
+
+state   1069  color_singlet=2
+    g1 : k=  4  s=  1  n=  0  m=   0
+    g2 : k=  1  s=  1  n=  0  m=   1
+    g3 : k=  1  s= -1  n=  0  m=  -1
+
+state   1070  color_singlet=2
+    g1 : k=  4  s=  1  n=  0  m=   0
+    g2 : k=  1  s=  1  n=  1  m=   0
+    g3 : k=  1  s= -1  n=  0  m=   0
+
+state   1071  color_singlet=2
+    g1 : k=  4  s=  1  n=  0  m=   1
+    g2 : k=  1  s=  1  n=  0  m=  -1
+    g3 : k=  1  s= -1  n=  0  m=   0
+
+state   1072  color_singlet=2
+    g1 : k=  4  s=  1  n=  0  m=   1
+    g2 : k=  1  s=  1  n=  0  m=   0
+    g3 : k=  1  s= -1  n=  0  m=  -1
+
+state   1073  color_singlet=2
+    g1 : k=  4  s=  1  n=  1  m=   0
+    g2 : k=  1  s=  1  n=  0  m=   0
+    g3 : k=  1  s= -1  n=  0  m=   0
+
+state   1074  color_singlet=2
+    g1 : k=  4  s=  1  n=  0  m=  -2
+    g2 : k=  1  s=  1  n=  0  m=   0
+    g3 : k=  1  s=  1  n=  0  m=   0
+
+state   1075  color_singlet=2
+    g1 : k=  4  s=  1  n=  0  m=  -1
+    g2 : k=  1  s=  1  n=  0  m=  -1
+    g3 : k=  1  s=  1  n=  0  m=   0
+
+state   1076  color_singlet=2
+    g1 : k=  4  s=  1  n=  0  m=  -1
+    g2 : k=  1  s=  1  n=  0  m=   0
+    g3 : k=  1  s=  1  n=  0  m=  -1
+
+state   1077  color_singlet=2
+    g1 : k=  4  s=  1  n=  0  m=   0
+    g2 : k=  1  s=  1  n=  0  m=  -2
+    g3 : k=  1  s=  1  n=  0  m=   0
+
+state   1078  color_singlet=2
+    g1 : k=  4  s=  1  n=  0  m=   0
+    g2 : k=  1  s=  1  n=  0  m=  -1
+    g3 : k=  1  s=  1  n=  0  m=  -1
+
+state   1079  color_singlet=2
+    g1 : k=  4  s=  1  n=  0  m=   0
+    g2 : k=  1  s=  1  n=  0  m=   0
+    g3 : k=  1  s=  1  n=  0  m=  -2
+
