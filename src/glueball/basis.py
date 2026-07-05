@@ -2,15 +2,6 @@ from dataclasses import dataclass
 import itertools
 from pathlib import Path
 
-# ===================================================================
-# Light-front single-particle state for a gluon.
-# Quantum numbers:
-#   k : longitudinal momentum fraction (DLCQ integer, discrete k+)
-#   s : helicity / spin projection (±1 for massless gluon)
-#   n : transverse 2D harmonic oscillator radial quantum number
-#   m : transverse 2D HO angular momentum projection (magnetic)
-# ===================================================================
-
 @dataclass(frozen=True)
 class SingleParticleState:
     k: int
@@ -208,7 +199,7 @@ file_dir = Path(__file__).parent
 
 
 if __name__ == "__main__":
-    n = int(input('basis.py test: n = '))
+    n = int(input('basis.py test: num. of particles = '))
     K = int(input('basis.py test: K = '))
     Nmax = int(input('basis.py test: Nmax = '))
     Mj = int(input('basis.py test: Mj = '))
