@@ -74,22 +74,19 @@ print(f"==================== \n")
 
 
 filename = script_dir / 'output' / f'{inc_gl_n}_gluon_to_{out_gl_n}_gluon_Color_Factor.txt'
+
 # CALCULATING COLOR FACTOR 
+'''
 with open(filename, 'w', encoding='utf-8') as f:
     for s_in in range(1, inc_num_singlets + 1):
         for s_out in range(1, out_num_singlets + 1):
             for i in range(len(vtx_plans)):
                 cf = gluon_to_gluon_color_factor.gluon_contraction_by_plan(inc_gl_n, out_gl_n, vtx_plans[i], s_in, s_out)
-                '''
-                print(f"\n -------------------- \n COLOR FACTOR: {cf['contraction_result']}; "
-                    f"FEYNMAN DIAGRAM CONFIGURATION: {cf['plan']}; "
-                    f"INCOMING SINGLET ID: {cf['singlet_in_index']}({cf['singlet_in_type']}); "
-                    f"OUTGOING SINGLET ID: {cf['singlet_out_index']}({cf['singlet_out_type']})\n")
-                '''
                 print(f"\n -------------------- \n COLOR FACTOR: {cf['contraction_result']}; "
                   f"FEYNMAN DIAGRAM CONFIGURATION: {cf['plan']}; "
                   f"INCOMING SINGLET ID: {cf['singlet_in_index']}({cf['singlet_in_type']}); "
                   f"OUTGOING SINGLET ID: {cf['singlet_out_index']}({cf['singlet_out_type']})\n", file=f)
+'''
 
 # FOR HAMILTONIAN CALCULATION: SAVE TO .dat
 # Vertex type encoding: 0=spectator, 3=3-gluon vertex, 4=4-gluon vertex
