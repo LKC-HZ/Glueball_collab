@@ -23,22 +23,13 @@ def three_gluon_vertex(): # fabc
     '''
     return 1j * su3.fabc
 
-'''
-def four_gluon_vertex(): # 4-gluon vertex
-
-    f = su3.fabc
-    V = (np.einsum('abe,cde->abcd', f, f)
-         + np.einsum('ace,bde->abcd', f, f)
-         + np.einsum('ade,bce->abcd', f, f))
-    return V
-'''
 
 def four_gluon_vertex(): # 4-gluon vertex
 
-    f = su3.fabc
+    f = np.sqrt(2) * su3.fabc
     V = (np.einsum('abe,cde->abcd', f, f))
-
     return V
+
 
 def gluon_contraction_by_plan(inc_n, out_n, plan, singlet_in, singlet_out):
     """
@@ -76,8 +67,8 @@ def gluon_contraction_by_plan(inc_n, out_n, plan, singlet_in, singlet_out):
         for i in range(inc_n):
             # follow the same label parsing pattern as the existing code
             pos = 3 + 5 * i
-            idx = int(gm_labels_inc[k][pos:pos+1])
-            indices.append(idx - 1)
+            index = int(gm_labels_inc[k][pos:pos+1])
+            indices.append(index - 1)
         incoming_wf[tuple(indices)] = gm_coeffs_inc[k]
     
     # read outgoing wf
@@ -91,8 +82,8 @@ def gluon_contraction_by_plan(inc_n, out_n, plan, singlet_in, singlet_out):
         indices = []
         for i in range(out_n):
             pos = 3 + 5 * i
-            idx = int(gm_labels_out[k][pos:pos+1])
-            indices.append(idx - 1)
+            index = int(gm_labels_out[k][pos:pos+1])
+            indices.append(index - 1)
         outgoing_wf[tuple(indices)] = gm_coeffs_out[k]
     
     # Einsum index mapping: -i for incoming, +j for outgoing
@@ -140,9 +131,8 @@ def gluon_contraction_by_plan(inc_n, out_n, plan, singlet_in, singlet_out):
     
     # Result is a scalar
     operands.append([])
-    
     # Execute contraction
-    result = np.einsum(*operands)
+    result = np.einsum(*operands, optimize='greedy')
     
     def _get_singlet_type(result, singlet_index):
         for s in result.gm_singlets:
