@@ -31,10 +31,12 @@ def partition(elements): # CHECKED
         current.pop()
 
         # choice 2: go to an existing subset
+
         for i in range(len(current)):
-            current[i].append(elem)
-            go(index + 1, current)
-            current[i].pop()
+            if len(current[i])<=2:
+                current[i].append(elem)
+                go(index + 1, current)
+                current[i].pop()
 
     go(0, [])
     return result
@@ -138,13 +140,20 @@ def save_vertex_plans(plans, filename='vertex_plans.txt'): # UNCHECKED
     print(f"Saved {len(plans)} configurations to '{filename}'")
 '''
 
-
+import time
 if __name__ == "__main__":
-    test = generate_vertex_plans(2, 3)
-    #save_vertex_plans(test, 'test_vertex_plans.txt')
-    print("\n--- Sample output for 2 incoming + 3 outgoing ---")
-    for i in range(len(test)):
-        print(format_plan(test[i]))
+    
+    for i in range (10):
+        start = time.perf_counter()
+        test = generate_vertex_plans(i+2, i+3)
+        #save_vertex_plans(test, 'test_vertex_plans.txt')
+        #print("\n--- Sample output for 2 incoming + 3 outgoing ---")
+        #for i in range(len(test)):
+            #print(format_plan(test[i]))
+
+        end = time.perf_counter()
+        print(f"Wall time: {end - start:.4f} seconds")
+        print(f"# of configs: {len(test)}")
     '''
     --- Sample output for 2 incoming + 3 outgoing ---
 config 1:
