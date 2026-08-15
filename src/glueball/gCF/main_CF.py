@@ -6,9 +6,13 @@ import gluon_to_gluon_color_factor as gluon_to_gluon_color_factor
 from colorwf_runner import run_color_wf
 import colorwf_runner as colorwf_runner
 from pathlib import Path
+import time
 
 import sys
 import os
+
+
+start = time.perf_counter()
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 script_dir = Path(__file__).parent
@@ -121,4 +125,5 @@ with open(dat_filename, 'w', encoding='utf-8') as f_dat:
                     f_dat.write(' '.join(parts) + '\n')
 
 print(f"non-zero CF's saved to: {dat_filename}")
-                
+end = time.perf_counter()
+print(f"Wall time: {end - start:.4f} seconds")
