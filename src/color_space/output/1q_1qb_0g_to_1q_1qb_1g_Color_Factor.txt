@@ -1,8 +1,0 @@
-
- -------------------- 
- COLOR FACTOR: (-1.1547005393692602+0j); FEYNMAN DIAGRAM CONFIGURATION: {'id': 1, 'vertices': [{'incoming': [(1, 'q')], 'outgoing': [(1, 'q'), (3, 'g')], 'type': 'quark-gluon'}, {'incoming': [(2, 'qb')], 'outgoing': [(2, 'qb')], 'type': 'spectator'}]}; INCOMING SINGLET ID: 1(GM); OUTGOING SINGLET ID: 1(GM)
-
-
- -------------------- 
- COLOR FACTOR: (1.1547005393692602+0j); FEYNMAN DIAGRAM CONFIGURATION: {'id': 2, 'vertices': [{'incoming': [(1, 'q')], 'outgoing': [(1, 'q')], 'type': 'spectator'}, {'incoming': [(2, 'qb')], 'outgoing': [(2, 'qb'), (3, 'g')], 'type': 'antiquark-gluon'}]}; INCOMING SINGLET ID: 1(GM); OUTGOING SINGLET ID: 1(GM)
-
