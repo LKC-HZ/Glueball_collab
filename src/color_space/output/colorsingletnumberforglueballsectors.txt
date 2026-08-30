@@ -1,0 +1,37 @@
+0 0 2
+ Theoretical singlets:            1
+ Full dimension:          64
+ Building zero‑weight subspace (Cartan test) ...
+ Zero‑weight dimension:          10
+ ARPACK requesting           8  smallest eigenvalues on reduced space ...
+ Converged eigenvalues:            8
+ Actual number of singlets:            1
+
+
+
+ 0 0 3
+ Theoretical singlets:            2
+ Full dimension:         512
+ Building zero‑weight subspace (Cartan test) ...
+ Zero‑weight dimension:          56
+ ARPACK requesting          12  smallest eigenvalues on reduced space ...
+ Converged eigenvalues:           12
+ Actual number of singlets:            2
+
+
+0 0 4
+  Theoretical singlets:            8
+ Full dimension:        4096
+ Building zero‑weight subspace (Cartan test) ...
+ Zero‑weight dimension:         346
+ ARPACK requesting          18  smallest eigenvalues on reduced space ...
+ Converged eigenvalues:           18
+ Actual number of singlets:            8
+
+
+
+ Theoretical singlets:           32
+ Full dimension:       32768
+ Building zero‑weight subspace (Cartan test) ...
+ Zero‑weight dimension:        2252
+ ARPACK requesting          42  smallest eigenvalues on reduced space ...
